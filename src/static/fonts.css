@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Futura PT bold";
+  font-weight: bold;
+  src: url("./fonts/Futura XBlk BT.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura PT light";
+  font-style: italic;
+  src: url("./fonts/futura light bt.ttf") format("truetype");
+}

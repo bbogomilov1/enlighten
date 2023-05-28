@@ -31,26 +31,59 @@
   position: relative;
 }
 
-.navList {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  padding: 30px;
+ul {
   margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.navItem {
-  margin-left: 20px;
+ul li {
+  list-style: none;
+  margin: 0 20px;
+  transition: 0.5s;
 }
 
-.navLink {
-  font-size: 18px;
+ul li a {
+  display: block;
+  position: relative;
   text-decoration: none;
-  color: #333;
-  transition: color 0.3s ease;
-  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  font-family: "Futura PT light", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 
-.navLink:hover {
-  color: #877c51;
+ul:hover li a {
+  transform: scale(1);
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  transform: scale(1.5);
+  opacity: 1;
+  text-decoration: none;
+  color: #fff;
+}
+
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #337ed5;
+  transition: 0.5s;
+  transform-origin: right;
+  transform: scaleX(0);
+  z-index: -1;
+}
+
+ul li a:hover:before {
+  transition: transform 0.5s;
+  transform-origin: left;
+  transform: scaleX(1);
 }

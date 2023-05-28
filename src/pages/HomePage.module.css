@@ -6,10 +6,11 @@
 
 .container h1 {
   color: white;
-  font-weight: 900;
+  font-family: "Futura PT bold", sans-serif;
   text-transform: uppercase;
   padding-left: 10%;
-  font-size: 2.1rem;
+  font-size: 3rem;
+  text-shadow: -2px 3px 7px rgb(170, 170, 170);
 }
 
 .container section {
@@ -18,8 +19,9 @@
 
 .container p {
   color: rgba(37, 96, 167, 255);
-  font-family: futura-pt, sans-serif;
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
+  text-indent: 12rem;
+  font-family: "Futura PT light", sans-serif;
 }

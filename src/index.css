@@ -1,5 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
+  font-family: "Futura PT", sans-serif;
+  font-style: italic;
+
   margin: 0;
   padding: 0;
   background-color: #f9d615;

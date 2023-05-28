@@ -1,4 +1,5 @@
 import styles from "./HomePage.module.css";
+import "../static/fonts.css";
 
 function HomePage() {
   return (

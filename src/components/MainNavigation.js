@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./MainNavigation.module.css";
 import logoImage from "../static/334786535_1253085591991643_8723896673674430860_n.jpg";
+import "../static/fonts.css";
 
 const MainNavigation = () => {
   return (
