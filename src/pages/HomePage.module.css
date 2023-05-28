@@ -1,7 +1,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 25px 50px;
 }
 
 .container h1 {
@@ -9,19 +9,46 @@
   font-family: "Futura PT bold", sans-serif;
   text-transform: uppercase;
   padding-left: 10%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-shadow: -2px 3px 7px rgb(170, 170, 170);
 }
 
 .container section {
-  text-indent: 25rem;
+  text-indent: 8rem;
+  font-size: 3.5rem;
 }
 
 .container p {
   color: rgba(37, 96, 167, 255);
   font-size: 24px;
   color: #333;
-  margin-bottom: 20px;
-  text-indent: 12rem;
+  line-height: 10px;
+  text-indent: 8rem;
   font-family: "Futura PT light", sans-serif;
+  font-weight: bold;
+}
+
+.enrollButton {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 20%;
+  margin: 4% 37%;
+  padding: 1rem 2rem;
+  background-color: #337ed5;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.enrollButton:hover {
+  background-color: #4289db;
+}
+
+.enrollButton:focus {
+  outline: none;
 }

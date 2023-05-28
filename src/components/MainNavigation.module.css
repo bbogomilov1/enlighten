@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 
 /* @media screen and (min-width: 1440px) 
@@ -29,6 +29,11 @@
   order: -1;
   margin-top: 0;
   position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
 
 ul {
