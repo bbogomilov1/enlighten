@@ -1,13 +1,17 @@
 import { createBrowserRouter, Route, RouterProvider } from "react-router-dom";
 import { createRoutesFromElements } from "react-router-dom/dist";
 import HomePage from "./pages/HomePage";
+import AboutUsPage from "./pages/AboutUsPage";
+import SchedulePage from "./pages/SchedulePage";
+import ContactUsPage from "./pages/ContactUsPage";
 import RootLayout from "./pages/RootLayout";
 import ErrorPage from "./pages/ErrorPage";
 
 const routeChildren = [
-  <Route index="true" element={<HomePage />} />,
-  // <Route path="products" element={<ProductsPage />} />,
-  // <Route path="products/:productId" element={<ProductDetailPage />} />,
+  <Route key="home" index="true" element={<HomePage />} />,
+  <Route key="about" path="about-us" element={<AboutUsPage />} />,
+  <Route key="schedule" path="schedule" element={<SchedulePage />} />,
+  <Route key="contact" path="contact-us" element={<ContactUsPage />} />,
 ];
 
 const routeDefinitions = createRoutesFromElements(

@@ -13,7 +13,7 @@ const MainNavigation = () => {
           </Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/about" className={styles.navLink}>
+          <Link to="/about-us" className={styles.navLink}>
             About us
           </Link>
         </li>
@@ -23,7 +23,7 @@ const MainNavigation = () => {
           </Link>
         </li>
         <li className={styles.navItem}>
-          <Link to="/contacts" className={styles.navLink}>
+          <Link to="/contact-us" className={styles.navLink}>
             Contact us
           </Link>
         </li>
