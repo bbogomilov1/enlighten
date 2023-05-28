@@ -6,7 +6,9 @@ const RootLayout = ({ children }) => {
   return (
     <>
       <MainNavigation />
-      <main className={styles.main}>{children}</main>
+      <Outlet>
+        <main className={styles.main}>{children}</main>
+      </Outlet>
     </>
   );
 };

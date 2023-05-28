@@ -1,30 +1,24 @@
 .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
   padding: 50px;
 }
 
-.mindmap {
-  flex-basis: 50%;
+.container h1 {
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-left: 10%;
+  font-size: 2.1rem;
 }
 
-.mindmap img {
-  width: 100%;
-  height: auto;
+.container section {
+  text-indent: 25rem;
 }
 
-.motivational {
-  flex-basis: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.motivational p {
+.container p {
+  color: rgba(37, 96, 167, 255);
+  font-family: futura-pt, sans-serif;
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
