@@ -1,0 +1,13 @@
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.error-container h1 {
+  font-size: 48px;
+  color: #ff0000;
+  margin-bottom: 20px;
+}

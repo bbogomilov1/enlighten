@@ -1,0 +1,28 @@
+nav {
+  background-color: #f9d615;
+  padding: 40px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+  /* font-weight: semi-bold; */
+}
+
+a:hover {
+  color: #877c51;
+}

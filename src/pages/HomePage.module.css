@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.mindmap {
+  flex-basis: 50%;
+}
+
+.mindmap img {
+  width: 100%;
+  height: auto;
+}
+
+.motivational {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.motivational p {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
