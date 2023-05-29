@@ -1,7 +1,6 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 25px 50px;
 }
 
 .container h1 {
@@ -25,7 +24,6 @@
   line-height: 10px;
   text-indent: 8rem;
   font-family: "Futura PT light", sans-serif;
-  /* font-weight: bold; */
 }
 
 .enrollButton {
@@ -63,4 +61,27 @@
 .image img {
   width: 420px;
   margin-top: -20px;
+}
+
+.logoContainer {
+  height: 150px;
+  opacity: 1;
+  margin-top: -50px;
+}
+
+.logo {
+  margin-left: -170px;
+  border-radius: 50%;
+  z-index: 2;
+  width: 250px;
+  max-width: none;
+  flex: none;
+  order: -1;
+  margin-top: 0;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }

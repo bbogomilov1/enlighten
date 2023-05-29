@@ -2,10 +2,14 @@ import styles from "./HomePage.module.css";
 import "../static/fonts.css";
 import { Link } from "react-router-dom";
 import KidsImg from "../static/Screenshot 2023-05-29 163908.png";
+import logoImage from "../static/334786535_1253085591991643_8723896673674430860_n.jpg";
 
 function HomePage() {
   return (
     <div className={styles.container}>
+      <div className={styles.logoContainer}>
+        <img src={logoImage} alt="Logo" className={styles.logo} />
+      </div>
       <div>
         <h1>
           Welcome to <br /> <section> MasterMinds Academy! </section>
