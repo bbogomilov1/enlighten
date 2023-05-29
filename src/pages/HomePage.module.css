@@ -25,7 +25,7 @@
   line-height: 10px;
   text-indent: 8rem;
   font-family: "Futura PT light", sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .enrollButton {
@@ -34,6 +34,7 @@
   text-align: center;
   width: 20%;
   margin: 4% 37%;
+  margin-bottom: 0px;
   padding: 1rem 2rem;
   background-color: #337ed5;
   color: #fff;
@@ -51,4 +52,15 @@
 
 .enrollButton:focus {
   outline: none;
+}
+
+.image {
+  display: flex;
+  justify-content: flex-end;
+  width: 1340px;
+}
+
+.image img {
+  width: 420px;
+  margin-top: -20px;
 }

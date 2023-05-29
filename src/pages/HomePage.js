@@ -1,6 +1,7 @@
 import styles from "./HomePage.module.css";
 import "../static/fonts.css";
 import { Link } from "react-router-dom";
+import KidsImg from "../static/Screenshot 2023-05-29 163908.png";
 
 function HomePage() {
   return (
@@ -18,6 +19,9 @@ function HomePage() {
           <Link to="/schedule" className={styles.enrollButton} type="button">
             Enroll Now
           </Link>
+        </div>
+        <div className={styles.image}>
+          <img src={KidsImg} alt="kids" />
         </div>
       </div>
     </div>
