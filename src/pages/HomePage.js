@@ -6,26 +6,28 @@ import logoImage from "../static/334786535_1253085591991643_8723896673674430860_
 
 function HomePage() {
   return (
-    <div className={styles.container}>
+    <div>
       <div className={styles.logoContainer}>
         <img src={logoImage} alt="Logo" className={styles.logo} />
       </div>
-      <div>
-        <h1>
-          Welcome to <br /> <section> MasterMinds Academy! </section>
-        </h1>
-        <p>Unlock the power of English learning with us.</p>
-        <p>
-          Join us now on our journey today and unlock the door to endless
-          opportunities.
-        </p>
+      <div className={styles.container}>
         <div>
-          <Link to="/schedule" className={styles.enrollButton} type="button">
-            Enroll Now
-          </Link>
-        </div>
-        <div className={styles.image}>
-          <img src={KidsImg} alt="kids" />
+          <h1>
+            Welcome to <br /> <section> MasterMinds Academy! </section>
+          </h1>
+          <p>Unlock the power of English learning with us.</p>
+          <p>
+            Join us now on our journey today and unlock the door to endless
+            opportunities.
+          </p>
+          <div>
+            <Link to="/schedule" className={styles.enrollButton} type="button">
+              Enroll Now
+            </Link>
+          </div>
+          <div className={styles.image}>
+            <img src={KidsImg} alt="kids" />
+          </div>
         </div>
       </div>
     </div>
