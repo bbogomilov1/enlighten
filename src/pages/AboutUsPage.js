@@ -1,6 +1,8 @@
+import styles from "./AboutUsPage.module.css";
+
 function AboutUsPage() {
   return (
-    <div>
+    <div className={styles.container}>
       <p>
         At MasterMinds, we provide engaging and interactive English classes
         designed specifically for kids. Our experienced teachers make learning
