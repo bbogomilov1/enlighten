@@ -1,6 +1,7 @@
 import styles from "./HomeAboutUs.module.css";
 import TeacherImg from "../../static/Screenshot 2023-05-31 151624.png";
 import WhaleImg from "../../static/Screenshot 2023-05-31 162209.png";
+import CubesImg from "../../static/Screenshot 2023-05-31 164607.png";
 
 function HomeAboutUs() {
   return (
@@ -38,13 +39,18 @@ function HomeAboutUs() {
         </div>
       </div>
       <div className={styles.info}>
-        <h2>Innovative Teaching Methodology</h2>
-        <p>
-          We follow a dynamic and innovative teaching methodology tailored to
-          the needs of young learners. Our approach combines the best of
-          traditional and modern techniques, incorporating multimedia resources,
-          interactive technology, and personalized learning plans.
-        </p>
+        <div className={styles.image}>
+          <img src={CubesImg} alt="cubes" />
+        </div>
+        <div className={styles.reasonTwo}>
+          <h2>Innovative Teaching Methodology</h2>
+          <p>
+            We follow a dynamic and innovative teaching methodology tailored to
+            the needs of young learners. Our approach combines the best of
+            traditional and modern techniques, incorporating multimedia
+            resources, interactive technology, and personalized learning plans.
+          </p>
+        </div>
       </div>
       <div className={styles.info}>
         <h2>Cultivate Confidence and Communication Skills</h2>
