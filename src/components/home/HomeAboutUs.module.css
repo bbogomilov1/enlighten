@@ -73,3 +73,22 @@
   padding-left: 50px;
   width: 320px;
 }
+
+.reasonFour {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 40px;
+}
+
+.reasonFour h2 {
+  font-family: "Futura PT bold", sans-serif;
+  font-size: 2.3rem;
+  font-style: normal;
+  width: 80%;
+  margin-bottom: 0px;
+}
+
+.reasonFour p {
+  width: 101%;
+}

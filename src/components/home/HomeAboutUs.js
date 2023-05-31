@@ -2,6 +2,7 @@ import styles from "./HomeAboutUs.module.css";
 import TeacherImg from "../../static/Screenshot 2023-05-31 151624.png";
 import WhaleImg from "../../static/Screenshot 2023-05-31 162209.png";
 import CubesImg from "../../static/Screenshot 2023-05-31 164607.png";
+import ConversationImg from "../../static/Screenshot 2023-05-31 170648.png";
 
 function HomeAboutUs() {
   return (
@@ -53,13 +54,19 @@ function HomeAboutUs() {
         </div>
       </div>
       <div className={styles.info}>
-        <h2>Cultivate Confidence and Communication Skills</h2>
-        <p>
-          Communication is key! We focus on nurturing your child's confidence in
-          using English through interactive speaking, listening, reading, and
-          writing exercises. Our goal is to equip them with strong communication
-          skills that will empower them in their personal and academic journeys.
-        </p>
+        <div className={styles.reasonFour}>
+          <h2>Cultivate Confidence and Communication Skills</h2>
+          <p>
+            Communication is key! We focus on nurturing your child's confidence
+            in using English through interactive speaking, listening, reading,
+            and writing exercises. Our goal is to equip them with strong
+            communication skills that will empower them in their personal and
+            academic journeys.
+          </p>
+        </div>
+        <div className={styles.image}>
+          <img src={ConversationImg} alt="cubes" />
+        </div>
       </div>
     </div>
   );
