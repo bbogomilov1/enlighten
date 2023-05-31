@@ -40,6 +40,29 @@
   margin-bottom: 0px;
 }
 
+.reasonTwo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 40px;
+}
+
+.reasonTwo h2 {
+  font-family: "Futura PT bold", sans-serif;
+  font-size: 2.3rem;
+  font-style: normal;
+  width: 70%;
+  margin-bottom: 0px;
+}
+
+.reasonTwo p {
+  width: 90%;
+}
+
+.reasonTwoImg {
+  width: 400px;
+}
+
 .container p {
   font-family: "Futura PT light", sans-serif;
   font-size: 1.4rem;

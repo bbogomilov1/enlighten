@@ -1,6 +1,6 @@
 import styles from "./HomeAboutUs.module.css";
 import TeacherImg from "../../static/Screenshot 2023-05-31 151624.png";
-import WhaleImg from "../../static/Screenshot 2023-05-31 151624.png";
+import WhaleImg from "../../static/Screenshot 2023-05-31 162209.png";
 
 function HomeAboutUs() {
   return (
@@ -24,7 +24,7 @@ function HomeAboutUs() {
         </div>
       </div>
       <div className={styles.info}>
-        <div>
+        <div className={styles.reasonTwo}>
           <h2>Immerse in Fun and Interactive Learning</h2>
           <p>
             We believe in making English learning enjoyable and interactive for
@@ -33,8 +33,8 @@ function HomeAboutUs() {
             child will have a blast while developing language skills.
           </p>
         </div>
-        <div className={styles.image}>
-          <img src={TeacherImg} alt="teacher" />
+        <div className={styles.reasonTwoImg}>
+          <img src={WhaleImg} alt="whale" />
         </div>
       </div>
       <div className={styles.info}>
