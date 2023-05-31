@@ -1,30 +1,43 @@
 import styles from "./HomeAboutUs.module.css";
+import TeacherImg from "../../static/Screenshot 2023-05-31 151624.png";
+import WhaleImg from "../../static/Screenshot 2023-05-31 151624.png";
 
 function HomeAboutUs() {
   return (
     <div className={styles.container}>
       <h1>
-        Learn English in an innovative <br /> and interactive way!
+        Learn English in an innovative <br />{" "}
+        <section> and interactive way!</section>
       </h1>
-      <div>
-        <h2>Engage with the Best English Teachers</h2>
-        <p>
-          At our academy, we bring together a team of highly qualified and
-          experienced English teachers. With their expertise and passion for
-          teaching, your child will receive top-notch guidance to master the
-          English language.
-        </p>
+      <div className={styles.info}>
+        <div className={styles.image}>
+          <img src={TeacherImg} alt="teacher" />
+        </div>
+        <div className={styles.reasonOne}>
+          <h2>Engage with the Best English Teachers</h2>
+          <p>
+            At our academy, we bring together a team of highly qualified and
+            experienced English teachers. With their expertise and passion for
+            teaching, your child will receive top-notch guidance to master the
+            English language.
+          </p>
+        </div>
       </div>
-      <div>
-        <h2>Immerse in Fun and Interactive Learning</h2>
-        <p>
-          We believe in making English learning enjoyable and interactive for
-          kids. Our classes are designed to spark their curiosity and engage
-          them in hands-on activities, games, and creative projects. Your child
-          will have a blast while developing language skills.
-        </p>
+      <div className={styles.info}>
+        <div>
+          <h2>Immerse in Fun and Interactive Learning</h2>
+          <p>
+            We believe in making English learning enjoyable and interactive for
+            kids. Our classes are designed to spark their curiosity and engage
+            them in hands-on activities, games, and creative projects. Your
+            child will have a blast while developing language skills.
+          </p>
+        </div>
+        <div className={styles.image}>
+          <img src={TeacherImg} alt="teacher" />
+        </div>
       </div>
-      <div>
+      <div className={styles.info}>
         <h2>Innovative Teaching Methodology</h2>
         <p>
           We follow a dynamic and innovative teaching methodology tailored to
@@ -33,7 +46,7 @@ function HomeAboutUs() {
           interactive technology, and personalized learning plans.
         </p>
       </div>
-      <div>
+      <div className={styles.info}>
         <h2>Cultivate Confidence and Communication Skills</h2>
         <p>
           Communication is key! We focus on nurturing your child's confidence in
