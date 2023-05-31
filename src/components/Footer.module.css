@@ -1,0 +1,31 @@
+.footer {
+  background-color: mediumseagreen;
+  color: #fffaf4;
+  height: auto;
+  padding: 20px 150px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  font-style: normal;
+  font-family: "Futura PT light", sans-serif;
+}
+
+.footerSections {
+  padding: 0px 40px;
+}
+
+.logoContainer {
+  height: auto;
+  opacity: 1;
+  padding-right: 70px;
+  padding-top: 40px;
+}
+
+.logo {
+  border-radius: 50%;
+  z-index: 2;
+  width: 125px;
+  max-width: none;
+  flex: none;
+  order: -1;
+}
