@@ -2,30 +2,51 @@
   background-color: mediumseagreen;
   color: #fffaf4;
   height: auto;
-  padding: 20px 150px;
+  padding: 30px 150px 0px 150px;
   display: flex;
-  align-items: flex-start;
+  justify-content: space-evenly;
   flex-direction: row;
   font-style: normal;
   font-family: "Futura PT light", sans-serif;
 }
 
-.footerSections {
+.footerSectionContainer {
+  display: flex;
+}
+
+.footerSection {
   padding: 0px 40px;
 }
 
 .logoContainer {
   height: auto;
   opacity: 1;
-  padding-right: 70px;
   padding-top: 40px;
 }
 
 .logo {
-  border-radius: 50%;
   z-index: 2;
-  width: 125px;
+  width: 150px;
   max-width: none;
   flex: none;
   order: -1;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.creator {
+  background-color: mediumseagreen;
+  color: #fffaf4;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 50px;
+}
+
+.creator p {
+  opacity: 0.5;
+  font-family: "Futura PT light", sans-serif;
+  font-style: normal;
 }

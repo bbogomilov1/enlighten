@@ -1,6 +1,6 @@
 import "../static/fonts.css";
 import styles from "./HomePage.module.css";
-import logoImage from "../static/334786535_1253085591991643_8723896673674430860_n.jpg";
+import logoImage from "../static/334786535_1253085591991643_8723896673674430860_n.png";
 import HomeTitleSection from "../components/home/HomeTitleSection";
 import HomeAboutUs from "../components/home/HomeAboutUs";
 
