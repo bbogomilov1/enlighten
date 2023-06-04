@@ -3,10 +3,14 @@ import TeacherImg from "../../static/Screenshot 2023-05-31 151624.png";
 import WhaleImg from "../../static/Screenshot 2023-05-31 162209.png";
 import CubesImg from "../../static/Screenshot 2023-05-31 164607.png";
 import ConversationImg from "../../static/Screenshot 2023-05-31 170648.png";
+import starsImg from "../../static/whitestars.png";
 
 function HomeAboutUs() {
   return (
     <div className={styles.container}>
+      {/* <div className={styles.stars}>
+        <img src={starsImg} alt="kids" />
+      </div> */}
       <h1>
         Learn English in an innovative <br />{" "}
         <section> and interactive way!</section>

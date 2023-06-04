@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import KidsImg from "../../static/Screenshot 2023-05-29 163908.png";
+import starsImg from "../../static/bluestars.png";
 import styles from "./HomeTitleSection.module.css";
 
 function HomeTitleSection() {
@@ -20,7 +20,7 @@ function HomeTitleSection() {
           </Link>
         </div>
         <div className={styles.image}>
-          <img src={KidsImg} alt="kids" />
+          <img src={starsImg} alt="kids" />
         </div>
       </div>
     </div>
