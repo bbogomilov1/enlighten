@@ -27,3 +27,17 @@
 .ourMission h1 {
   padding-left: 450px;
 }
+
+.teacherLarita {
+  padding-top: 20px;
+}
+
+.teacherImage {
+  width: 300px;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  width: 1065px;
+}
