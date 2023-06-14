@@ -3,7 +3,7 @@
   opacity: 1;
 }
 
-.logo {
+/* .logo {
   margin-left: 10px;
   z-index: 2;
   width: 250px;
@@ -12,6 +12,17 @@
   order: -1;
   margin-top: -70px;
   position: relative;
+  transition: all 0.2s ease-in-out;
+} */
+
+.logo {
+  margin-left: 10px;
+  z-index: 2;
+  width: 94px;
+  max-width: none;
+  flex: none;
+  /* order: -1; */
+  margin-top: -20px;
   transition: all 0.2s ease-in-out;
 }
 

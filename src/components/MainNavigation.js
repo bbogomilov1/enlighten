@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./MainNavigation.module.css";
 import "../static/fonts.css";
+import LogoProvider from "./Logo";
 
 const MainNavigation = () => {
   return (
@@ -17,6 +18,8 @@ const MainNavigation = () => {
               About us
             </Link>
           </li>
+          <LogoProvider />
+
           <li className={styles.navItem}>
             <Link to="/schedule" className={styles.navLink}>
               Schedule
