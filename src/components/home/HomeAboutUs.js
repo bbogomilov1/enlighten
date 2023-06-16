@@ -28,18 +28,18 @@ function HomeAboutUs() {
             English language.
           </p>
         </div>
+        <svg
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+          className={styles.blobOne}
+        >
+          <path
+            fill="rgb(160 208 249)"
+            d="M65.4,-20.5C67.9,-13.5,41.5,3.6,16.5,21.5C-8.5,39.4,-32.1,58,-45.7,51C-59.3,43.9,-62.8,11.2,-53.6,-5.1C-44.3,-21.4,-22.1,-21.2,4.7,-22.7C31.5,-24.2,62.9,-27.4,65.4,-20.5Z"
+            transform="translate(100 100)"
+          />
+        </svg>
       </div>
-      <svg
-        viewBox="0 0 200 200"
-        xmlns="http://www.w3.org/2000/svg"
-        className={styles.blobOne}
-      >
-        <path
-          fill="#8dcaff"
-          d="M65.4,-20.5C67.9,-13.5,41.5,3.6,16.5,21.5C-8.5,39.4,-32.1,58,-45.7,51C-59.3,43.9,-62.8,11.2,-53.6,-5.1C-44.3,-21.4,-22.1,-21.2,4.7,-22.7C31.5,-24.2,62.9,-27.4,65.4,-20.5Z"
-          transform="translate(100 100)"
-        />
-      </svg>
       <div className={styles.info}>
         <div className={styles.reasonTwo}>
           <h2>Immerse in Fun and Interactive Learning</h2>
@@ -66,8 +66,8 @@ function HomeAboutUs() {
         </svg>
       </div>
       <div className={styles.info}>
-        <div className={styles.image}>
-          <img src={CubesImg} alt="cubes" />
+        <div className={styles.number}>
+          {/* <img src={CubesImg} alt="cubes" /> */}3
         </div>
         <div className={styles.reasonTwo}>
           <h2>Innovative Teaching Methodology</h2>
@@ -78,6 +78,17 @@ function HomeAboutUs() {
             resources, interactive technology, and personalized learning plans.
           </p>
         </div>
+        <svg
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+          className={styles.blobThree}
+        >
+          <path
+            fill="rgb(249, 232, 136)"
+            d="M26.2,-19.8C34.9,-17.6,43.5,-8.8,47.5,4C51.5,16.8,51,33.7,42.4,48C33.7,62.2,16.8,74,6.6,67.3C-3.6,60.7,-7.2,35.8,-18.6,21.5C-29.9,7.2,-49,3.6,-52.3,-3.3C-55.5,-10.2,-43,-20.3,-31.7,-22.5C-20.3,-24.7,-10.2,-18.9,-0.7,-18.2C8.8,-17.5,17.6,-21.9,26.2,-19.8Z"
+            transform="translate(100 100)"
+          />
+        </svg>
       </div>
       <div className={styles.info}>
         <div className={styles.reasonFour}>

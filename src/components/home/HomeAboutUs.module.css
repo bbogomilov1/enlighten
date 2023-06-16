@@ -49,6 +49,7 @@
 }
 
 .reasonTwo h2 {
+  z-index: 1;
   font-family: "Futura PT bold", sans-serif;
   font-size: 2.3rem;
   font-style: normal;
@@ -91,6 +92,12 @@
   width: 50%;
   position: absolute;
   right: 13%;
+}
+
+.blobThree {
+  width: 50%;
+  position: absolute;
+  right: 49%;
 }
 
 .image img {
