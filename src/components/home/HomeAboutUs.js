@@ -34,7 +34,7 @@ function HomeAboutUs() {
           className={styles.blobOne}
         >
           <path
-            fill="rgb(160 208 249)"
+            fill="rgb(186 218 246)"
             d="M65.4,-20.5C67.9,-13.5,41.5,3.6,16.5,21.5C-8.5,39.4,-32.1,58,-45.7,51C-59.3,43.9,-62.8,11.2,-53.6,-5.1C-44.3,-21.4,-22.1,-21.2,4.7,-22.7C31.5,-24.2,62.9,-27.4,65.4,-20.5Z"
             transform="translate(100 100)"
           />
@@ -101,9 +101,20 @@ function HomeAboutUs() {
             academic journeys.
           </p>
         </div>
-        <div className={styles.image}>
-          <img src={ConversationImg} alt="cubes" />
+        <div className={styles.number}>
+          {/* <img src={ConversationImg} alt="cubes" /> */}4
         </div>
+        <svg
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+          className={styles.blobFour}
+        >
+          <path
+            fill="rgb(186 218 246)"
+            d="M44.4,-41.9C58.3,-30.4,71,-15.2,70.7,-0.3C70.4,14.5,57,29.1,43,43.6C29.1,58.2,14.5,72.8,0.3,72.4C-13.8,72.1,-27.7,56.8,-38.8,42.2C-49.9,27.7,-58.2,13.8,-57.7,0.5C-57.2,-12.8,-47.9,-25.7,-36.8,-37.2C-25.7,-48.6,-12.8,-58.7,1.2,-59.9C15.2,-61.1,30.4,-53.3,44.4,-41.9Z"
+            transform="translate(100 100)"
+          />
+        </svg>
       </div>
     </div>
   );
