@@ -36,6 +36,7 @@ ul li a {
   font-size: 18px;
   font-family: "Futura PT light", sans-serif;
   font-weight: bold;
+  /* color: rgba(37, 96, 167, 255); */
   color: #fffaf4;
   text-transform: uppercase;
   transition: 0.5s;
