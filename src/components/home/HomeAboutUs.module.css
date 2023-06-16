@@ -23,7 +23,7 @@
 .info {
   padding: 30px;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .reasonOne {
@@ -58,6 +58,7 @@
 
 .reasonTwo p {
   width: 90%;
+  z-index: 1;
 }
 
 .reasonTwoImg {
@@ -68,6 +69,28 @@
   font-family: "Futura PT light", sans-serif;
   font-size: 1.4rem;
   width: 96%;
+}
+
+.number {
+  -webkit-text-stroke: 1.2px mediumseagreen;
+  color: transparent;
+  z-index: 1;
+  font-style: normal;
+  font-family: "Futura PT bold", sans-serif;
+  text-transform: uppercase;
+  font-size: 20rem;
+}
+
+.blobOne {
+  width: 50%;
+  position: absolute;
+  right: 60%;
+}
+
+.blobTwo {
+  width: 50%;
+  position: absolute;
+  right: 13%;
 }
 
 .image img {

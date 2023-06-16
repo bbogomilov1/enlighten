@@ -96,13 +96,7 @@
 
 .blob {
   width: 50%;
-  /* background-position: 100% 100%; */
-  /* background-repeat: no-repeat; */
-  /* background-size: auto; */
-  /* padding-bottom: 0; */
   position: absolute;
   top: 30%;
-  /* bottom: -17%; */
-  /* left: auto; */
   right: -7%;
 }

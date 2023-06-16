@@ -16,8 +16,8 @@ function HomeAboutUs() {
         <section> and interactive way!</section>
       </h1>
       <div className={styles.info}>
-        <div className={styles.image}>
-          <img src={TeacherImg} alt="teacher" />
+        <div className={styles.number}>
+          {/* <img src={TeacherImg} alt="teacher" /> */}1
         </div>
         <div className={styles.reasonOne}>
           <h2>Engage with the Best English Teachers</h2>
@@ -29,6 +29,17 @@ function HomeAboutUs() {
           </p>
         </div>
       </div>
+      <svg
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+        className={styles.blobOne}
+      >
+        <path
+          fill="#8dcaff"
+          d="M65.4,-20.5C67.9,-13.5,41.5,3.6,16.5,21.5C-8.5,39.4,-32.1,58,-45.7,51C-59.3,43.9,-62.8,11.2,-53.6,-5.1C-44.3,-21.4,-22.1,-21.2,4.7,-22.7C31.5,-24.2,62.9,-27.4,65.4,-20.5Z"
+          transform="translate(100 100)"
+        />
+      </svg>
       <div className={styles.info}>
         <div className={styles.reasonTwo}>
           <h2>Immerse in Fun and Interactive Learning</h2>
@@ -39,9 +50,20 @@ function HomeAboutUs() {
             child will have a blast while developing language skills.
           </p>
         </div>
-        <div className={styles.reasonTwoImg}>
-          <img src={WhaleImg} alt="whale" />
+        <div className={styles.number}>
+          {/* <img src={WhaleImg} alt="whale" /> */}2
         </div>
+        <svg
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+          className={styles.blobTwo}
+        >
+          <path
+            fill="#c4ffde"
+            d="M66.9,-21.8C73.7,-0.7,57.4,27.9,39.7,36.5C22,45,3,33.5,-18.3,19.4C-39.5,5.3,-63.1,-11.4,-60.5,-26.8C-57.8,-42.2,-28.9,-56.3,0.6,-56.5C30,-56.7,60.1,-43,66.9,-21.8Z"
+            transform="translate(100 100)"
+          />
+        </svg>
       </div>
       <div className={styles.info}>
         <div className={styles.image}>
