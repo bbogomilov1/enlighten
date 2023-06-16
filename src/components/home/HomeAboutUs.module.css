@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 70px 220px;
+  padding: 0px 220px 70px 220px;
   color: mediumseagreen;
 }
 
@@ -63,10 +63,6 @@
   z-index: 1;
 }
 
-.reasonTwoImg {
-  width: 400px;
-}
-
 .container p {
   font-family: "Futura PT light", sans-serif;
   font-size: 1.4rem;
@@ -107,11 +103,6 @@
   right: -4%;
 }
 
-.image img {
-  padding-left: 50px;
-  width: 320px;
-}
-
 .reasonFour {
   display: flex;
   flex-direction: column;
@@ -131,35 +122,4 @@
 
 .reasonFour p {
   width: 101%;
-}
-
-.stars {
-  display: flex;
-  /* justify-content: flex-end; */
-  width: 1340px;
-}
-
-.stars img {
-  width: 180px;
-  margin-top: -110px;
-  margin-right: 70px;
-  -webkit-animation: mover 1.5s infinite alternate;
-  animation: mover 1.5s infinite alternate;
-}
-
-@-webkit-keyframes mover {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-}
-@keyframes mover {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
 }

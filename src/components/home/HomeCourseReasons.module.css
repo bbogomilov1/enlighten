@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 90px;
+  background-color: mediumseagreen;
+  margin: 105px 0px;
+  color: #fffaf4;
+}
+
+.container h2 {
+  font-family: "Futura PT bold", sans-serif;
+  font-size: 2.3rem;
+  font-style: normal;
+}
+
+.container p {
+  margin: 0;
+  font-family: "Futura PT light", sans-serif;
+  font-size: 20px;
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+}
+
+.reasons section {
+  color: gold;
+  padding-right: 25px;
+  font-size: 3rem;
+}
+
+.reasons p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+
+.column p {
+  width: 800px;
+}

@@ -1,24 +1,14 @@
 import styles from "./HomeAboutUs.module.css";
-import TeacherImg from "../../static/Screenshot 2023-05-31 151624.png";
-import WhaleImg from "../../static/Screenshot 2023-05-31 162209.png";
-import CubesImg from "../../static/Screenshot 2023-05-31 164607.png";
-import ConversationImg from "../../static/Screenshot 2023-05-31 170648.png";
-import starsImg from "../../static/whitestars.png";
 
 function HomeAboutUs() {
   return (
     <div className={styles.container}>
-      {/* <div className={styles.stars}>
-        <img src={starsImg} alt="kids" />
-      </div> */}
       <h1>
         Learn English in an innovative <br />{" "}
         <section> and interactive way!</section>
       </h1>
       <div className={styles.info}>
-        <div className={styles.number}>
-          {/* <img src={TeacherImg} alt="teacher" /> */}1
-        </div>
+        <div className={styles.number}>1</div>
         <div className={styles.reasonOne}>
           <h2>Engage with the Best English Teachers</h2>
           <p>
@@ -50,9 +40,7 @@ function HomeAboutUs() {
             child will have a blast while developing language skills.
           </p>
         </div>
-        <div className={styles.number}>
-          {/* <img src={WhaleImg} alt="whale" /> */}2
-        </div>
+        <div className={styles.number}>2</div>
         <svg
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
@@ -66,9 +54,7 @@ function HomeAboutUs() {
         </svg>
       </div>
       <div className={styles.info}>
-        <div className={styles.number}>
-          {/* <img src={CubesImg} alt="cubes" /> */}3
-        </div>
+        <div className={styles.number}>3</div>
         <div className={styles.reasonTwo}>
           <h2>Innovative Teaching Methodology</h2>
           <p>
@@ -101,9 +87,7 @@ function HomeAboutUs() {
             academic journeys.
           </p>
         </div>
-        <div className={styles.number}>
-          {/* <img src={ConversationImg} alt="cubes" /> */}4
-        </div>
+        <div className={styles.number}>4</div>
         <svg
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
