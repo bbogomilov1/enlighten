@@ -11,27 +11,31 @@
   font-family: "Futura PT bold", sans-serif;
   font-size: 2.3rem;
   font-style: normal;
+  margin: 0;
 }
 
 .container p {
   margin: 0;
   font-family: "Futura PT light", sans-serif;
-  font-size: 20px;
+  font-size: 23px;
+  padding-bottom: 30px;
 }
 
 .reasons {
   display: flex;
   flex-direction: column;
-  width: 900px;
+  padding-top: 15px;
 }
 
 .reasons section {
   color: gold;
   padding-right: 25px;
-  font-size: 3rem;
+  padding-bottom: 10px;
+  font-size: 3.8rem;
 }
 
 .reasons p {
+  height: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,5 +47,5 @@
 }
 
 .column p {
-  width: 800px;
+  width: 450px;
 }
