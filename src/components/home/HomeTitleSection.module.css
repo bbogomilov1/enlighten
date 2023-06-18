@@ -3,7 +3,7 @@
   /* background-color: #f9d615; */
   display: flex;
   justify-content: flex-start;
-  padding-top: 100px;
+  padding-top: 130px;
   padding-bottom: 40px;
   width: 100%;
   /* padding-left: 130px; */
@@ -61,20 +61,6 @@
 
 .enrollButton:focus {
   outline: none;
-}
-
-.image {
-  display: flex;
-  justify-content: flex-end;
-  width: 1340px;
-}
-
-.image img {
-  width: 180px;
-  margin-top: -110px;
-  margin-right: 70px;
-  -webkit-animation: mover 1.5s infinite alternate;
-  animation: mover 1.5s infinite alternate;
 }
 
 @-webkit-keyframes mover {

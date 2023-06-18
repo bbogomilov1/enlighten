@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import starsImg from "../../static/bluestars.png";
 import styles from "./HomeTitleSection.module.css";
 
 function HomeTitleSection() {
@@ -17,10 +16,6 @@ function HomeTitleSection() {
             Enroll Now
           </Link>
         </div>
-        {/* <div className={styles.image}>
-          <img src={starsImg} alt="kids" />
-        </div> */}
-        {/* <div className={styles.blob}></div> */}
         <svg
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
