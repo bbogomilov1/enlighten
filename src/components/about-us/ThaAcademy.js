@@ -20,7 +20,7 @@ function TheAcademy() {
         <div>
           <img src={kidsImage} alt="kids" className={styles.image} />
         </div>
-        <div>
+        <div className={styles.textDescription}>
           <p>
             At MasterMinds, we provide engaging and interactive English classes
             designed specifically for kids. Our experienced teachers make

@@ -19,7 +19,7 @@
 
 .container p {
   color: rgba(37, 96, 167, 255);
-  font-size: 24px;
+  font-size: 1.7rem;
   color: mediumseagreen;
   line-height: 30px;
   text-indent: 8rem;
@@ -32,6 +32,10 @@
   flex-direction: row;
   align-items: center;
   width: 100%;
+}
+
+.textDescription {
+  padding: 20px;
 }
 
 .image {
