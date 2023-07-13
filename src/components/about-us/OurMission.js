@@ -1,5 +1,5 @@
 import styles from "./OurMission.module.css";
-import rocketImage from "../../static/Screenshot 2023-06-04 124038.png";
+// import rocketImage from "../../static/Screenshot 2023-06-04 124038.png";
 
 function OurMission() {
   return (
@@ -27,9 +27,9 @@ function OurMission() {
             and beyond.
           </p>
         </div>
-        <div className={styles.teacherLarita}>
+        {/* <div className={styles.teacherLarita}>
           <img src={rocketImage} alt="rocket" className={styles.teacherImage} />
-        </div>
+        </div> */}
       </div>
       <svg
         viewBox="0 0 200 200"
