@@ -1,5 +1,5 @@
 import styles from "./TheAcadamy.module.css";
-// import kidsImage from "../../static/1669412766.jpg";
+import kidsImage from "../../static/1669412766.jpg";
 
 function TheAcademy() {
   return (
@@ -17,9 +17,9 @@ function TheAcademy() {
       </svg> */}
       <h1>The Academy</h1>
       <div className={styles.description}>
-        {/* <div>
+        <div>
           <img src={kidsImage} alt="kids" className={styles.image} />
-        </div> */}
+        </div>
         <div className={styles.textDescription}>
           <p>
             At MasterMinds, we provide engaging and interactive English classes
