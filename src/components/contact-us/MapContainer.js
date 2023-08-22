@@ -24,11 +24,17 @@ L.Icon.Default.mergeOptions({
 
 function Map() {
   const position = [42.66929183810461, 23.29754963197396];
+
   return (
     <MapContainer
       center={position}
       zoom={16}
-      style={{ height: "400px", width: "100%" }}
+      style={{
+        height: "400px",
+        width: "100%",
+        margin: "45px 0px",
+        "z-index": "1",
+      }}
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
       <Marker position={position} />
