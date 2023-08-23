@@ -1,12 +1,12 @@
 import styles from "./OurMission.module.css";
-// import rocketImage from "../../static/Screenshot 2023-06-04 124038.png";
+import kidsImage from "../../static/preschool.jpg";
 
 function OurMission() {
   return (
     <div className={styles.container}>
       <h1>Our Mission</h1>
       <div className={styles.description}>
-        <div>
+        <div className={styles.paragraphsContainer}>
           <p>
             At MasterMinds Kids Academy, our mission is to provide a nurturing
             and engaging learning environment where children can develop a
@@ -27,9 +27,9 @@ function OurMission() {
             and beyond.
           </p>
         </div>
-        {/* <div className={styles.teacherLarita}>
-          <img src={rocketImage} alt="rocket" className={styles.teacherImage} />
-        </div> */}
+        <div>
+          <img src={kidsImage} alt="kids" className={styles.kidsImage} />
+        </div>
       </div>
       <svg
         viewBox="0 0 200 200"
