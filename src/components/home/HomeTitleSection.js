@@ -6,6 +6,17 @@ function HomeTitleSection() {
   return (
     <div className={styles.container}>
       <div className={styles.containerWidth}>
+        <svg
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+          className={styles.blobFirst}
+        >
+          <path
+            fill="#f9e888"
+            d="M25.9,-36.5C31.2,-36.8,31.7,-25.8,36,-16.4C40.2,-7.1,48.3,0.5,52,10.8C55.7,21.1,55,34.1,47.1,37.7C39.1,41.2,23.9,35.4,12.2,36.5C0.5,37.6,-7.6,45.7,-15.4,46.2C-23.2,46.8,-30.6,39.9,-31.9,31.5C-33.1,23.1,-28.2,13.2,-24.7,6.4C-21.3,-0.4,-19.4,-4.2,-24.1,-18.1C-28.8,-32,-40.1,-56,-37.2,-56.8C-34.3,-57.6,-17.1,-35.2,-3.4,-29.8C10.3,-24.5,20.5,-36.2,25.9,-36.5Z"
+            transform="translate(100 100)"
+          />
+        </svg>
         <h1>
           EN<span>light</span>EN
         </h1>
@@ -23,7 +34,7 @@ function HomeTitleSection() {
         <svg
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
-          className={styles.blob}
+          className={styles.blobSecond}
         >
           <path
             fill="#f9e888"

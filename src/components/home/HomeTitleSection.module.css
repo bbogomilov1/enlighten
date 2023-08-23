@@ -86,7 +86,15 @@
   }
 }
 
-.blob {
+.blobFirst {
+  z-index: 5;
+  width: 40%;
+  position: absolute;
+  top: -183px;
+  left: -192px;
+}
+
+.blobSecond {
   width: 50%;
   position: absolute;
   top: 30%;
