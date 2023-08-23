@@ -14,15 +14,14 @@
 }
 
 .container h1 {
+  text-align: center;
   position: relative;
+  font-style: normal;
   z-index: 1;
   font-family: "Futura PT bold", sans-serif;
-  text-transform: uppercase;
-  padding-left: 14%;
   color: #0074d9;
   -webkit-text-stroke: transparent;
-  text-indent: 4rem;
-  font-size: 4.5rem;
+  font-size: 5.5rem;
 }
 
 .container p {
@@ -35,6 +34,13 @@
   line-height: 10px;
   text-indent: 8rem;
   font-family: "Futura PT light", sans-serif;
+}
+
+.bookImage {
+  height: 80px;
+  margin-top: -100px;
+  padding-bottom: 40px;
+  padding-left: 617px;
 }
 
 .enrollButton {

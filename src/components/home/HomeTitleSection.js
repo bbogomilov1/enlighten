@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import styles from "./HomeTitleSection.module.css";
+import bookImage from "../../static/book logo.png";
 
 function HomeTitleSection() {
   return (
     <div className={styles.container}>
       <div className={styles.containerWidth}>
-        <h1>MasterMinds Academy</h1>
+        <h1>
+          EN<span>light</span>EN
+        </h1>
+        <img src={bookImage} alt="book" className={styles.bookImage} />
         <p>Unlock the power of English learning with us.</p>
         <p>
           Join us now on our journey today and unlock the door to endless
