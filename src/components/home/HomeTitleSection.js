@@ -17,10 +17,13 @@ function HomeTitleSection() {
             transform="translate(100 100)"
           />
         </svg>
-        <h1>
-          EN<span>light</span>EN
-        </h1>
-        <img src={bookImage} alt="book" className={styles.bookImage} />
+        <div className={styles.titleContainer}>
+          <h1>
+            EN<span>light</span>EN
+          </h1>
+          <img src={bookImage} alt="book" className={styles.bookImage} />
+        </div>
+
         <p>Unlock the power of English learning with us.</p>
         <p>
           Join us now on our journey today and unlock the door to endless
