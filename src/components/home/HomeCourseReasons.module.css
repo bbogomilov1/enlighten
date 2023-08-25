@@ -8,7 +8,7 @@
 }
 
 .container h2 {
-  font-family: "Futura PT bold", sans-serif;
+  font-family: "Futura PT bold";
   font-size: 2.3rem;
   font-style: normal;
   margin: 0;
@@ -16,7 +16,7 @@
 
 .container p {
   margin: 0;
-  font-family: "Futura PT light", sans-serif;
+  font-family: "Futura PT light";
   font-size: 1.6rem;
   padding-bottom: 30px;
 }
@@ -47,5 +47,5 @@
 }
 
 .column p {
-  width: 450px;
+  width: 490px;
 }

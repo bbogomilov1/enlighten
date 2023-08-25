@@ -25,11 +25,11 @@ function HomeTitleSection() {
           </h1>
           <img src={bookImage} alt="book" className={styles.bookImage} />
         </div>
-        <p>{t("unlock-the-power")}</p>
-        <p>{t("join-us")}</p>
+        <p>{t("unlock the power")}</p>
+        <p>{t("join us")}</p>
         <div>
           <Link to="/schedule" className={styles.enrollButton} type="button">
-            {t("enroll-now")}
+            {t("enroll now")}
           </Link>
         </div>
         <svg

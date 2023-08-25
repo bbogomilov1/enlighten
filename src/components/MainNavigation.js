@@ -19,7 +19,7 @@ const MainNavigation = () => {
           </li>
           <li className={styles.navItem}>
             <Link to="/about-us" className={styles.navLink}>
-              {t("about-us")}
+              {t("about us")}
             </Link>
           </li>
           <LogoProvider />
@@ -31,7 +31,7 @@ const MainNavigation = () => {
           </li>
           <li className={styles.navItem}>
             <Link to="/contact-us" className={styles.navLink}>
-              {t("contact-us")}
+              {t("contact us")}
             </Link>
           </li>
           <LanguageSwitcher />
