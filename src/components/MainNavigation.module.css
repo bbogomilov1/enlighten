@@ -24,13 +24,13 @@ ul li {
 }
 
 ul li a {
+  font-style: normal;
   display: block;
   position: relative;
   text-decoration: none;
   padding: 5px;
   font-size: 18px;
-  font-family: "Futura PT light", sans-serif;
-  font-weight: bold;
+  font-family: "Futura PT light";
   color: #fffaf4;
   text-transform: uppercase;
   transition: 0.5s;
