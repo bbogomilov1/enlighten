@@ -8,18 +8,18 @@ function HomeCourseReasons() {
       <div className={styles.reasons}>
         <div className={styles.column}>
           <p>
-            <section>→</section>Fun and Interactive Learning
+            <span>→</span>Fun and Interactive Learning
           </p>
           <p>
-            <section>→</section>Experienced and Dedicated Teachers
+            <span>→</span>Experienced and Dedicated Teachers
           </p>
         </div>
         <div className={styles.column}>
           <p>
-            <section>→</section>Personalized Attention
+            <span>→</span>Personalized Attention
           </p>
           <p>
-            <section>→</section>Comprehensive Development
+            <span>→</span>Comprehensive Development
           </p>
         </div>
       </div>

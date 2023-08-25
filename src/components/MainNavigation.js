@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import styles from "./MainNavigation.module.css";
 import "../static/fonts.css";
 import LogoProvider from "./Logo";
+import LanguageSwitcher from "../LanguageSwitcher";
 
 const MainNavigation = () => {
   return (
@@ -30,6 +31,7 @@ const MainNavigation = () => {
               Contact us
             </Link>
           </li>
+          <LanguageSwitcher />
         </ul>
       </nav>
     </header>

@@ -4,8 +4,7 @@ function HomeAboutUs() {
   return (
     <div className={styles.container}>
       <h1>
-        Learn English in an innovative <br />{" "}
-        <section> and interactive way!</section>
+        Learn English in an innovative <br /> <span> and interactive way!</span>
       </h1>
       <div className={styles.info}>
         <div className={styles.number}>1</div>

@@ -1,0 +1,17 @@
+.buttonsContainer {
+  position: absolute;
+  right: 20px;
+}
+
+.flagButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0px 5px;
+}
+
+.flagButton img {
+  width: 30px;
+  height: auto;
+  vertical-align: middle;
+}

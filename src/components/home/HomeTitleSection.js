@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
 import styles from "./HomeTitleSection.module.css";
 import bookImage from "../../static/book logo.png";
+import { useTranslation } from "react-i18next";
 
 function HomeTitleSection() {
+  const { t } = useTranslation();
   return (
     <div className={styles.container}>
       <div className={styles.containerWidth}>
@@ -23,15 +25,11 @@ function HomeTitleSection() {
           </h1>
           <img src={bookImage} alt="book" className={styles.bookImage} />
         </div>
-
-        <p>Unlock the power of English learning with us.</p>
-        <p>
-          Join us now on our journey today and unlock the door to endless
-          opportunities.
-        </p>
+        <p>{t("unlock-the-power")}</p>
+        <p>{t("join-us")}</p>
         <div>
           <Link to="/schedule" className={styles.enrollButton} type="button">
-            Enroll Now
+            {t("enroll-now")}
           </Link>
         </div>
         <svg

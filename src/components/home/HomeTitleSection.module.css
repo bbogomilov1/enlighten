@@ -36,9 +36,9 @@
   color: rgba(37, 96, 167, 255);
   font-size: 2rem;
   color: #333;
-  line-height: 10px;
+  margin: 5px;
   text-indent: 8rem;
-  font-family: "Futura PT light", sans-serif;
+  font-family: "Futura PT light";
 }
 
 .bookImage {
