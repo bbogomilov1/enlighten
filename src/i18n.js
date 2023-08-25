@@ -21,6 +21,8 @@ i18n.use(initReactI18next).init({
           "Experienced and Dedicated Teachers",
         "Personalized Attention": "Personalized Attention",
         "Comprehensive Development": "Comprehensive Development",
+        "Engage with the Best English Teachers":
+          "Engage with the Best English Teachers",
       },
     },
     bg: {
@@ -30,17 +32,19 @@ i18n.use(initReactI18next).init({
         schedule: "Програма",
         "contact us": "Контакти",
         "unlock the power":
-          "Отключи възможностите си на изучаването на английски език с нас.",
+          "Отключи възможностите си към изучаването на английски език с нас.",
         "join us":
           "Присъединете се към нас в нашето приключение и отворете вратите към безкрайни възможности.",
         "enroll now": "Запиши се",
-        "find the best course": "Изберете най-подходящия курс за Вас",
+        "find the best course": "Открий най-подходящия курс за теб",
         "we developed some courses":
           "Разработихме няколко курса, които ще задоволят всяка нужда.",
         "Fun and Interactive Learning": "Забавно и интерактивно обучение",
         "Experienced and Dedicated Teachers": "Опитни и всеотдайни учители",
         "Personalized Attention": "Персонализирано внимание",
         "Comprehensive Development": "Цялостно развитие",
+        "Engage with the Best English Teachers":
+          "Работете с най-добрите учители по английски език",
       },
     },
   },

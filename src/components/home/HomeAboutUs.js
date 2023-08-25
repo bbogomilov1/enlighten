@@ -1,6 +1,9 @@
 import styles from "./HomeAboutUs.module.css";
+import { useTranslation } from "react-i18next";
 
 function HomeAboutUs() {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.container}>
       <h1>
@@ -9,7 +12,7 @@ function HomeAboutUs() {
       <div className={styles.info}>
         <div className={styles.number}>1</div>
         <div className={styles.reasonOne}>
-          <h2>Engage with the Best English Teachers</h2>
+          <h2>{t("Engage with the Best English Teachers")}</h2>
           <p>
             At our academy, we bring together a team of highly qualified and
             experienced English teachers. With their expertise and passion for

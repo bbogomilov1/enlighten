@@ -8,16 +8,16 @@
 }
 
 .container h2 {
-  font-family: "Futura PT bold";
-  font-size: 2.3rem;
+  font-family: "Ropamix bold italic";
+  font-size: 4.5rem;
   font-style: normal;
   margin: 0;
 }
 
 .container p {
   margin: 0;
-  font-family: "Futura PT light";
-  font-size: 1.6rem;
+  font-family: "Ropamix light italic";
+  font-size: 1.8rem;
   padding-bottom: 30px;
 }
 
@@ -29,9 +29,10 @@
 
 .reasons span {
   color: gold;
-  padding-right: 25px;
-  padding-bottom: 10px;
-  font-size: 3.8rem;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .reasons p {

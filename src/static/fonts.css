@@ -9,3 +9,21 @@
   font-style: italic;
   src: url("./fonts/futura light bt.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Ropamix regular";
+  font-style: italic;
+  src: url("./fonts/RopaMixPTT-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ropamix light italic";
+  font-style: italic;
+  src: url("./fonts/RopaMixPTT-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ropamix bold italic";
+  font-style: italic;
+  src: url("./fonts/RopaMixPTT-BlackItalic.ttf") format("truetype");
+}

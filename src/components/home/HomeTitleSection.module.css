@@ -30,6 +30,7 @@
 }
 
 .container p {
+  width: 80%;
   padding-left: 12%;
   z-index: 1;
   position: relative;
