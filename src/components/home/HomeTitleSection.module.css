@@ -23,10 +23,12 @@
   position: relative;
   font-style: normal;
   z-index: 2;
-  font-family: "Futura PT bold", sans-serif;
+  /* font-family: "Futura PT bold", sans-serif; */
+  font-family: "Ropamix bold italic", sans-serif;
+  margin: 45px;
   color: #0074d9;
   -webkit-text-stroke: transparent;
-  font-size: 5.5rem;
+  font-size: 7.5rem;
 }
 
 .container p {
@@ -39,7 +41,7 @@
   color: #333;
   margin: 5px;
   text-indent: 8rem;
-  font-family: "Futura PT light";
+  font-family: "Ropamix light italic", sans-serif;
 }
 
 .bookImage {
@@ -49,6 +51,7 @@
 }
 
 .enrollButton {
+  font-family: "Ropamix regular", sans-serif;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -58,7 +61,7 @@
   padding: 1rem 2rem;
   background-color: #0074d9;
   color: #fffaf4;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 20px;

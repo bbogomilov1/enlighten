@@ -29,8 +29,8 @@ ul li a {
   position: relative;
   text-decoration: none;
   padding: 5px;
-  font-size: 18px;
-  font-family: "Futura PT light";
+  font-size: 1.3rem;
+  font-family: "Ropamix extra light", sans-serif;
   color: #fffaf4;
   text-transform: uppercase;
   transition: 0.5s;
