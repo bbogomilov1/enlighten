@@ -38,6 +38,11 @@ i18n.use(initReactI18next).init({
           "Cultivate Confidence and Communication Skills",
         "communication is key":
           "Communication is key! We focus on nurturing your child's confidence in using English through interactive speaking, listening, reading, and writing exercises. Our goal is to equip them with strong communication skills that will empower them in their personal and academic journeys.",
+        "The Academy": "The Academy",
+        "we provide":
+          "At EnlightEN, we provide engaging and interactive English classes designed specifically for kids. Our experienced teachers make learning English fun and exciting through games, activities, and creative lessons.",
+        "Whether your child...":
+          "Whether your child is a beginner or already has some English knowledge, our academy offers a structured curriculum tailored to their needs. We focus on building strong foundations in listening, speaking, reading, and writing, ensuring steady progress and confidence.",
       },
     },
     bg: {
@@ -76,10 +81,15 @@ i18n.use(initReactI18next).init({
           "Придобиване на увереност и комуникативни умения",
         "communication is key":
           "Комуникацията е отговорът! Ние се фокусираме върху придобиването на увереност на вашето дете в използването на английски чрез интерактивни упражнения за говорене, слушане, четене и писане. Нашата цел е да ги оборудваме със силни комуникационни умения, които ще им помогнат в техните лични и академични пътувания.",
+        "The Academy": "Академията",
+        "we provide":
+          "В EnlightEN предлагаме увлекателни и интерактивни уроци по английски, предназначени специално за деца. Нашите опитни учители правят изучаването на английски език забавно и вълнуващо чрез игри, дейности и творчески уроци.",
+        "Whether your child...":
+          "Независимо дали детето ви е начинаещо или вече има познания по английски език, нашата академия предлага структурирана учебна програма, съобразена с неговите нужди. Ние се фокусираме върху изграждането на здрави основи в слушането, говоренето, четенето и писането, като гарантираме постоянен напредък и увереност.",
       },
     },
   },
-  lng: "en", // Default language
+  lng: "bg", // Default language
   fallbackLng: "en", // Fallback language
   interpolation: {
     escapeValue: false,

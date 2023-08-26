@@ -1,28 +1,20 @@
 import styles from "./TheAcadamy.module.css";
 import kidsImage from "../../static/1669412766.jpg";
+import { useTranslation } from "react-i18next";
 
 function TheAcademy() {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.container}>
-      <h1>The Academy</h1>
+      <h1>{t("The Academy")}</h1>
       <div className={styles.description}>
         <div>
           <img src={kidsImage} alt="kids" className={styles.image} />
         </div>
-        <div className={styles.textDescription}>
-          <p>
-            At EnlightEN, we provide engaging and interactive English classes
-            designed specifically for kids. Our experienced teachers make
-            learning English fun and exciting through games, activities, and
-            creative lessons.
-          </p>
-          <p>
-            Whether your child is a beginner or already has some English
-            knowledge, our academy offers a structured curriculum tailored to
-            their needs. We focus on building strong foundations in listening,
-            speaking, reading, and writing, ensuring steady progress and
-            confidence.
-          </p>
+        <div>
+          <p>{t("we provide")}</p>
+          <p>{t("Whether your child...")}</p>
         </div>
       </div>
       <svg
