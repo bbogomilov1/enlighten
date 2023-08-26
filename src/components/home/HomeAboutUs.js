@@ -6,19 +6,12 @@ function HomeAboutUs() {
 
   return (
     <div className={styles.container}>
-      <h1>
-        Learn English in an innovative <br /> <span> and interactive way!</span>
-      </h1>
+      <h1>{t("Learn English in an innovative and interactive way")}!</h1>
       <div className={styles.info}>
         <div className={styles.number}>1</div>
         <div className={styles.reasonOne}>
           <h2>{t("Engage with the Best English Teachers")}</h2>
-          <p>
-            At our academy, we bring together a team of highly qualified and
-            experienced English teachers. With their expertise and passion for
-            teaching, your child will receive top-notch guidance to master the
-            English language.
-          </p>
+          <p>{t("at our academy")}</p>
         </div>
         <svg
           viewBox="0 0 200 200"
@@ -34,13 +27,8 @@ function HomeAboutUs() {
       </div>
       <div className={styles.info}>
         <div className={styles.reasonTwo}>
-          <h2>Immerse in Fun and Interactive Learning</h2>
-          <p>
-            We believe in making English learning enjoyable and interactive for
-            kids. Our classes are designed to spark their curiosity and engage
-            them in hands-on activities, games, and creative projects. Your
-            child will have a blast while developing language skills.
-          </p>
+          <h2>{t("Immerse in Fun and Interactive Learning")}</h2>
+          <p>{t("we believe in making")}</p>
         </div>
         <div className={styles.number}>2</div>
         <svg
@@ -58,13 +46,8 @@ function HomeAboutUs() {
       <div className={styles.info}>
         <div className={styles.number}>3</div>
         <div className={styles.reasonTwo}>
-          <h2>Innovative Teaching Methodology</h2>
-          <p>
-            We follow a dynamic and innovative teaching methodology tailored to
-            the needs of young learners. Our approach combines the best of
-            traditional and modern techniques, incorporating multimedia
-            resources, interactive technology, and personalized learning plans.
-          </p>
+          <h2>{t("Innovative Teaching Methodology")}</h2>
+          <p>{t("we follow")}</p>
         </div>
         <svg
           viewBox="0 0 200 200"
@@ -80,14 +63,8 @@ function HomeAboutUs() {
       </div>
       <div className={styles.info}>
         <div className={styles.reasonFour}>
-          <h2>Cultivate Confidence and Communication Skills</h2>
-          <p>
-            Communication is key! We focus on nurturing your child's confidence
-            in using English through interactive speaking, listening, reading,
-            and writing exercises. Our goal is to equip them with strong
-            communication skills that will empower them in their personal and
-            academic journeys.
-          </p>
+          <h2>{t("Cultivate Confidence and Communication Skills")}</h2>
+          <p>{t("communication is key")}</p>
         </div>
         <div className={styles.number}>4</div>
         <svg

@@ -21,8 +21,23 @@ i18n.use(initReactI18next).init({
           "Experienced and Dedicated Teachers",
         "Personalized Attention": "Personalized Attention",
         "Comprehensive Development": "Comprehensive Development",
+        "Learn English in an innovative and interactive way":
+          "Learn English in an innovative and interactive way",
         "Engage with the Best English Teachers":
           "Engage with the Best English Teachers",
+        "at our academy":
+          "At our academy, we bring together a team of highly qualified and experienced English teachers. With their expertise and passion for teaching, your child will receive top-notch guidance to master the English language.",
+        "Immerse in Fun and Interactive Learning":
+          "Immerse in Fun and Interactive Learning",
+        "we believe in making":
+          "We believe in making English learning enjoyable and interactive for kids. Our classes are designed to spark their curiosity and engage them in hands-on activities, games, and creative projects. Your child will have a blast while developing language skills.",
+        "Innovative Teaching Methodology": "Innovative Teaching Methodology",
+        "we follow":
+          "We follow a dynamic and innovative teaching methodology tailored to the needs of young learners. Our approach combines the best of traditional and modern techniques, incorporating multimedia resources, interactive technology, and personalized learning plans.",
+        "Cultivate Confidence and Communication Skills":
+          "Cultivate Confidence and Communication Skills",
+        "communication is key":
+          "Communication is key! We focus on nurturing your child's confidence in using English through interactive speaking, listening, reading, and writing exercises. Our goal is to equip them with strong communication skills that will empower them in their personal and academic journeys.",
       },
     },
     bg: {
@@ -43,8 +58,24 @@ i18n.use(initReactI18next).init({
         "Experienced and Dedicated Teachers": "Опитни и всеотдайни учители",
         "Personalized Attention": "Персонализирано внимание",
         "Comprehensive Development": "Цялостно развитие",
+        "Learn English in an innovative and interactive way":
+          "Научи английски език по иновативен и интерактивен начин",
         "Engage with the Best English Teachers":
           "Работете с най-добрите учители по английски език",
+        "at our academy":
+          "В нашата академия събираме екип от висококвалифицирани и опитни преподаватели по английски език. С техния опит и страст към преподаването, вашето дете ще получи първокласни насоки за овладяване на английски език.",
+        "Immerse in Fun and Interactive Learning":
+          "Потопете се в забавно и интерактивно обучение",
+        "we believe in making":
+          "Ние вярваме в това да направим изучаването на английски език приятно и интерактивно за децата. Нашите класове са предназначени да разпалят любопитството им и да ги ангажират в практически дейности, игри и творчески проекти. Вашето дете ще се забавлява, докато развива езикови умения.",
+        "Innovative Teaching Methodology":
+          "Иновативна методология на преподаване",
+        "we follow":
+          "Ние използваме динамична и иновативна методология на преподаване, съобразена с нуждите на малките ученици. Нашият подход съчетава най-доброто от традиционните и съвременните техники, включвайки мултимедийни ресурси, интерактивни технологии и персонализирани планове за обучение.",
+        "Cultivate Confidence and Communication Skills":
+          "Придобиване на увереност и комуникативни умения",
+        "communication is key":
+          "Комуникацията е отговорът! Ние се фокусираме върху придобиването на увереност на вашето дете в използването на английски чрез интерактивни упражнения за говорене, слушане, четене и писане. Нашата цел е да ги оборудваме със силни комуникационни умения, които ще им помогнат в техните лични и академични пътувания.",
       },
     },
   },
