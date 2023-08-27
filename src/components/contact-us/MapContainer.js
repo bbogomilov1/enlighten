@@ -33,7 +33,7 @@ function Map() {
         height: "400px",
         width: "100%",
         margin: "45px 0px",
-        "z-index": "1",
+        zIndex: "1",
       }}
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />

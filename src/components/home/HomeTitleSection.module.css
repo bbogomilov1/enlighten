@@ -50,6 +50,8 @@
 }
 
 .enrollButton {
+  position: relative;
+  z-index: 1;
   font-family: "Ropamix regular", sans-serif;
   text-decoration: none;
   display: block;
@@ -126,22 +128,30 @@
 
   .container p {
     padding-left: 10%;
-    font-size: 1.8rem;
-    text-indent: 4rem;
+    font-size: 1.3rem;
+    text-indent: 2.3rem;
   }
 
   .bookImage {
-    margin-top: -60px;
+    margin-top: -90px;
   }
 
   .enrollButton {
-    width: 50%;
+    width: 35%;
     margin: 4% auto;
+    font-size: 1.3rem;
+    margin-top: 30px;
+  }
+
+  .blobSecond {
+    width: 100%;
+    top: 26%;
+    right: -45%;
   }
 }
 
 /* Additional media queries for other screen sizes */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .container p {
     padding-left: 5%;
     font-size: 1.5rem;
@@ -151,4 +161,4 @@
   .bookImage {
     margin-top: -30px;
   }
-}
+} */

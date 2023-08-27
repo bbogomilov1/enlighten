@@ -62,3 +62,51 @@ ul li a::before {
 ul li a:hover::before {
   width: 100%;
 }
+
+/* Small screens */
+@media screen and (max-width: 768px) {
+  .header {
+    width: 55%;
+    padding-top: 20px;
+  }
+
+  ul li {
+    margin: 0 5px;
+  }
+
+  ul li a {
+    font-size: 0.8rem;
+  }
+}
+
+/* Medium screens */
+/* @media (min-width: 768px) and (max-width: 992px) {
+  .header {
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+
+  ul li {
+    margin: 0 15px;
+  }
+
+  ul li a {
+    font-size: 1.2rem;
+  }
+} */
+
+/* Larger screens */
+/* @media (min-width: 993px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  ul li {
+    margin: 0 20px;
+  }
+
+  ul li a {
+    font-size: 1.3rem;
+  }
+} */
