@@ -61,6 +61,12 @@ i18n.use(initReactI18next).init({
         "Betina Kremenova": "Betina Kremenova",
         "Say hello to Betina...":
           "Say hello to Betina, our experienced and caring English teacher. With a background in child education, Betty understands the unique needs of young learners and tailors his teaching methods to suit different learning styles. Betty's friendly demeanor and effective communication skills make him a favorite among students, building a positive and encouraging classroom atmosphere that promotes language development and personal growth.",
+
+        Information: "Information",
+        Socials: "Socials",
+        "F.A.Q.": "F.A.Q.",
+        Prices: "Prices",
+        "Find us": "Find us",
       },
     },
     bg: {
@@ -121,6 +127,12 @@ i18n.use(initReactI18next).init({
         "Betina Kremenova": "Бетина Кременова",
         "Say hello to Betina...":
           "Кажете 'Здравей!' на Бетина, нашата опитна и грижовна учителка по английски език. С опит в детското образование, Бети разбира уникалните нужди на малките ученици и приспособява своите методи на преподаване, за да отговарят на различни стилове на учене. Приятелското поведение и ефективните комуникационни умения на Бети я правят любимец сред учениците, изграждайки положителна и насърчаваща атмосфера в класната стая, която насърчава езиковото развитие и личностното израстване.",
+
+        Information: "Информация",
+        Socials: "Социални мрежи",
+        "F.A.Q.": "Често задавани въпроси",
+        Prices: "Цени",
+        "Find us": "Намерете ни",
       },
     },
   },

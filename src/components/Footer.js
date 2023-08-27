@@ -1,7 +1,10 @@
 import styles from "./Footer.module.css";
 import logoImage from "../static/334786535_1253085591991643_8723896673674430860_n.png";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
+
   return (
     <div>
       <div className={styles.footer}>
@@ -11,7 +14,7 @@ function Footer() {
 
         <div className={styles.footerSectionContainer}>
           <div className={styles.footerSection}>
-            <h3>Contact Us</h3>
+            <h3>{t("contact us")}</h3>
             <p>
               Sofia 1619, <br /> Something bul. 47
             </p>
@@ -20,15 +23,15 @@ function Footer() {
           </div>
 
           <div className={styles.footerSection}>
-            <h3>Information</h3>
-            <p>F.A.Q.</p>
-            <p>Prices</p>
-            <p>Find Us</p>
-            <p>About Us</p>
+            <h3>{t("Information")}</h3>
+            <p>{t("F.A.Q.")}</p>
+            <p>{t("Prices")}</p>
+            <p>{t("Find us")}</p>
+            <p>{t("about us")}</p>
           </div>
 
           <div className={styles.footerSection}>
-            <h3>Socials</h3>
+            <h3>{t("Socials")}</h3>
             <p>Facebook</p>
             <p>Instagram</p>
             <p>Tik-Tok</p>
