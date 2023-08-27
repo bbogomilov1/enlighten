@@ -43,6 +43,11 @@ i18n.use(initReactI18next).init({
           "At EnlightEN, we provide engaging and interactive English classes designed specifically for kids. Our experienced teachers make learning English fun and exciting through games, activities, and creative lessons.",
         "Whether your child...":
           "Whether your child is a beginner or already has some English knowledge, our academy offers a structured curriculum tailored to their needs. We focus on building strong foundations in listening, speaking, reading, and writing, ensuring steady progress and confidence.",
+        "Our Mission": "Our Mission",
+        "Our mission is to...":
+          "Our mission is to provide a nurturing and engaging learning environment where children can develop a strong foundation in English language skills. We believe that every child has the potential to excel and grow, and we are dedicated to unlocking their linguistic abilities through interactive and immersive teaching methods.",
+        "Our experienced and passionate educators...":
+          "Our experienced and passionate educators strive to create a supportive atmosphere that fosters creativity, critical thinking, and a love for learning. By combining innovative techniques, personalized attention, and a comprehensive curriculum, we aim to empower children to become confident communicators, and lifelong learners. Our mission is to make the journey of English language acquisition an enjoyable and enriching experience, equipping children with the tools they need to thrive academically and beyond.",
       },
     },
     bg: {
@@ -86,6 +91,11 @@ i18n.use(initReactI18next).init({
           "В EnlightEN предлагаме увлекателни и интерактивни уроци по английски, предназначени специално за деца. Нашите опитни учители правят изучаването на английски език забавно и вълнуващо чрез игри, дейности и творчески уроци.",
         "Whether your child...":
           "Независимо дали детето ви е начинаещо или вече има познания по английски език, нашата академия предлага структурирана учебна програма, съобразена с неговите нужди. Ние се фокусираме върху изграждането на здрави основи в слушането, говоренето, четенето и писането, като гарантираме постоянен напредък и увереност.",
+        "Our Mission": "Нашата мисия",
+        "Our mission is to...":
+          "Нашата мисия е да осигурим възпитаваща и ангажираща учебна среда, в която децата могат да развият стабилна основа в уменията си по английски език. Вярваме, че всяко дете има потенциала да се отличава и да расте, и сме посветени на отключването на техните езикови способности чрез интерактивни и завладяващи методи на преподаване.",
+        "Our experienced and passionate educators...":
+          "Нашите опитни и всеотдайни преподаватели се стремят да създадат подкрепяща атмосфера, която насърчава креативността, критичното мислене и любовта към ученето. Чрез комбиниране на иновативни техники, персонализирано внимание и цялостна учебна програма, ние се стремим да дадем възможност на децата да станат уверени комуникатори, учещи през целия живот. Нашата мисия е да превърнем пътя към усвояването на английски език в приятно и обогатяващо изживяване, като запознаем децата с инструментите, от които се нуждаят, за да процъфтяват академично и извън него.",
       },
     },
   },
