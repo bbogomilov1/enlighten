@@ -11,6 +11,10 @@
   padding-bottom: 20px;
 }
 
+.hamIcon {
+  display: none;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -29,7 +33,7 @@ ul li a {
   position: relative;
   text-decoration: none;
   padding: 5px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: "Ropamix extra light", sans-serif;
   color: #fffaf4;
   text-transform: uppercase;
@@ -66,7 +70,7 @@ ul li a:hover::before {
 /* Small screens */
 @media screen and (max-width: 768px) {
   .header {
-    width: 55%;
+    position: relative;
     padding-top: 20px;
   }
 
@@ -76,6 +80,24 @@ ul li a:hover::before {
 
   ul li a {
     font-size: 0.8rem;
+  }
+
+  .hamIcon {
+    display: block;
+    width: 10%;
+  }
+
+  .open {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: salmon;
+  }
+
+  .closed {
+    display: none;
   }
 }
 

@@ -2,15 +2,31 @@ import { Link } from "react-router-dom";
 import styles from "./MainNavigation.module.css";
 import "../static/fonts.css";
 import LogoProvider from "./Logo";
+import hamIcon from "../static/hamburger icon.png";
+
 import LanguageSwitcher from "../LanguageSwitcher";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
 
 const MainNavigation = () => {
   const { t } = useTranslation();
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = (e) => {
+    e.preventDefault();
+    setMenuOpen(!menuOpen);
+  };
 
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
+        {/* ${menuOpen ? styles.open : styles.closed}` */}
+        {/* <div className={styles.mobileToggle}>
+          <a href="#" onClick={toggleMenu}>
+            <img src={hamIcon} className={styles.hamIcon} alt="menu" />
+          </a>
+        </div> */}
+
         <ul className={styles.navList}>
           <li className={styles.navItem}>
             <Link to="/" className={styles.navLink}>
