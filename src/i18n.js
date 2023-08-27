@@ -48,6 +48,13 @@ i18n.use(initReactI18next).init({
           "Our mission is to provide a nurturing and engaging learning environment where children can develop a strong foundation in English language skills. We believe that every child has the potential to excel and grow, and we are dedicated to unlocking their linguistic abilities through interactive and immersive teaching methods.",
         "Our experienced and passionate educators...":
           "Our experienced and passionate educators strive to create a supportive atmosphere that fosters creativity, critical thinking, and a love for learning. By combining innovative techniques, personalized attention, and a comprehensive curriculum, we aim to empower children to become confident communicators, and lifelong learners. Our mission is to make the journey of English language acquisition an enjoyable and enriching experience, equipping children with the tools they need to thrive academically and beyond.",
+        "Meet The Teachers": "Meet The Teachers",
+        "Larita Vutova": "Larita Vutova",
+        "Meet Larita...":
+          "Meet Larita, our enthusiastic and dedicated English teacher. With a passion for language and a knack for making learning fun, Lari creates an engaging classroom environment where students feel motivated to excel. She brings creativity into her lessons and encourages interactive participation to foster a love for English language. Lari's warm and patient approach ensures that every child feels supported and inspired on their language learning journey.",
+        "Betina Kremenova": "Betina Kremenova",
+        "Say hello to Betina...":
+          "Say hello to Betina, our experienced and caring English teacher. With a background in child education, Betty understands the unique needs of young learners and tailors his teaching methods to suit different learning styles. Betty's friendly demeanor and effective communication skills make him a favorite among students, building a positive and encouraging classroom atmosphere that promotes language development and personal growth.",
       },
     },
     bg: {
@@ -96,6 +103,13 @@ i18n.use(initReactI18next).init({
           "Нашата мисия е да осигурим възпитаваща и ангажираща учебна среда, в която децата могат да развият стабилна основа в уменията си по английски език. Вярваме, че всяко дете има потенциала да се отличава и да расте, и сме посветени на отключването на техните езикови способности чрез интерактивни и завладяващи методи на преподаване.",
         "Our experienced and passionate educators...":
           "Нашите опитни и всеотдайни преподаватели се стремят да създадат подкрепяща атмосфера, която насърчава креативността, критичното мислене и любовта към ученето. Чрез комбиниране на иновативни техники, персонализирано внимание и цялостна учебна програма, ние се стремим да дадем възможност на децата да станат уверени комуникатори, учещи през целия живот. Нашата мисия е да превърнем пътя към усвояването на английски език в приятно и обогатяващо изживяване, като запознаем децата с инструментите, от които се нуждаят, за да процъфтяват академично и извън него.",
+        "Meet The Teachers": "Запознайте се с учителите",
+        "Larita Vutova": "Ларита Вутова",
+        "Meet Larita...":
+          "Запознайте се с Ларита, нашият ентусиазиран и отдаден учител по английски език. Със страст към езика и умението да прави ученето забавно, Лари създава увлекателна среда в класната стая, където учениците се чувстват мотивирани да се отличават. Тя внася креативност в уроците си и насърчава интерактивното участие, за да насърчи любовта към английския език. Топлият и търпелив подход на Лари гарантира, че всяко дете се чувства подкрепено и вдъхновено по време на своето езиково пътуване.",
+        "Betina Kremenova": "Бетина Кременова",
+        "Say hello to Betina...":
+          "Кажете 'Здравей!' на Бетина, нашата опитна и грижовна учителка по английски език. С опит в детското образование, Бети разбира уникалните нужди на малките ученици и приспособява своите методи на преподаване, за да отговарят на различни стилове на учене. Приятелското поведение и ефективните комуникационни умения на Бети я правят любимец сред учениците, изграждайки положителна и насърчаваща атмосфера в класната стая, която насърчава езиковото развитие и личностното израстване.",
       },
     },
   },
