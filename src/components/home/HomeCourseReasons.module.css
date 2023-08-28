@@ -76,6 +76,7 @@
 
   .column p {
     padding: 0px;
+    width: 100%;
   }
 
   .reasons {

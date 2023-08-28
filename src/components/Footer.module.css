@@ -50,3 +50,29 @@
   font-family: "Ropamix light italic", sans-serif;
   font-style: normal;
 }
+
+/* Small screens */
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .footerSectionContainer {
+    flex-direction: column;
+  }
+
+  .footerSection p {
+    margin: 5px;
+  }
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .creator {
+    padding-right: 20px;
+  }
+}

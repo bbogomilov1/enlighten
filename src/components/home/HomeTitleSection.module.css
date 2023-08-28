@@ -145,6 +145,7 @@
   }
 
   .blobSecond {
+    display: none;
     width: 100%;
     top: 40%;
     right: -45%;
