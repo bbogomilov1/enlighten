@@ -53,3 +53,39 @@
   position: absolute;
   right: 42%;
 }
+
+/* Small screens */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px 20px 70px 20px;
+    padding-top: 30px;
+    align-items: center;
+  }
+
+  .container h1 {
+    font-size: 2.6rem;
+    margin: 40px 0px;
+    padding-left: 0px;
+  }
+
+  .container p {
+    font-size: 1.3rem;
+    text-indent: 3rem;
+    font-family: "Ropamix light italic", sans-serif;
+    margin: 0px 0px 20px 20px;
+  }
+
+  .description {
+    flex-direction: column-reverse;
+  }
+
+  .image {
+    width: 350px;
+    padding: 30px 0px;
+  }
+
+  .blobOne,
+  .blobTwo {
+    display: none;
+  }
+}
