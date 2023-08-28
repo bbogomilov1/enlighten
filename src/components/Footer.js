@@ -18,8 +18,8 @@ function Footer() {
             <p>
               Sofia 1619, <br /> Something bul. 47
             </p>
-            <p>+359 (0) 123 456 789</p>
-            <p>office@masterminds.bg</p>
+            <a href="tel:+359 885 741 278">+359 (0) 88 574 1278</a>
+            <p>office@enlighten.bg</p>
           </div>
 
           <div className={styles.footerSection}>

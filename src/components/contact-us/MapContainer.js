@@ -5,16 +5,6 @@ import L from "leaflet";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
-// const customIcon = L.icon({
-//   iconUrl: icon,
-//   shadowUrl: iconShadow,
-//   iconSize: [25, 41], // Adjust the icon size if needed
-//   iconAnchor: [12, 41], // Adjust the icon anchor if needed
-//   popupAnchor: [1, -34], // Adjust the popup anchor if needed
-//   // Define custom marker options, including the color
-//   iconColor: "red", // Change the color to your desired value
-// });
-
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: icon,
@@ -32,7 +22,7 @@ function Map() {
       style={{
         height: "400px",
         width: "100%",
-        margin: "45px 0px",
+        margin: "45px 0px 0px 0px",
         zIndex: "1",
       }}
     >

@@ -1,0 +1,9 @@
+.container {
+  width: 50%;
+  background-color: #e5cd15;
+  padding: 50px 20px;
+}
+.listContainer {
+  display: flex;
+  flex-direction: column;
+}
