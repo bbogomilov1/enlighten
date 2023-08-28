@@ -89,6 +89,7 @@
   .kidsImage {
     width: 350px;
     padding: 30px 0px 0px 0px;
+    border-radius: 60px 0px;
   }
 
   .blobOne {

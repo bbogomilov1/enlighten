@@ -23,7 +23,9 @@ function MeetTheTeachers() {
             <p>{t("Meet Larita...")}</p>
           </div>
         </div>
-        <div className={styles.teacherContainer}>
+        <div
+          className={`${styles.teacherContainer} ${styles.teacherContainerBetina}`}
+        >
           <div className={styles.teacherDescription}>
             <h2>{t("Betina Kremenova")}</h2>
             <p>{t("Say hello to Betina...")}</p>
