@@ -86,7 +86,7 @@ i18n.use(initReactI18next).init({
           "Разработихме няколко курса, които ще задоволят всяка нужда.",
         "Fun and Interactive Learning": "Забавно и интерактивно обучение",
         "Experienced and Dedicated Teachers": "Опитни и всеотдайни учители",
-        "Personalized Attention": "Персонализирано внимание",
+        "Personalized Attention": "Персонално внимание",
         "Comprehensive Development": "Цялостно развитие",
 
         "Learn English in an innovative and interactive way":
