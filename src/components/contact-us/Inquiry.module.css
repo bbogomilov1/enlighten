@@ -17,6 +17,11 @@
   font-family: "Ropamix medium italic";
 }
 
+.formContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .inquiryForm {
   display: flex;
   flex-direction: column;
@@ -31,7 +36,7 @@ input,
 textarea {
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 15px;
   margin-bottom: 15px;
 }
 
@@ -51,8 +56,10 @@ button {
   color: #fff;
   border: none;
   padding: 10px 20px;
-  border-radius: 4px;
   cursor: pointer;
+  border-radius: 15px;
+  width: 7rem;
+  font-size: 1rem;
 }
 
 button:hover {
