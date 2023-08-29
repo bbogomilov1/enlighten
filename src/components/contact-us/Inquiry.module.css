@@ -17,14 +17,14 @@
   font-family: "Ropamix medium italic";
 }
 
-.formContainer {
-  display: flex;
-  justify-content: center;
-}
-
 .inquiryForm {
   display: flex;
   flex-direction: column;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .inputGroup {
