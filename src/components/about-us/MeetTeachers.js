@@ -23,7 +23,7 @@ function MeetTheTeachers() {
             <p>{t("Meet Larita...")}</p>
           </div>
         </div>
-        <div
+        {/* <div
           className={`${styles.teacherContainer} ${styles.teacherContainerBetina}`}
         >
           <div className={styles.teacherDescription}>
@@ -37,7 +37,7 @@ function MeetTheTeachers() {
               className={styles.teacherImage}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -21,12 +21,8 @@ function Contacts() {
         <h2>{t("contact us")}</h2>
         <li>
           <FontAwesomeIcon icon={faMap} className={styles.icon} />
-          Sofia 1619, Something bul. 47
+          {t("Sofia, g.k. Belite brezi 9, 1st floor")}
         </li>
-        {/* <li>
-           +359
-          (0) 88 574 1278
-        </li> */}
         <a href="tel:+359 885 741 278">
           <FontAwesomeIcon icon={faMobileScreen} className={styles.icon} />
           +359 (0) 88 574 1278

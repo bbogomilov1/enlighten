@@ -13,7 +13,7 @@ L.Icon.Default.mergeOptions({
 });
 
 function Map() {
-  const position = [42.66929183810461, 23.29754963197396];
+  const position = [42.67620826389246, 23.295516867252616];
 
   return (
     <MapContainer

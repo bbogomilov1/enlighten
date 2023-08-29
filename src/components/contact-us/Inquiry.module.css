@@ -3,7 +3,58 @@
   background-color: #e5cd15;
   padding: 50px 20px;
 }
+
 .listContainer {
+  padding: 0px 50px;
   display: flex;
   flex-direction: column;
+  font-family: "Ropamix light italic";
+  font-size: 1.3rem;
+}
+
+.container h2 {
+  padding: 0px 20px;
+  font-family: "Ropamix medium italic";
+}
+
+.inquiryForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  border-radius: 15px;
+  flex: 1;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
