@@ -60,7 +60,9 @@ function Inquiry() {
               placeholder="Your Message"
               required
             ></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit" className={styles.formButton}>
+              Send
+            </button>
           </form>
         </div>
       </div>
