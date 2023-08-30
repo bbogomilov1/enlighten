@@ -21,10 +21,13 @@
   .buttonsContainer {
     right: 5px;
     top: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
   }
 
   .flagButton {
-    padding: 0px 2px;
+    padding: 2px 2px;
   }
 
   .flagButton img {

@@ -20,38 +20,45 @@ const MainNavigation = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
-        {/* ${menuOpen ? styles.open : styles.closed}` */}
-        {/* <div className={styles.mobileToggle}>
+        <div className={styles.mobileToggle}>
           <a href="#" onClick={toggleMenu}>
             <img src={hamIcon} className={styles.hamIcon} alt="menu" />
           </a>
-        </div> */}
-
-        <ul className={styles.navList}>
-          <li className={styles.navItem}>
-            <Link to="/" className={styles.navLink}>
-              {t("home")}
-            </Link>
-          </li>
-          <li className={styles.navItem}>
-            <Link to="/about-us" className={styles.navLink}>
-              {t("about us")}
-            </Link>
-          </li>
           <LogoProvider />
-
-          <li className={styles.navItem}>
-            <Link to="/schedule" className={styles.navLink}>
-              {t("schedule")}
-            </Link>
-          </li>
-          <li className={styles.navItem}>
-            <Link to="/contact-us" className={styles.navLink}>
-              {t("contact us")}
-            </Link>
-          </li>
           <LanguageSwitcher />
-        </ul>
+        </div>
+
+        {menuOpen ? (
+          <ul className={`${menuOpen ? styles.open : ""}`}>
+            <li className={styles.navItem}>
+              <Link to="/" className={styles.navLink}>
+                {t("home")}
+              </Link>
+            </li>
+            <li className={styles.navItem}>
+              <Link to="/about-us" className={styles.navLink}>
+                {t("about us")}
+              </Link>
+            </li>
+
+            {/* <LogoProvider /> */}
+
+            <li className={styles.navItem}>
+              <Link to="/schedule" className={styles.navLink}>
+                {t("schedule")}
+              </Link>
+            </li>
+            <li className={styles.navItem}>
+              <Link to="/contact-us" className={styles.navLink}>
+                {t("contact us")}
+              </Link>
+            </li>
+
+            <LanguageSwitcher />
+          </ul>
+        ) : (
+          ""
+        )}
       </nav>
     </header>
   );
