@@ -18,6 +18,14 @@ const MainNavigation = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const closeMenu = () => {
+    if (screenWidth < 768) {
+      setMenuOpen(false);
+    } else {
+      return;
+    }
+  };
+
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
@@ -49,12 +57,16 @@ const MainNavigation = () => {
         {menuOpen ? (
           <ul className={`${menuOpen ? styles.open : ""}`}>
             <li className={styles.navItem}>
-              <Link to="/" className={styles.navLink}>
+              <Link to="/" className={styles.navLink} onClick={closeMenu}>
                 {t("home")}
               </Link>
             </li>
             <li className={styles.navItem}>
-              <Link to="/about-us" className={styles.navLink}>
+              <Link
+                to="/about-us"
+                className={styles.navLink}
+                onClick={closeMenu}
+              >
                 {t("about us")}
               </Link>
             </li>
@@ -62,12 +74,20 @@ const MainNavigation = () => {
             <LogoProvider />
 
             <li className={styles.navItem}>
-              <Link to="/schedule" className={styles.navLink}>
+              <Link
+                to="/schedule"
+                className={styles.navLink}
+                onClick={closeMenu}
+              >
                 {t("schedule")}
               </Link>
             </li>
             <li className={styles.navItem}>
-              <Link to="/contact-us" className={styles.navLink}>
+              <Link
+                to="/contact-us"
+                className={styles.navLink}
+                onClick={closeMenu}
+              >
                 {t("contact us")}
               </Link>
             </li>
