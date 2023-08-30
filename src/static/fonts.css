@@ -29,19 +29,19 @@
 }
 
 @font-face {
-  font-family: "Ropamix bold";
+  font-family: "Ropamix medium italic";
   font-style: italic;
   src: url("./fonts/RopaMixPTT-MediumItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Ropamix bold";
+  font-family: "Ropamix black italic";
   font-style: italic;
   src: url("./fonts/RopaMixPTT-BlackItalic.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "Ropamix bold";
+  font-family: "Ropamix black";
   font-style: italic;
   src: url("./fonts/RopaMixPTT-Black.ttf") format("truetype");
 }
