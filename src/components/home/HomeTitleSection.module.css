@@ -23,7 +23,7 @@
   position: relative;
   font-style: normal;
   z-index: 2;
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix bold", sans-serif;
   margin: 45px;
   color: #0074d9;
   -webkit-text-stroke: transparent;
@@ -123,7 +123,7 @@
   }
 
   .container h1 {
-    font-family: "Ropamix medium italic";
+    font-family: "Ropamix bold";
     font-size: 4rem;
   }
 
