@@ -137,6 +137,7 @@
   }
 
   .container h1 {
+    font-family: "Ropamix regular", sans-serif;
     font-size: 2.6rem;
     text-align: center;
   }
@@ -164,7 +165,7 @@
   .reasonOne h2,
   .reasonTwo h2,
   .reasonFour h2 {
-    font-family: "Ropamix bold", sans-serif;
+    font-family: "Ropamix regular", sans-serif;
     font-size: 2rem;
     width: 100%;
   }
