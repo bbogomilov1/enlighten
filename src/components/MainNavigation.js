@@ -6,16 +6,34 @@ import hamIcon from "../static/hamburger icon.png";
 
 import LanguageSwitcher from "../LanguageSwitcher";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const MainNavigation = () => {
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const toggleMenu = (e) => {
     e.preventDefault();
     setMenuOpen(!menuOpen);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    if (screenWidth > 768) {
+      setMenuOpen(true);
+    } else {
+      setMenuOpen(false);
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <header className={styles.header}>
@@ -24,7 +42,7 @@ const MainNavigation = () => {
           <a href="#" onClick={toggleMenu}>
             <img src={hamIcon} className={styles.hamIcon} alt="menu" />
           </a>
-          <LogoProvider />
+          {screenWidth < 768 ? <LogoProvider /> : ""}
           <LanguageSwitcher />
         </div>
 
@@ -41,7 +59,7 @@ const MainNavigation = () => {
               </Link>
             </li>
 
-            {/* <LogoProvider /> */}
+            <LogoProvider />
 
             <li className={styles.navItem}>
               <Link to="/schedule" className={styles.navLink}>
