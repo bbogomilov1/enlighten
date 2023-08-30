@@ -65,3 +65,52 @@ textarea {
 .formButton:hover {
   background-color: #0056b3;
 }
+
+/* Small screens */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px 0px;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+    padding: 0px;
+    line-height: 1.5rem;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .listContainer {
+    padding: 0px 30px;
+    font-size: 0.8rem;
+  }
+
+  .inquiryForm {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .inputGroup {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  input {
+    width: 92%;
+  }
+
+  input,
+  textarea {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+
+  textarea {
+    height: 3rem;
+  }
+
+  .formButton {
+    padding: 5px 5px;
+    width: 5rem;
+    font-size: 0.8rem;
+  }
+}

@@ -22,8 +22,12 @@ function Map() {
       style={{
         height: "400px",
         width: "100%",
-        margin: "45px 0px 0px 0px",
+        margin: "px 0px 0px 0px",
         zIndex: "1",
+
+        "@media screen and (maxWidth: 768px)": {
+          margin: "0px",
+        },
       }}
     >
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />

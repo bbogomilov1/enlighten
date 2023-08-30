@@ -61,7 +61,7 @@ function Inquiry() {
               required
             ></textarea>
             <button type="submit" className={styles.formButton}>
-              Send
+              {t("Send")}
             </button>
           </form>
         </div>

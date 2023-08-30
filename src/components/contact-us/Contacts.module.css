@@ -34,3 +34,29 @@
 .icon {
   padding-right: 10px;
 }
+
+/* Small screens */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px 0px;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+    padding: 0px;
+  }
+
+  .listContainer {
+    padding: 0px 30px;
+    font-size: 0.8rem;
+  }
+
+  .listContainer li {
+    padding: 15px 0px;
+  }
+
+  .listContainer a {
+    margin: 0px 5px;
+    padding: 10px 0px;
+  }
+}

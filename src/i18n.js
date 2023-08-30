@@ -65,6 +65,7 @@ i18n.use(initReactI18next).init({
         "Make an Inquiry": "Make an Inquiry",
         "Want to learn more...":
           "Want to learn more about EnlightEN courses? By sending an inquiry from the contact form below, we will be able to answer all your questions. And why not organize a virtual meeting where we can get to know each other?",
+        Send: "Send",
         "Sofia, g.k. Belite brezi 9, 1st floor":
           "Sofia, g.k. Belite brezi 9, 1st floor",
 
@@ -137,6 +138,7 @@ i18n.use(initReactI18next).init({
         "Make an Inquiry": "Изпрати запитване",
         "Want to learn more...":
           "Искате ли да научите повече за курсовете на EnlightEN? Изпращайки запитване от контактната форма по-долу, ще можем да отговорим на всички ваши въпроси. А защо да не организираме и виртуална среща, на която да се запознаем?",
+        Send: "Изпрати",
         "Sofia, g.k. Belite brezi 9, 1st floor":
           "гр. София, ж.к. Белите брези 9, етаж 1",
 
