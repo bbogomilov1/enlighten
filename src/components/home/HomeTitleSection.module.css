@@ -23,7 +23,7 @@
   position: relative;
   font-style: normal;
   z-index: 2;
-  font-family: "Ropamix bold", sans-serif;
+  font-family: "Ropamix medium italic", sans-serif;
   margin: 45px;
   color: #0074d9;
   -webkit-text-stroke: transparent;
@@ -52,7 +52,7 @@
 .enrollButton {
   position: relative;
   z-index: 1;
-  font-family: "Ropamix regular", sans-serif;
+  font-family: "Ropamix medium italic", sans-serif;
   text-decoration: none;
   display: block;
   text-align: center;
