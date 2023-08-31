@@ -1,9 +1,12 @@
 import styles from "./SchedulePage.module.css";
+import { useTranslation } from "react-i18next";
 
 function SchedulePage() {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.container}>
-      <h2>Schedule</h2>
+      <h2>{t("Schedule")}</h2>
       <table>
         <thead>
           <tr>

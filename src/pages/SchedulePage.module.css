@@ -1,6 +1,14 @@
 .container {
-  width: 989px;
   padding: 100px;
+}
+
+.container h2 {
+  font-family: "Ropamix medium italic", sans-serif;
+  font-size: 4.5rem;
+  font-style: normal;
+  margin: 0;
+  color: mediumseagreen;
+  padding: 50px 20px 50px 200px;
 }
 
 .container table {

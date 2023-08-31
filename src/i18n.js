@@ -62,6 +62,8 @@ i18n.use(initReactI18next).init({
         "Say hello to Betina...":
           "Say hello to Betina, our experienced and caring English teacher. With a background in child education, Betty understands the unique needs of young learners and tailors his teaching methods to suit different learning styles. Betty's friendly demeanor and effective communication skills make him a favorite among students, building a positive and encouraging classroom atmosphere that promotes language development and personal growth.",
 
+        Schedule: "Schedule",
+
         "Make an Inquiry": "Make an Inquiry",
         "Want to learn more...":
           "Want to learn more about EnlightEN courses? By sending an inquiry from the contact form below, we will be able to answer all your questions. And why not organize a virtual meeting where we can get to know each other?",
@@ -134,6 +136,8 @@ i18n.use(initReactI18next).init({
         "Betina Kremenova": "Бетина Кременова",
         "Say hello to Betina...":
           "Кажете 'Здравей!' на Бетина, нашата опитна и грижовна учителка по английски език. С опит в детското образование, Бети разбира уникалните нужди на малките ученици и приспособява своите методи на преподаване, за да отговарят на различни стилове на учене. Приятелското поведение и ефективните комуникационни умения на Бети я правят любимец сред учениците, изграждайки положителна и насърчаваща атмосфера в класната стая, която насърчава езиковото развитие и личностното израстване.",
+
+        Schedule: "Програма",
 
         "Make an Inquiry": "Изпрати запитване",
         "Want to learn more...":
