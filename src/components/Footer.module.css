@@ -21,10 +21,15 @@
   width: 40%;
 }
 
+.footerSection p {
+  margin: 15px 0px;
+}
+
 .footerSection a {
   text-decoration: none;
-  color: #e4ecf1;
-  padding: 20px 0px;
+  color: #fffaf4;
+  margin: 15px 0px;
+  display: block;
 }
 
 .logoContainer {

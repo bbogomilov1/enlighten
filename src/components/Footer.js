@@ -17,15 +17,15 @@ function Footer() {
             <h3>{t("contact us")}</h3>
             <p>{t("Sofia, g.k. Belite brezi 9, 1st floor")} </p>
             <a href="tel:+359 885 741 278">+359 (0) 88 574 1278</a>
-            <p>office@enlighten.bg</p>
+            <a href="mailto:bdbogomilov@gmail.com">bdbogomilov@gmail.com</a>
           </div>
 
           <div className={styles.footerSection}>
             <h3>{t("Information")}</h3>
             <p>{t("F.A.Q.")}</p>
             <p>{t("Prices")}</p>
-            <p>{t("Find us")}</p>
-            <p>{t("about us")}</p>
+            <a href="/contact-us">{t("Find us")}</a>
+            <a href="/about-us">{t("about us")}</a>
           </div>
 
           <div className={styles.footerSection}>
