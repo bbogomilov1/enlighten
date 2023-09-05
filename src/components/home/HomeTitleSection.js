@@ -28,7 +28,7 @@ function HomeTitleSection() {
         <p>{t("unlock the power")}</p>
         <p>{t("join us")}</p>
         <div>
-          <Link to="/schedule" className={styles.enrollButton} type="button">
+          <Link to="/courses" className={styles.enrollButton} type="button">
             {t("enroll now")}
           </Link>
         </div>

@@ -75,11 +75,11 @@ const MainNavigation = () => {
 
             <li className={styles.navItem}>
               <Link
-                to="/schedule"
+                to="/courses"
                 className={styles.navLink}
                 onClick={closeMenu}
               >
-                {t("schedule")}
+                {t("courses")}
               </Link>
             </li>
             <li className={styles.navItem}>

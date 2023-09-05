@@ -1,12 +1,12 @@
-import styles from "./SchedulePage.module.css";
+import styles from "./CoursesPage.module.css";
 import { useTranslation } from "react-i18next";
 
-function SchedulePage() {
+function CoursesPage() {
   const { t } = useTranslation();
 
   return (
     <div className={styles.container}>
-      <h2>{t("Schedule")}</h2>
+      <h2>{t("Courses")}</h2>
       <table>
         <thead>
           <tr>
@@ -35,11 +35,11 @@ function SchedulePage() {
             <td>Advanced English</td>
             <td>Available</td>
           </tr>
-          {/* Add more schedule rows as needed */}
+          {/* Add more courses rows as needed */}
         </tbody>
       </table>
     </div>
   );
 }
 
-export default SchedulePage;
+export default CoursesPage;

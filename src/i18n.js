@@ -7,7 +7,7 @@ i18n.use(initReactI18next).init({
       translation: {
         home: "Home",
         "about us": "About us",
-        schedule: "Schedule",
+        courses: "Courses",
         "contact us": "Contact us",
 
         "unlock the power": "Unlock the power of English learning with us.",
@@ -62,7 +62,7 @@ i18n.use(initReactI18next).init({
         "Say hello to Betina...":
           "Say hello to Betina, our experienced and caring English teacher. With a background in child education, Betty understands the unique needs of young learners and tailors his teaching methods to suit different learning styles. Betty's friendly demeanor and effective communication skills make him a favorite among students, building a positive and encouraging classroom atmosphere that promotes language development and personal growth.",
 
-        Schedule: "Schedule",
+        Courses: "Courses",
 
         "Make an Inquiry": "Make an Inquiry",
         "Want to learn more...":
@@ -82,7 +82,7 @@ i18n.use(initReactI18next).init({
       translation: {
         home: "Начало",
         "about us": "За нас",
-        schedule: "Програма",
+        courses: "Курсове",
         "contact us": "Контакти",
         "unlock the power":
           "Отключи възможностите си към изучаването на английски език с нас.",
@@ -137,7 +137,7 @@ i18n.use(initReactI18next).init({
         "Say hello to Betina...":
           "Кажете 'Здравей!' на Бетина, нашата опитна и грижовна учителка по английски език. С опит в детското образование, Бети разбира уникалните нужди на малките ученици и приспособява своите методи на преподаване, за да отговарят на различни стилове на учене. Приятелското поведение и ефективните комуникационни умения на Бети я правят любимец сред учениците, изграждайки положителна и насърчаваща атмосфера в класната стая, която насърчава езиковото развитие и личностното израстване.",
 
-        Schedule: "Програма",
+        Courses: "Курсове",
 
         "Make an Inquiry": "Изпрати запитване",
         "Want to learn more...":
