@@ -7,7 +7,24 @@ function CoursesPage() {
   return (
     <div className={styles.container}>
       <h2>{t("Courses")}</h2>
-      <table>
+      <div>
+        <div>
+          <a href="#">concentrate</a>
+        </div>
+        <div>
+          <a href="#">wordlready</a>
+        </div>
+        <div>
+          <a href="#">smartart</a>
+        </div>
+        <div>
+          <a href="#">kids</a>
+        </div>
+        <div>
+          <a href="#">private</a>
+        </div>
+      </div>
+      {/* <table>
         <thead>
           <tr>
             <th>Day</th>
@@ -35,9 +52,8 @@ function CoursesPage() {
             <td>Advanced English</td>
             <td>Available</td>
           </tr>
-          {/* Add more courses rows as needed */}
         </tbody>
-      </table>
+      </table> */}
     </div>
   );
 }
