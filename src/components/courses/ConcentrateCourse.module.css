@@ -1,0 +1,38 @@
+.container {
+  padding: 100px;
+  background-color: mediumseagreen;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-items: baseline;
+  padding: 50px;
+}
+
+.title h1 {
+  font-family: "Ropamix medium italic", sans-serif;
+  font-size: 5.5rem;
+  font-style: normal;
+  margin: 0;
+  color: #fffaf4;
+}
+
+.title h2 {
+  font-family: "Ropamix medium italic", sans-serif;
+  font-size: 4.5rem;
+  font-style: normal;
+  margin: 0;
+  color: #fffaf4;
+  padding: 20px;
+}
+
+.description {
+  width: 70%;
+  font-family: "Ropamix light italic";
+  line-height: 1.2em;
+  font-size: 1.7rem;
+  color: #fffaf4;
+}
