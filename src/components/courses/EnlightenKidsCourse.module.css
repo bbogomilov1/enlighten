@@ -1,6 +1,6 @@
 .container {
   padding: 100px;
-  background-color: #71f368;
+  background-color: gold;
   display: flex;
   flex-direction: column;
 }
@@ -9,6 +9,7 @@
   display: flex;
   align-items: baseline;
   padding: 50px;
+  justify-content: flex-end;
 }
 
 .title h1 {
