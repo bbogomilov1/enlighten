@@ -29,7 +29,7 @@ function HomeTitleSection() {
         <p>{t("join us")}</p>
         <div>
           <Link to="/courses" className={styles.enrollButton} type="button">
-            {t("enroll now")}
+            {t("Our Courses")}
           </Link>
         </div>
         <svg

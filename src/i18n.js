@@ -13,7 +13,7 @@ i18n.use(initReactI18next).init({
         "unlock the power": "Unlock the power of English learning with us.",
         "join us":
           "Join us now on our journey today and open the door to endless opportunities.",
-        "enroll now": "Enroll now",
+        "Our Courses": "Our Courses",
 
         "find the best course": "Find the best English course for you",
         "we developed some courses":
@@ -88,7 +88,7 @@ i18n.use(initReactI18next).init({
           "Отключи възможностите си към изучаването на английски език с нас.",
         "join us":
           "Присъединете се към нас в нашето приключение и отворете вратите към безкрайни възможности.",
-        "enroll now": "Запиши се",
+        "Our Courses": "Нашите курсове",
 
         "find the best course": "Открий най-подходящия курс за теб",
         "we developed some courses":
