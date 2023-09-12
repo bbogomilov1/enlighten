@@ -1,4 +1,3 @@
-import styles from "./CoursesPage.module.css";
 import ConcentrateCourse from "../components/courses/ConcentrateCourse";
 import WorldReadyCourse from "../components/courses/WorldReadyCourse";
 import SmartArtCourse from "../components/courses/SmartArtCourse";
@@ -7,7 +6,7 @@ import EnlightenPrivateCourse from "../components/courses/EnlightenPrivateCourse
 
 function CoursesPage() {
   return (
-    <div className={styles.container}>
+    <div>
       <ConcentrateCourse />
       <WorldReadyCourse />
       <SmartArtCourse />
