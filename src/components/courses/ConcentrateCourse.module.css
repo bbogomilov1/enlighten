@@ -74,36 +74,4 @@
   .phrase {
     line-height: 1;
   }
-
-  .number,
-  .blobOne,
-  .blobTwo,
-  .blobThree,
-  .blobFour {
-    display: none;
-  }
-
-  .info {
-    padding: 20px;
-  }
-
-  .reasonOne {
-    padding-left: 10px;
-  }
-
-  .reasonOne h2,
-  .reasonTwo h2,
-  .reasonFour h2 {
-    font-family: "Ropamix medium italic", sans-serif;
-    font-size: 2rem;
-    width: 100%;
-  }
-
-  .reasonTwo {
-    padding-left: 10px;
-  }
-
-  .reasonFour {
-    padding: 0px 0px 0px 10px;
-  }
 }
