@@ -1,8 +1,6 @@
 .container {
-  padding: 100px;
-  padding-bottom: 100px;
+  padding: 100px 200px;
   background: linear-gradient(181deg, mediumseagreen 50%, #0189ff 85%);
-  /* background-color: mediumseagreen; */
   display: flex;
   flex-direction: column;
 }

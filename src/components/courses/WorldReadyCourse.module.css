@@ -1,6 +1,7 @@
 .container {
-  padding: 0px 100px 150px 100px;
-  background-color: #0189ff;
+  padding: 0px 200px 150px 200px;
+  background: linear-gradient(181deg, #0189ff 50%, #71f368 95%);
+  /* background-color: #0189ff; */
   display: flex;
   flex-direction: column;
 }
@@ -35,4 +36,11 @@
   line-height: 1.2em;
   font-size: 1.7rem;
   color: #fffaf4;
+}
+
+.phrase {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
