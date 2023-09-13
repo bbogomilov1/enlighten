@@ -7,11 +7,21 @@ import EnlightenPrivateCourse from "../components/courses/EnlightenPrivateCourse
 function CoursesPage() {
   return (
     <div>
-      <ConcentrateCourse />
-      <WorldReadyCourse />
-      <SmartArtCourse />
-      <EnlightenKidsCourse />
-      <EnlightenPrivateCourse />
+      <div id="concentrate">
+        <ConcentrateCourse />
+      </div>
+      <div id="world-ready">
+        <WorldReadyCourse />
+      </div>
+      <div id="smart-art">
+        <SmartArtCourse />
+      </div>
+      <div id="enlighten-kids">
+        <EnlightenKidsCourse />
+      </div>
+      <div id="enlighten-private">
+        <EnlightenPrivateCourse />
+      </div>
     </div>
   );
 }

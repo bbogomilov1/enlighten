@@ -11,14 +11,22 @@ import { useState, useEffect } from "react";
 const MainNavigation = () => {
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [dropdownMenuOpen, setdropdownMenuOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [selectedCourse, setSelectedCourse] = useState(null);
 
   const toggleMenu = (e) => {
     e.preventDefault();
     setMenuOpen(!menuOpen);
   };
 
+  const toggledropdownMenu = () => {
+    setdropdownMenuOpen(!dropdownMenuOpen);
+  };
+
   const closeMenu = () => {
+    setdropdownMenuOpen(false);
+
     if (screenWidth < 768) {
       setMenuOpen(false);
     } else {
@@ -43,6 +51,11 @@ const MainNavigation = () => {
     };
   }, []);
 
+  const handleCourseClick = (courseName) => {
+    setSelectedCourse(courseName);
+    closeMenu();
+  };
+
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -61,6 +74,7 @@ const MainNavigation = () => {
                 {t("home")}
               </Link>
             </li>
+
             <li className={styles.navItem}>
               <Link
                 to="/about-us"
@@ -77,11 +91,57 @@ const MainNavigation = () => {
               <Link
                 to="/courses"
                 className={styles.navLink}
-                onClick={closeMenu}
+                onClick={toggledropdownMenu}
               >
                 {t("courses")}
               </Link>
+
+              {dropdownMenuOpen && (
+                <ul className={styles.courseDropdown}>
+                  <li>
+                    <a
+                      href="#concentrate"
+                      onClick={() => handleCourseClick("concentrate")}
+                    >
+                      Concentrate
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#world-ready"
+                      onClick={() => handleCourseClick("world-ready")}
+                    >
+                      WorldReady
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#smart-art"
+                      onClick={() => handleCourseClick("smart-art")}
+                    >
+                      SmartArt
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#enlighten-kids"
+                      onClick={() => handleCourseClick("enlighten-kids")}
+                    >
+                      ENlightEN Kids
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#enlighten-private"
+                      onClick={() => handleCourseClick("enlighten-private")}
+                    >
+                      ENlightEN Private
+                    </a>
+                  </li>
+                </ul>
+              )}
             </li>
+
             <li className={styles.navItem}>
               <Link
                 to="/contact-us"

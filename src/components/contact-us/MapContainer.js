@@ -22,11 +22,13 @@ function Map() {
       style={{
         height: "400px",
         width: "100%",
-        margin: "px 0px 0px 0px",
+        margin: "0px 0px 0px 0px",
         zIndex: "1",
+        marginTop: "5.5%",
 
         "@media screen and (maxWidth: 768px)": {
           margin: "0px",
+          marginTop: "0%",
         },
       }}
     >
