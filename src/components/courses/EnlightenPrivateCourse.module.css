@@ -35,3 +35,37 @@
   font-size: 1.7rem;
   color: #fffaf4;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px 20px 70px 20px;
+  }
+
+  .title {
+    padding: 50px 0px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title h1 {
+    font-size: 2.6rem;
+    text-align: center;
+  }
+
+  .title h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .description {
+    width: none;
+    font-size: 1.3rem;
+    padding: 0px 20px;
+  }
+
+  .phrase {
+    line-height: 1;
+  }
+}
