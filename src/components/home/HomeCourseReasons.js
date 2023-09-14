@@ -18,15 +18,23 @@ function HomeCourseReasons() {
             <span>→</span>
             WorldReady
           </p>
+          <p>
+            <span>→</span>
+            SmartArt
+          </p>
         </div>
         <div className={styles.column}>
           <p>
             <span>→</span>
-            {t("Personalized Attention")}
+            ENlightEN Kids
           </p>
           <p>
             <span>→</span>
-            {t("Comprehensive Development")}
+            ENlightEN Private
+          </p>
+          <p>
+            <span>→</span>
+            Business
           </p>
         </div>
       </div>

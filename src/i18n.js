@@ -19,11 +19,6 @@ i18n.use(initReactI18next).init({
         "find the best course": "Find the best English course for you",
         "we developed some courses":
           "We developed some courses which will fill every need.",
-        "Fun and Interactive Learning": "Fun and Interactive Learning",
-        "Experienced and Dedicated Teachers":
-          "Experienced and Dedicated Teachers",
-        "Personalized Attention": "Personalized Attention",
-        "Comprehensive Development": "Comprehensive Development",
 
         "Learn English in an innovative and interactive way":
           "Learn English in an innovative and interactive way",
@@ -94,10 +89,6 @@ i18n.use(initReactI18next).init({
         "find the best course": "Открий най-подходящия курс за теб",
         "we developed some courses":
           "Разработихме няколко курса, които ще задоволят всяка нужда.",
-        "Fun and Interactive Learning": "Забавно и интерактивно обучение",
-        "Experienced and Dedicated Teachers": "Опитни и всеотдайни учители",
-        "Personalized Attention": "Персонално внимание",
-        "Comprehensive Development": "Цялостно развитие",
 
         "Learn English in an innovative and interactive way":
           "Научи английски език по иновативен и интерактивен начин",
