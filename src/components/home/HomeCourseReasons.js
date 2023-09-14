@@ -12,11 +12,11 @@ function HomeCourseReasons() {
         <div className={styles.column}>
           <p>
             <span>→</span>
-            {t("Fun and Interactive Learning")}
+            concENtrate
           </p>
           <p>
             <span>→</span>
-            {t("Experienced and Dedicated Teachers")}
+            WorldReady
           </p>
         </div>
         <div className={styles.column}>

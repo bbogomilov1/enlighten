@@ -25,8 +25,8 @@ function HomeTitleSection() {
           </h1>
           <img src={bookImage} alt="book" className={styles.bookImage} />
         </div>
-        <p>{t("unlock the power")}</p>
-        <p>{t("join us")}</p>
+        <p>{t("The learning center where...")}</p>
+        <p>{t("The place where...")}</p>
         <div>
           <Link to="/courses" className={styles.enrollButton} type="button">
             {t("Our Courses")}

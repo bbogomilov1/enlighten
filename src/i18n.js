@@ -10,9 +10,10 @@ i18n.use(initReactI18next).init({
         courses: "Courses",
         "contact us": "Contact us",
 
-        "unlock the power": "Unlock the power of English learning with us.",
-        "join us":
-          "Join us now on our journey today and open the door to endless opportunities.",
+        "The learning center where...":
+          "The learning center where the English language is studied through the development of concentration, logical and analytical thought, imagination, memory and art! The place where we learn to learn to discover our strengths and increase our potential!",
+        "The place where...":
+          "The place where knowledge, inspiration and development lead us forward to our own possibilities and aspirations!",
         "Our Courses": "Our Courses",
 
         "find the best course": "Find the best English course for you",
@@ -84,10 +85,10 @@ i18n.use(initReactI18next).init({
         "about us": "За нас",
         courses: "Курсове",
         "contact us": "Контакти",
-        "unlock the power":
-          "Отключи възможностите си към изучаването на английски език с нас.",
-        "join us":
-          "Присъединете се към нас в нашето приключение и отворете вратите към безкрайни възможности.",
+        "The learning center where...":
+          "Обучителният център, където английският език се изучава посредством развитието на концентрация, логическа и аналитична мисъл, въображение, памет и изкуство! Мястото, където се учим да учим, за да откриваме силните си страни и да увеличаваме потенциала си!",
+        "The place where...":
+          "Мястото, където знанието, вдъхновението и развитието ни водят напред към нашите собствени възможности и стремежи!",
         "Our Courses": "Нашите курсове",
 
         "find the best course": "Открий най-подходящия курс за теб",
