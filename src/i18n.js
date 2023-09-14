@@ -57,7 +57,7 @@ i18n.use(initReactI18next).init({
         "Meet The Teachers": "Meet The Teachers",
         "Larita Vutova": "Larita Vutova",
         "Meet Larita...":
-          "Meet Larita, our enthusiastic and dedicated English teacher. With a passion for language and a knack for making learning fun, Lari creates an engaging classroom environment where students feel motivated to excel. She brings creativity into her lessons and encourages interactive participation to foster a love for English language. Lari's warm and patient approach ensures that every child feels supported and inspired on their language learning journey.",
+          "Dedication and meaning - this is the core of my profession, the foundation on which I build my work. The meaning of imparting knowledge so that it is meaningful and valuable to your student and the dedication with which you do it every time with every lesson. A love of learning, determination and persistence are the qualities that help me teach my students how to pursue their goals, and caring and listening to them builds trust between us and the learning process becomes a confident and loved journey to success that we want to achieve.",
         "Betina Kremenova": "Betina Kremenova",
         "Say hello to Betina...":
           "Say hello to Betina, our experienced and caring English teacher. With a background in child education, Betty understands the unique needs of young learners and tailors his teaching methods to suit different learning styles. Betty's friendly demeanor and effective communication skills make him a favorite among students, building a positive and encouraging classroom atmosphere that promotes language development and personal growth.",
@@ -132,7 +132,7 @@ i18n.use(initReactI18next).init({
         "Meet The Teachers": "Запознайте се с учителите",
         "Larita Vutova": "Ларита Вутова",
         "Meet Larita...":
-          "Запознайте се с Ларита, нашият ентусиазиран и отдаден учител по английски език. Със страст към езика и умението да прави ученето забавно, Лари създава увлекателна среда в класната стая, където учениците се чувстват мотивирани да се отличават. Тя внася креативност в уроците си и насърчава интерактивното участие, за да насърчи любовта към английския език. Топлият и търпелив подход на Лари гарантира, че всяко дете се чувства подкрепено и вдъхновено по време на своето езиково пътуване.",
+          "Отдаденост и смисъл – това е ОСта на моята професия, основата, върху която градя своя труд. Смисълът да дадеш знание, така че то да е значимо и стойностно за твоя ученик и отдадеността, с която го правиш всеки път с всеки урок. Любовта към ученето, целеустремеността и упоритостта са качествата, които ми помагат да науча своите ученици как да следват целите си, а грижовността и умението да се вслушвам в тях изграждат доверие помежду ни и учебният процес се превръща в уверено и обичано пътуване към успехите, които искаме да постигнем.",
         "Betina Kremenova": "Бетина Кременова",
         "Say hello to Betina...":
           "Кажете 'Здравей!' на Бетина, нашата опитна и грижовна учителка по английски език. С опит в детското образование, Бети разбира уникалните нужди на малките ученици и приспособява своите методи на преподаване, за да отговарят на различни стилове на учене. Приятелското поведение и ефективните комуникационни умения на Бети я правят любимец сред учениците, изграждайки положителна и насърчаваща атмосфера в класната стая, която насърчава езиковото развитие и личностното израстване.",
