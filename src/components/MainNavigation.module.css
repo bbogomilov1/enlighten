@@ -83,6 +83,10 @@ ul li a:hover::before {
 
 /* Small screens */
 @media screen and (max-width: 768px) {
+  html {
+    scroll-padding-top: 10px;
+  }
+
   .header {
     position: relative;
     padding-top: 20px;
@@ -126,6 +130,12 @@ ul li a:hover::before {
 
   .closed {
     display: none;
+  }
+
+  .courseDropdown {
+    position: relative;
+    margin-left: 0px;
+    text-align: center;
   }
 }
 

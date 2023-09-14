@@ -44,17 +44,19 @@
   .title {
     padding: 50px 0px;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .title h1 {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     text-align: center;
   }
 
   .title h2 {
     font-size: 1.6rem;
     text-align: center;
-    padding: 5px;
+    padding: 0px;
   }
 
   .description {

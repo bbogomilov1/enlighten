@@ -13,7 +13,6 @@ const MainNavigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownMenuOpen, setdropdownMenuOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const [selectedCourse, setSelectedCourse] = useState(null);
 
   const toggleMenu = (e) => {
     e.preventDefault();
@@ -51,11 +50,6 @@ const MainNavigation = () => {
     };
   }, []);
 
-  const handleCourseClick = (courseName) => {
-    setSelectedCourse(courseName);
-    closeMenu();
-  };
-
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -92,8 +86,6 @@ const MainNavigation = () => {
                 to="/courses"
                 className={styles.navLink}
                 onMouseEnter={() => toggledropdownMenu(true)}
-
-                // onClick={toggledropdownMenu}
               >
                 {t("courses")}
               </Link>
@@ -104,44 +96,19 @@ const MainNavigation = () => {
                   onMouseLeave={() => toggledropdownMenu(false)}
                 >
                   <li>
-                    <a
-                      href="#concentrate"
-                      onClick={() => handleCourseClick("concentrate")}
-                    >
-                      Concentrate
-                    </a>
+                    <a href="#concentrate">Concentrate</a>
                   </li>
                   <li>
-                    <a
-                      href="#world-ready"
-                      onClick={() => handleCourseClick("world-ready")}
-                    >
-                      WorldReady
-                    </a>
+                    <a href="/courses#world-ready">WorldReady</a>
                   </li>
                   <li>
-                    <a
-                      href="#smart-art"
-                      onClick={() => handleCourseClick("smart-art")}
-                    >
-                      SmartArt
-                    </a>
+                    <a href="#smart-art">SmartArt</a>
                   </li>
                   <li>
-                    <a
-                      href="#enlighten-kids"
-                      onClick={() => handleCourseClick("enlighten-kids")}
-                    >
-                      ENlightEN Kids
-                    </a>
+                    <a href="#enlighten-kids">ENlightEN Kids</a>
                   </li>
                   <li>
-                    <a
-                      href="#enlighten-private"
-                      onClick={() => handleCourseClick("enlighten-private")}
-                    >
-                      ENlightEN Private
-                    </a>
+                    <a href="#enlighten-private">ENlightEN Private</a>
                   </li>
                 </ul>
               )}
