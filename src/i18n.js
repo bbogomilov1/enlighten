@@ -43,10 +43,10 @@ i18n.use(initReactI18next).init({
           "Communication is key! We focus on nurturing your child's confidence in using English through interactive speaking, listening, reading, and writing exercises. Our goal is to equip them with strong communication skills that will empower them in their personal and academic journeys.",
 
         "The Academy": "The Academy",
-        "we provide":
-          "At EnlightEN, we provide engaging and interactive English classes designed specifically for kids. Our experienced teachers make learning English fun and exciting through games, activities, and creative lessons.",
-        "Whether your child...":
-          "Whether your child is a beginner or already has some English knowledge, our academy offers a structured curriculum tailored to their needs. We focus on building strong foundations in listening, speaking, reading, and writing, ensuring steady progress and confidence.",
+        "When I became a teacher...":
+          "When I became a teacher, I promised myself that I would teach my students in such a way that I would convey to them my love and inspiration for language, culture, and new knowledge. That I will listen to them carefully to hear their interests and excitements and through their lens I will convey the lessons so that they are meaningful and filled with meaning for my students.",
+        "The many lessons in the classroom showed me that...":
+          "The many lessons in the classroom showed me that nowadays just learning English is not enough - there is so much more that we can give to our students that is of utmost importance for their development... And so ENlightEN was born!",
 
         "Our Mission": "Our Mission",
         "Our mission is to...":
@@ -118,10 +118,10 @@ i18n.use(initReactI18next).init({
           "Комуникацията е отговорът! Ние се фокусираме върху придобиването на увереност на вашето дете в използването на английски чрез интерактивни упражнения за говорене, слушане, четене и писане. Нашата цел е да ги оборудваме със силни комуникационни умения, които ще им помогнат в техните лични и академични пътувания.",
 
         "The Academy": "Академията",
-        "we provide":
-          "В EnlightEN предлагаме увлекателни и интерактивни уроци по английски, предназначени специално за деца. Нашите опитни учители правят изучаването на английски език забавно и вълнуващо чрез игри, дейности и творчески уроци.",
-        "Whether your child...":
-          "Независимо дали детето ви е начинаещо или вече има познания по английски език, нашата академия предлага структурирана учебна програма, съобразена с неговите нужди. Ние се фокусираме върху изграждането на здрави основи в слушането, говоренето, четенето и писането, като гарантираме постоянен напредък и увереност.",
+        "When I became a teacher...":
+          "Когато станах учител си обещах, че ще преподавам на учениците си така, че да им предам своята любов и вдъхновение към езика, културата, новите знания. Че ще ги слушам внимателно, за да чувам интересите и вълненията им и през тяхната призма ще предавам уроците, за да бъдат те значими и изпълнени със смисъл за учениците ми.",
+        "The many lessons in the classroom showed me that...":
+          "Многото уроци в класната стая ми показаха, че в днешно време просто да учиш английски език не стига - има още толкова много, което можем да дадем на своите ученици и което е от изключително значение за развитието им… И така се роди ENlightEN!",
 
         "Our Mission": "Нашата мисия",
         "Our mission is to...":

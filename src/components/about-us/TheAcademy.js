@@ -13,8 +13,8 @@ function TheAcademy() {
           <img src={kidsImage} alt="kids" className={styles.image} />
         </div>
         <div>
-          <p>{t("we provide")}</p>
-          <p>{t("Whether your child...")}</p>
+          <p>{t("When I became a teacher...")}</p>
+          <p>{t("The many lessons in the classroom showed me that...")}</p>
         </div>
       </div>
       <svg
