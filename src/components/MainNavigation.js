@@ -85,7 +85,8 @@ const MainNavigation = () => {
               <Link
                 to="/courses"
                 className={styles.navLink}
-                onMouseEnter={() => toggledropdownMenu(true)}
+                onMouseEnter={toggledropdownMenu}
+                onClick={toggledropdownMenu}
               >
                 {t("courses")}
               </Link>
@@ -93,7 +94,7 @@ const MainNavigation = () => {
               {dropdownMenuOpen && (
                 <ul
                   className={styles.courseDropdown}
-                  onMouseLeave={() => toggledropdownMenu(false)}
+                  onMouseLeave={toggledropdownMenu}
                 >
                   <li>
                     <a href="#concentrate">Concentrate</a>
