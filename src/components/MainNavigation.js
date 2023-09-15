@@ -97,19 +97,19 @@ const MainNavigation = () => {
                   onMouseLeave={toggledropdownMenu}
                 >
                   <li>
-                    <a href="#concentrate">Concentrate</a>
+                    <a href="/courses/concentrate">Concentrate</a>
                   </li>
                   <li>
-                    <a href="/courses#world-ready">WorldReady</a>
+                    <a href="/courses/worldready">WorldReady</a>
                   </li>
                   <li>
-                    <a href="#smart-art">SmartArt</a>
+                    <a href="/courses/smartart">SmartArt</a>
                   </li>
                   <li>
-                    <a href="#enlighten-kids">ENlightEN Kids</a>
+                    <a href="/courses/enlighten-kids">ENlightEN Kids</a>
                   </li>
                   <li>
-                    <a href="#enlighten-private">ENlightEN Private</a>
+                    <a href="/courses/enlighten-private">ENlightEN Private</a>
                   </li>
                 </ul>
               )}

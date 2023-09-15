@@ -6,11 +6,37 @@ import CoursesPage from "./pages/CoursesPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import RootLayout from "./pages/RootLayout";
 import ErrorPage from "./pages/ErrorPage";
+import ConcentrateCourse from "./components/courses/ConcentrateCourse";
+import WorldReadyCourse from "./components/courses/WorldReadyCourse";
+import SmartArtCourse from "./components/courses/SmartArtCourse";
+import EnlightenKidsCourse from "./components/courses/EnlightenKidsCourse";
+import EnlightenPrivateCourse from "./components/courses/EnlightenPrivateCourse";
 
 const routeChildren = [
   <Route key="home" index="true" element={<HomePage />} />,
   <Route key="about" path="about-us" element={<AboutUsPage />} />,
   <Route key="courses" path="courses" element={<CoursesPage />} />,
+  <Route
+    key="concentrate"
+    path="courses/concentrate"
+    element={<ConcentrateCourse />}
+  />,
+  <Route
+    key="worldready"
+    path="courses/worldready"
+    element={<WorldReadyCourse />}
+  />,
+  <Route key="smartart" path="courses/smartart" element={<SmartArtCourse />} />,
+  <Route
+    key="kids"
+    path="courses/enlighten-kids"
+    element={<EnlightenKidsCourse />}
+  />,
+  <Route
+    key="private"
+    path="courses/enlighten-private"
+    element={<EnlightenPrivateCourse />}
+  />,
   <Route key="contact" path="contact-us" element={<ContactUsPage />} />,
 ];
 

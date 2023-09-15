@@ -1,6 +1,6 @@
 .container {
-  padding: 0px 200px 250px 200px;
-  background: linear-gradient(181deg, #ffd700 50%, #27679e 95%);
+  padding: 90px 200px 150px 200px;
+  background: linear-gradient(180deg, #ffd700 75%, #27679e 97%);
   display: flex;
   flex-direction: column;
 }
