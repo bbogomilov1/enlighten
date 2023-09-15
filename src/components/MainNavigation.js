@@ -11,7 +11,8 @@ import { useState, useEffect } from "react";
 const MainNavigation = () => {
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [dropdownMenuOpen, setdropdownMenuOpen] = useState(false);
+  const [aboutUsMenuOpen, setAboutUsMenuOpen] = useState(false);
+  const [coursesMenuOpen, setCoursesMenuOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   const toggleMenu = (e) => {
@@ -19,12 +20,17 @@ const MainNavigation = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const toggledropdownMenu = () => {
-    setdropdownMenuOpen(!dropdownMenuOpen);
+  const toggleAboutUsMenu = () => {
+    setAboutUsMenuOpen(!aboutUsMenuOpen);
+  };
+
+  const toggleCoursesMenu = () => {
+    setCoursesMenuOpen(!coursesMenuOpen);
   };
 
   const closeMenu = () => {
-    setdropdownMenuOpen(false);
+    setAboutUsMenuOpen(false);
+    setCoursesMenuOpen(false);
 
     if (screenWidth < 768) {
       setMenuOpen(false);
@@ -73,10 +79,30 @@ const MainNavigation = () => {
               <Link
                 to="/about-us"
                 className={styles.navLink}
-                onClick={closeMenu}
+                onMouseEnter={toggleAboutUsMenu}
+                onClick={toggleAboutUsMenu}
               >
                 {t("about us")}
               </Link>
+
+              {aboutUsMenuOpen && (
+                <ul
+                  className={styles.courseDropdown}
+                  onMouseLeave={toggleAboutUsMenu}
+                >
+                  <li>
+                    <a href="/about-us/the-academy">{t("The Academy")}</a>
+                  </li>
+                  <li>
+                    <a href="/about-us/our-mission">{t("Our Mission")}</a>
+                  </li>
+                  <li>
+                    <a href="/about-us/meet-the-teachers">
+                      {t("Meet The Teachers")}
+                    </a>
+                  </li>
+                </ul>
+              )}
             </li>
 
             <LogoProvider />
@@ -85,16 +111,16 @@ const MainNavigation = () => {
               <Link
                 to="/courses"
                 className={styles.navLink}
-                onMouseEnter={toggledropdownMenu}
-                onClick={toggledropdownMenu}
+                onMouseEnter={toggleCoursesMenu}
+                onClick={toggleCoursesMenu}
               >
                 {t("courses")}
               </Link>
 
-              {dropdownMenuOpen && (
+              {coursesMenuOpen && (
                 <ul
                   className={styles.courseDropdown}
-                  onMouseLeave={toggledropdownMenu}
+                  onMouseLeave={toggleCoursesMenu}
                 >
                   <li>
                     <a href="/courses/concentrate">Concentrate</a>

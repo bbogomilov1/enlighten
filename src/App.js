@@ -6,6 +6,11 @@ import CoursesPage from "./pages/CoursesPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import RootLayout from "./pages/RootLayout";
 import ErrorPage from "./pages/ErrorPage";
+
+import TheAcademy from "./components/about-us/TheAcademy";
+import OurMission from "./components/about-us/OurMission";
+import MeetTheTeachers from "./components/about-us/MeetTeachers";
+
 import ConcentrateCourse from "./components/courses/ConcentrateCourse";
 import WorldReadyCourse from "./components/courses/WorldReadyCourse";
 import SmartArtCourse from "./components/courses/SmartArtCourse";
@@ -15,6 +20,14 @@ import EnlightenPrivateCourse from "./components/courses/EnlightenPrivateCourse"
 const routeChildren = [
   <Route key="home" index="true" element={<HomePage />} />,
   <Route key="about" path="about-us" element={<AboutUsPage />} />,
+  <Route key="academy" path="about-us/the-academy" element={<TheAcademy />} />,
+  <Route key="mission" path="about-us/our-mission" element={<OurMission />} />,
+  <Route
+    key="teachers"
+    path="about-us/meet-the-teachers"
+    element={<MeetTheTeachers />}
+  />,
+
   <Route key="courses" path="courses" element={<CoursesPage />} />,
   <Route
     key="concentrate"
@@ -37,8 +50,11 @@ const routeChildren = [
     path="courses/enlighten-private"
     element={<EnlightenPrivateCourse />}
   />,
+
   <Route key="contact" path="contact-us" element={<ContactUsPage />} />,
 ];
+
+const coursesChildren = [];
 
 const routeDefinitions = createRoutesFromElements(
   <Route errorElement={<ErrorPage />}>
