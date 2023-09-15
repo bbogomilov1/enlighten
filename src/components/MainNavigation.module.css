@@ -99,11 +99,13 @@ ul li a:hover::before {
   ul li a {
     font-size: 2rem;
     padding: 25px;
+    text-align: center;
   }
 
   ul li a:hover::before {
     width: 70%;
   }
+
   .hamIcon {
     position: relative;
     display: block;
