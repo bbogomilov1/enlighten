@@ -137,6 +137,9 @@ const MainNavigation = () => {
                   <li>
                     <a href="/courses/enlighten-private">ENlightEN Private</a>
                   </li>
+                  <li>
+                    <a href="/courses/young-presenters">Young PresENters</a>
+                  </li>
                 </ul>
               )}
             </li>

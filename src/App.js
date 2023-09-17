@@ -16,6 +16,7 @@ import WorldReadyCourse from "./components/courses/WorldReadyCourse";
 import SmartArtCourse from "./components/courses/SmartArtCourse";
 import EnlightenKidsCourse from "./components/courses/EnlightenKidsCourse";
 import EnlightenPrivateCourse from "./components/courses/EnlightenPrivateCourse";
+import YoungPresentersCourse from "./components/courses/YoungPresentersCourse";
 
 const routeChildren = [
   <Route key="home" index="true" element={<HomePage />} />,
@@ -49,6 +50,11 @@ const routeChildren = [
     key="private"
     path="courses/enlighten-private"
     element={<EnlightenPrivateCourse />}
+  />,
+  <Route
+    key="presenters"
+    path="courses/young-presenters"
+    element={<YoungPresentersCourse />}
   />,
 
   <Route key="contact" path="contact-us" element={<ContactUsPage />} />,
