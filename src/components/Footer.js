@@ -24,6 +24,7 @@ function Footer() {
 
           <div className={styles.footerSection}>
             <h3>{t("Information")}</h3>
+            <a href="/courses">{t("Our Courses")}</a>
             <a href="/contact-us">{t("Find us")}</a>
             <a href="/about-us">{t("about us")}</a>
           </div>
