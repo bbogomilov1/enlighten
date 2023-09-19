@@ -1,0 +1,19 @@
+.slideshow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.slide {
+  width: 100%;
+  /* max-width: 400px; */
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+}
