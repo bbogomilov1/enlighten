@@ -21,7 +21,9 @@ const Slideshow = ({ slides }) => {
       <button className={styles.prevButton} onClick={prevSlide}>
         <FontAwesomeIcon icon={faCircleLeft} className={styles.icon} />
       </button>
+
       <div className={styles.slide}>{slides[currentSlide]}</div>
+
       <button className={styles.nextButton} onClick={nextSlide}>
         <FontAwesomeIcon icon={faCircleRight} className={styles.icon} />
       </button>
