@@ -4,6 +4,7 @@ import { faCircleLeft, faCircleRight } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Slideshow.module.css";
 
 const Slideshow = ({ slides }) => {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = () => {
@@ -22,7 +23,11 @@ const Slideshow = ({ slides }) => {
         <FontAwesomeIcon icon={faCircleLeft} className={styles.icon} />
       </button>
 
-      <div>{slides[currentSlide]}</div>
+      <div>
+        {screenWidth < 768
+          ? slides.map((slide) => slide)
+          : slides[currentSlide]}
+      </div>
 
       <button className={styles.nextButton} onClick={nextSlide}>
         <FontAwesomeIcon icon={faCircleRight} className={styles.icon} />

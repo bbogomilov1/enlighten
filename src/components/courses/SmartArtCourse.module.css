@@ -39,6 +39,7 @@
 @media screen and (max-width: 768px) {
   .container {
     padding: 0px 20px 70px 20px;
+    background: linear-gradient(180deg, #71f368 50%, #ffd700 90%);
   }
 
   .title {
