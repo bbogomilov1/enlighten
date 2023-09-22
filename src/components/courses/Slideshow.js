@@ -22,7 +22,7 @@ const Slideshow = ({ slides }) => {
         <FontAwesomeIcon icon={faCircleLeft} className={styles.icon} />
       </button>
 
-      <div className={styles.slide}>{slides[currentSlide]}</div>
+      <div>{slides[currentSlide]}</div>
 
       <button className={styles.nextButton} onClick={nextSlide}>
         <FontAwesomeIcon icon={faCircleRight} className={styles.icon} />

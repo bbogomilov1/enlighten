@@ -4,11 +4,8 @@
   align-items: stretch;
 }
 
-.slide {
-  /* width: 100%; */
-}
-
-.prevButton {
+.prevButton,
+.nextButton {
   background: rgba(255, 255, 255, 0);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
@@ -18,22 +15,15 @@
   position: relative;
   z-index: 2;
   margin-top: 10px;
-  margin-right: -10%;
   cursor: pointer;
 }
 
-.nextButton {
-  background: rgba(255, 255, 255, 0);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+.prevButton {
+  margin-right: -10%;
+}
 
-  position: relative;
-  margin-top: 10px;
+.nextButton {
   margin-left: -10%;
-  cursor: pointer;
-  right: 0;
 }
 
 .icon {
