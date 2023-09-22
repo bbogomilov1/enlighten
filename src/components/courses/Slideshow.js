@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleLeft, faCircleRight } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Slideshow.module.css";
 
 const Slideshow = ({ slides }) => {
@@ -16,9 +18,13 @@ const Slideshow = ({ slides }) => {
 
   return (
     <div className={styles.slideshow}>
-      <button onClick={prevSlide}>Previous</button>
+      <button className={styles.prevButton} onClick={prevSlide}>
+        <FontAwesomeIcon icon={faCircleLeft} className={styles.icon} />
+      </button>
       <div className={styles.slide}>{slides[currentSlide]}</div>
-      <button onClick={nextSlide}>Next</button>
+      <button className={styles.nextButton} onClick={nextSlide}>
+        <FontAwesomeIcon icon={faCircleRight} className={styles.icon} />
+      </button>
     </div>
   );
 };
