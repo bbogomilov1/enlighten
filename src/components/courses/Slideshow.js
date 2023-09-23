@@ -24,9 +24,11 @@ const Slideshow = ({ slides }) => {
       </button>
 
       <div>
-        {screenWidth < 768
-          ? slides.map((slide) => slide)
-          : slides[currentSlide]}
+        {screenWidth < 768 ? (
+          slides.map((slide) => slide)
+        ) : (
+          <div className={styles.active}>{slides[currentSlide]}</div>
+        )}
       </div>
 
       <button className={styles.nextButton} onClick={nextSlide}>

@@ -4,6 +4,15 @@
   align-items: stretch;
 }
 
+.slides {
+  display: none;
+}
+
+.active {
+  display: block;
+  transition: all 0.5 ease-in-out;
+}
+
 .prevButton,
 .nextButton {
   background: rgba(255, 255, 255, 0);
