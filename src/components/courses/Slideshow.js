@@ -27,7 +27,15 @@ const Slideshow = ({ slides }) => {
         {screenWidth < 768 ? (
           slides.map((slide) => slide)
         ) : (
-          <div className={styles.active}>{slides[currentSlide]}</div>
+          <div className={styles.slidesContainer}>
+            {slides.map((slide, index) => {
+              if (currentSlide === index) {
+                return <div className={styles.active}>{slide}</div>;
+              } else {
+                return <div className={styles.inactive}>{slide}</div>;
+              }
+            })}
+          </div>
         )}
       </div>
 
