@@ -17,31 +17,46 @@ const Slideshow = ({ slides }) => {
     );
   };
 
+  const getSlideStyle = (slideIndex) => {
+    return {
+      width: 1600 * slideIndex,
+      transform: `translateX(${-(slideIndex * 1600)}px)`,
+    };
+  };
+
   return (
-    <div className={styles.slideshow}>
+    <div className={styles.slideshowContainer}>
       <button className={styles.prevButton} onClick={prevSlide}>
         <FontAwesomeIcon icon={faCircleLeft} className={styles.icon} />
       </button>
 
-      <div>
-        {screenWidth < 768 ? (
-          slides.map((slide) => slide)
-        ) : (
-          <div className={styles.slidesContainer}>
-            {slides.map((slide, index) => {
-              if (currentSlide === index) {
-                return <div className={styles.active}>{slide}</div>;
-              } else {
-                return <div className={styles.inactive}>{slide}</div>;
-              }
-            })}
-          </div>
-        )}
-      </div>
-
       <button className={styles.nextButton} onClick={nextSlide}>
         <FontAwesomeIcon icon={faCircleRight} className={styles.icon} />
       </button>
+
+      <div className={styles.slideshow}>
+        {screenWidth < 768 ? (
+          slides.map((slide) => slide)
+        ) : (
+          <div
+            className={`${styles.slidesContainer} `}
+            style={{
+              width: `${screenWidth * slides.length}px`,
+              transform: `translateX(${-(currentSlide * screenWidth)}px)`,
+            }}
+          >
+            <div className={styles.active}>
+              {slides.map((slide, index) => {
+                return (
+                  <div key={index} style={{ width: "100%" }}>
+                    {slide}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

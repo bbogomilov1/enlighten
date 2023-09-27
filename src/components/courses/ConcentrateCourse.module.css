@@ -3,6 +3,7 @@
   background: linear-gradient(90deg, mediumseagreen 50%, #0189ff 100%);
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .title {
