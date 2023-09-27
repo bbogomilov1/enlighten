@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleLeft, faCircleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCircleLeft,
+  faCircleRight,
+  faCircle,
+} from "@fortawesome/free-solid-svg-icons";
 import styles from "./Slideshow.module.css";
 
 const Slideshow = ({ slides }) => {
@@ -66,6 +70,26 @@ const Slideshow = ({ slides }) => {
             </div>
           </div>
         )}
+
+        <div className={styles.pages}>
+          {slides.map((slide, index) => {
+            return (
+              <span
+                style={
+                  index === currentSlide
+                    ? { fontSize: "1.5rem" }
+                    : { fontSize: "1rem" }
+                }
+                key={index}
+              >
+                <FontAwesomeIcon
+                  icon={faCircle}
+                  className={styles.pagesIcons}
+                />
+              </span>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

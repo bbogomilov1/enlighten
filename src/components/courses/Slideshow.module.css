@@ -57,6 +57,17 @@
   padding: 20px;
 }
 
+.pages {
+  position: relative;
+  margin-top: -100px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.pagesIcons {
+  padding: 5px;
+}
+
 /* Small screens */
 @media screen and (max-width: 768px) {
   .prevButton,
