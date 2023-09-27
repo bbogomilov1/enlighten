@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleLeft, faCircleRight } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Slideshow.module.css";
@@ -17,12 +17,20 @@ const Slideshow = ({ slides }) => {
     );
   };
 
-  const getSlideStyle = (slideIndex) => {
-    return {
-      width: 1600 * slideIndex,
-      transform: `translateX(${-(slideIndex * 1600)}px)`,
-    };
+  const handleKeyDown = (e) => {
+    if (e.key === "ArrowLeft") {
+      prevSlide();
+    } else if (e.key === "ArrowRight") {
+      nextSlide();
+    }
   };
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
 
   return (
     <div className={styles.slideshowContainer}>
