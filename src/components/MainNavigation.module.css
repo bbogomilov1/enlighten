@@ -138,7 +138,7 @@ ul li a:hover::before {
     position: absolute;
     z-index: 1;
     left: 0;
-    width: 110%;
+    width: 105%;
   }
 }
 
