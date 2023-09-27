@@ -34,9 +34,11 @@ const Slideshow = ({ slides }) => {
         <FontAwesomeIcon icon={faCircleRight} className={styles.icon} />
       </button>
 
-      <div className={styles.slideshow}>
+      <div>
         {screenWidth < 768 ? (
-          slides.map((slide) => slide)
+          slides.map((slide, index) => {
+            return <div key={index}>{slide}</div>;
+          })
         ) : (
           <div
             className={`${styles.slidesContainer} `}

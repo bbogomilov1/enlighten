@@ -1,22 +1,13 @@
 .slideshowContainer {
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* align-items: stretch; */
   position: relative;
   overflow: hidden;
-}
-
-.slideshow {
-  /* width: 50%; */
 }
 
 .slidesContainer {
   display: flex;
   flex-direction: row;
-  /* align-items: stretch; */
   position: relative;
   overflow: hidden;
-  /* width: 2600px; */
   transition: transform 0.5s ease-in-out;
 }
 
