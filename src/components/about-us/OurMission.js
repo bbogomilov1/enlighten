@@ -10,16 +10,16 @@ function OurMission() {
 
   useEffect(() => {
     const options = {
-      root: null, // Use the viewport as the root
-      rootMargin: "0px", // No margin around the root
-      threshold: 0.5, // Trigger when 50% of the element is visible
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
     };
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           setIsVisible(true);
-          observer.unobserve(entry.target); // Stop observing once it's visible
+          observer.unobserve(entry.target);
         }
       });
     }, options);
@@ -28,7 +28,6 @@ function OurMission() {
       observer.observe(elementRef.current);
     }
 
-    // Clean up the observer when the component unmounts
     return () => {
       observer.disconnect();
     };
