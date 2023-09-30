@@ -7,7 +7,7 @@ function TheAcademy() {
 
   return (
     <div className={styles.container}>
-      <h1>{t("The Academy")}</h1>
+      <h1 className={styles.title}>{t("The Academy")}</h1>
       <div className={styles.description}>
         <div>
           <img src={kidsImage} alt="kids" className={styles.image} />
