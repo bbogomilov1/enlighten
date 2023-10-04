@@ -16,6 +16,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
+  animation: fadeInFromBottom 1s ease-in-out;
 }
 
 .container h1 {
@@ -30,7 +31,7 @@
   font-size: 7.5rem;
 }
 
-.container p {
+.description {
   width: 80%;
   padding-left: 12%;
   z-index: 1;
@@ -41,6 +42,7 @@
   margin: 5px;
   text-indent: 8rem;
   font-family: "Ropamix light italic", sans-serif;
+  animation: fadeInFromBottom 1s ease-in-out;
 }
 
 .bookImage {
@@ -68,6 +70,7 @@
   border-radius: 20px;
   border: none;
   cursor: pointer;
+  animation: fadeInFromBottom 1s ease-in-out;
 }
 
 .enrollButton:hover {
@@ -76,23 +79,6 @@
 
 .enrollButton:focus {
   outline: none;
-}
-
-@-webkit-keyframes mover {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-}
-@keyframes mover {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
 }
 
 .blobFirst {
@@ -108,6 +94,17 @@
   position: absolute;
   top: 30%;
   right: -7%;
+}
+
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Media query for small screens */

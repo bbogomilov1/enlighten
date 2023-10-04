@@ -19,19 +19,25 @@ function HomeTitleSection() {
             transform="translate(100 100)"
           />
         </svg>
+
         <div className={styles.titleContainer}>
           <h1>
             EN<span>light</span>EN
           </h1>
           <img src={bookImage} alt="book" className={styles.bookImage} />
         </div>
-        <p>{t("The learning center where...")}</p>
-        <p>{t("The place where...")}</p>
+
+        <p className={styles.description}>
+          {t("The learning center where...")}
+        </p>
+        <p className={styles.description}>{t("The place where...")}</p>
+
         <div>
           <Link to="/courses" className={styles.enrollButton} type="button">
             {t("Our Courses")}
           </Link>
         </div>
+
         <svg
           viewBox="0 0 200 200"
           xmlns="http://www.w3.org/2000/svg"
