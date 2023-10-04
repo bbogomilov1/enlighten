@@ -44,6 +44,7 @@ function OurMission() {
       >
         {t("Our Mission")}
       </h1>
+
       <div className={styles.description}>
         <div className={styles.paragraphsContainer}>
           <p
@@ -55,6 +56,7 @@ function OurMission() {
           >
             {t("Our mission is to...")}
           </p>
+
           <p
             className={
               isVisible
@@ -65,6 +67,7 @@ function OurMission() {
             {t("Our experienced and passionate educators...")}
           </p>
         </div>
+
         <div>
           <img
             src={kidsImage}
@@ -77,6 +80,7 @@ function OurMission() {
           />
         </div>
       </div>
+
       <svg
         viewBox="0 0 200 200"
         xmlns="http://www.w3.org/2000/svg"

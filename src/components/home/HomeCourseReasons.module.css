@@ -7,24 +7,49 @@
   color: #fffaf4;
 }
 
-.container h2 {
+.title {
+  opacity: 0;
   font-family: "Ropamix medium italic", sans-serif;
   font-size: 4.5rem;
   font-style: normal;
   margin: 0;
 }
 
-.container p {
+.titleAnimation {
+  opacity: 1;
+  animation: fadeInFromBottom 1s ease-in-out;
+}
+
+.containerSubTitle {
+  opacity: 0;
   margin: 0;
   font-family: "Ropamix light italic", sans-serif;
   font-size: 2rem;
   padding-bottom: 30px;
 }
 
+.containerSubTitleAnimation {
+  opacity: 1;
+  animation: fadeInFromBottom 1s ease-in-out;
+}
+
+/* .container p {
+  margin: 0;
+  font-family: "Ropamix light italic", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 30px;
+} */
+
 .reasons {
+  opacity: 0;
   display: flex;
   flex-direction: column;
   padding-top: 15px;
+}
+
+.reasonsAnimation {
+  opacity: 1;
+  animation: fadeInFromBottom 1s ease-in-out;
 }
 
 .reasons span {
@@ -36,6 +61,7 @@
 }
 
 .reasons p {
+  font-family: "Ropamix light italic", sans-serif;
   height: 30px;
   display: flex;
   flex-direction: row;
@@ -55,6 +81,17 @@
   text-decoration: none;
   color: #fffaf4;
   font-size: 2.5rem;
+}
+
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Small screens */

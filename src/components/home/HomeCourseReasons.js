@@ -1,17 +1,67 @@
 import { Link } from "react-router-dom";
 import styles from "./HomeCourseReasons.module.css";
 import { useTranslation } from "react-i18next";
+import { useEffect, useRef, useState } from "react";
 
 function HomeCourseReasons() {
   const { t } = useTranslation();
+  const [isVisible, setIsVisible] = useState(false);
+  const elementRef = useRef(null);
+
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, options);
+
+    if (elementRef.current) {
+      observer.observe(elementRef.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   return (
-    <div className={styles.container}>
-      <h2>{t("find the best course")}</h2>
+    <div className={styles.container} ref={elementRef}>
+      <h2
+        className={
+          isVisible
+            ? `${styles.title}  ${styles.titleAnimation}`
+            : `${styles.title}`
+        }
+      >
+        {t("find the best course")}
+      </h2>
 
-      <p>{t("we developed some courses")}</p>
+      <p
+        className={
+          isVisible
+            ? `${styles.containerSubTitle}  ${styles.containerSubTitleAnimation}`
+            : `${styles.containerSubTitle}`
+        }
+      >
+        {t("we developed some courses")}
+      </p>
 
-      <div className={styles.reasons}>
+      <div
+        className={
+          isVisible
+            ? `${styles.reasons}  ${styles.reasonsAnimation}`
+            : `${styles.reasons}`
+        }
+      >
         <div className={styles.column}>
           <p>
             {" "}
