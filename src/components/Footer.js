@@ -19,7 +19,7 @@ function Footer() {
               {t("Sofia, g.k. Belite brezi 9, 1st floor")}
             </a>
             <a href="tel:+359 885 741 278">+359 (0) 88 574 1278</a>
-            <a href="mailto:bdbogomilov@gmail.com">bdbogomilov@gmail.com</a>
+            <a href="mailto:office@enlighten.bg">office@enlighten.bg</a>
           </div>
 
           <div className={styles.footerSection}>
@@ -35,7 +35,7 @@ function Footer() {
             <a href="https://www.instagram.com/enlighten.lv/" target="_blank">
               Instagram
             </a>
-            <p>Tik-Tok</p>
+            {/* <p>Tik-Tok</p> */}
           </div>
         </div>
       </div>

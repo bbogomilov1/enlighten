@@ -19,10 +19,12 @@ function Contacts() {
     <div className={styles.container}>
       <ul className={styles.listContainer}>
         <h2>{t("contact us")}</h2>
-        <li>
+
+        <a href="https://goo.gl/maps/pKdAPG9mHcHZ3rZs9" target="_blank">
           <FontAwesomeIcon icon={faMap} className={styles.icon} />
           {t("Sofia, g.k. Belite brezi 9, 1st floor")}
-        </li>
+        </a>
+
         <a href="tel:+359 885 741 278">
           <FontAwesomeIcon icon={faMobileScreen} className={styles.icon} />
           +359 (0) 88 574 1278
@@ -32,19 +34,21 @@ function Contacts() {
           <FontAwesomeIcon icon={faFacebookSquare} className={styles.icon} />
           Facebook
         </li>
-        <li>
+
+        <a href="https://www.instagram.com/enlighten.lv/" target="_blank">
           <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
           Instagram
-        </li>
-        <li>
+        </a>
+
+        {/* <li>
           <FontAwesomeIcon icon={faTiktok} className={styles.icon} />
           Tik-Tok
-        </li>
-        <li>
-          {" "}
+        </li> */}
+
+        <a href="mailto:office@enlighten.bg">
           <FontAwesomeIcon icon={faEnvelopeOpen} className={styles.icon} />
           office@enlighten.bg
-        </li>
+        </a>
       </ul>
     </div>
   );
