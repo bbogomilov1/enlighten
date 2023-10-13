@@ -94,6 +94,10 @@
   padding: 50px;
 }
 
+.courseLink {
+  text-decoration: none;
+}
+
 .coursesTitle {
   padding: 100px 200px 0px 200px;
   color: mediumseagreen;
@@ -114,6 +118,7 @@
   border-radius: 50%;
   width: 130px;
   height: 130px;
+  text-decoration: none;
 }
 
 .concentrate {

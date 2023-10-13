@@ -18,6 +18,7 @@ import {
   faMicrophone,
   faUserTie,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function CoursesPage() {
   const slides = [
@@ -56,7 +57,10 @@ function CoursesPage() {
       {/* <h1 className={styles.coursesTitle}>НАШИТЕ КУРСОВЕ</h1> */}
 
       <div className={styles.courses}>
-        <div className={`${styles.courseContainer} ${styles.kids}`}>
+        <Link
+          to="/courses/enlighten-kids"
+          className={`${styles.courseContainer} ${styles.kids}`}
+        >
           <FontAwesomeIcon
             icon={faChildReaching}
             className={styles.coursesIcons}
@@ -64,42 +68,60 @@ function CoursesPage() {
           <p className={styles.courseTitle}>
             ENlightEN <br /> Kids
           </p>
-        </div>
+        </Link>
 
-        <div className={`${styles.courseContainer} ${styles.smartart}`}>
+        <Link
+          to="/courses/smartart"
+          className={`${styles.courseContainer} ${styles.smartart}`}
+        >
           <FontAwesomeIcon
             icon={faPaintbrush}
             className={styles.coursesIcons}
           />
           <p className={styles.courseTitle}>SmartArt</p>
-        </div>
+        </Link>
 
-        <div className={`${styles.courseContainer} ${styles.concentrate}`}>
+        <Link
+          to="/courses/concentrate"
+          className={`${styles.courseContainer} ${styles.concentrate}`}
+        >
           <FontAwesomeIcon icon={faBrain} className={styles.coursesIcons} />
           <p className={styles.courseTitle}>ConcENtrate</p>
-        </div>
+        </Link>
 
-        <div className={`${styles.courseContainer} ${styles.worldready}`}>
+        <Link
+          to="/courses/worldready"
+          className={`${styles.courseContainer} ${styles.worldready}`}
+        >
           <FontAwesomeIcon
             icon={faEarthAmerica}
             className={styles.coursesIcons}
           />
           <p className={styles.courseTitle}>WorldReady</p>
-        </div>
+        </Link>
 
-        <div className={`${styles.courseContainer} ${styles.private}`}>
+        <Link
+          to="/courses/enlighten-private"
+          className={`${styles.courseContainer} ${styles.private}`}
+        >
           <FontAwesomeIcon icon={faLockOpen} className={styles.coursesIcons} />
           <p className={styles.courseTitle}>
             ENlightEN <br /> Private
           </p>
-        </div>
+        </Link>
 
-        <div className={`${styles.courseContainer} ${styles.business}`}>
+        <Link
+          to="/courses/enlighten-private"
+          className={`${styles.courseContainer} ${styles.business}`}
+        >
           <FontAwesomeIcon icon={faUserTie} className={styles.coursesIcons} />
           <p className={styles.courseTitle}>Business</p>
-        </div>
+        </Link>
 
-        <div className={`${styles.courseContainer} ${styles.presenters}`}>
+        <Link
+          to="/courses/young-presenters"
+          className={`${styles.courseContainer} ${styles.presenters}`}
+        >
           <FontAwesomeIcon
             icon={faMicrophone}
             className={styles.coursesIcons}
@@ -107,7 +129,7 @@ function CoursesPage() {
           <p className={styles.courseTitle}>
             Young <br /> PresENters
           </p>
-        </div>
+        </Link>
       </div>
     </div>
   );
