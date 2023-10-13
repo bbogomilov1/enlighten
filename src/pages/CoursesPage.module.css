@@ -1,1 +1,140 @@
+.container {
+  background-color: #fffaf4;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 130px;
+  padding-bottom: 40px;
+  width: 100%;
+}
 
+.title {
+  padding: 50px 200px;
+  color: mediumseagreen;
+  font-family: "Ropamix medium italic", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  margin: 0;
+  text-align: center;
+}
+
+.kidsImage {
+  margin: 50px;
+  margin-bottom: 100px;
+  width: 750px;
+  border-radius: 5%;
+  /* border: 7px solid mediumseagreen; */
+}
+
+.icon {
+  padding: 10px;
+  background-color: #0088ff;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  margin-top: -15%;
+  margin-bottom: 10%;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  padding: 50px;
+  border-radius: 5%;
+  border: 2px solid #0088ff;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.descriptionContainer:hover {
+  background-color: #0088ff;
+}
+
+.description {
+  padding: 50px;
+  font-family: "Ropamix light italic", sans-serif;
+  height: 30px;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.description:hover {
+  color: white;
+}
+
+.courses {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.coursesTitle {
+  padding: 100px 200px 0px 200px;
+  color: mediumseagreen;
+  font-family: "Ropamix medium italic", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  margin: 0;
+  text-align: center;
+}
+
+.courseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+.concentrate {
+  background-color: mediumseagreen;
+}
+
+.worldready {
+  background-color: #0189ff;
+}
+
+.smartart {
+  background-color: #71f368;
+}
+
+.kids {
+  background-color: #ffd700;
+}
+
+.private {
+  background-color: #005299;
+}
+
+.presenters {
+  background-color: #5f021f;
+}
+
+.business {
+  background-color: #452268;
+}
+
+.courseTitle {
+  font-family: "Ropamix medium italic";
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.coursesIcons {
+  color: white;
+  padding-top: 0px;
+  border-radius: 50%;
+  width: 40px;
+  height: auto;
+}

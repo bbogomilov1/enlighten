@@ -6,7 +6,10 @@ function HomeAboutUs() {
 
   return (
     <div className={styles.container}>
-      <h1>{t("Learn English in an innovative and interactive way")}!</h1>
+      <h1 className={styles.title}>
+        {t("Learn English in an innovative and interactive way")}!
+      </h1>
+
       <div className={styles.info}>
         <div className={styles.number}>1</div>
         <div className={styles.reasonOne}>
@@ -25,6 +28,7 @@ function HomeAboutUs() {
           />
         </svg>
       </div>
+
       <div className={styles.info}>
         <div className={styles.reasonTwo}>
           <h2>{t("Immerse in Fun and Interactive Learning")}</h2>
@@ -43,6 +47,7 @@ function HomeAboutUs() {
           />
         </svg>
       </div>
+
       <div className={styles.info}>
         <div className={styles.number}>3</div>
         <div className={styles.reasonTwo}>
@@ -61,6 +66,7 @@ function HomeAboutUs() {
           />
         </svg>
       </div>
+
       <div className={styles.info}>
         <div className={styles.reasonFour}>
           <h2>{t("Cultivate Confidence and Communication Skills")}</h2>

@@ -5,12 +5,7 @@
   color: mediumseagreen;
 }
 
-.container span {
-  padding-left: 65px;
-  font-size: 4.6rem;
-}
-
-.container h1 {
+.title {
   line-height: 1em;
   margin: 0;
   -webkit-text-stroke: 1.2px mediumseagreen;
