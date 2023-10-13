@@ -4,10 +4,9 @@ import SmartArtCourse from "../components/courses/SmartArtCourse";
 import EnlightenKidsCourse from "../components/courses/EnlightenKidsCourse";
 import EnlightenPrivateCourse from "../components/courses/EnlightenPrivateCourse";
 import YoungPresentersCourse from "../components/courses/YoungPresentersCourse";
-import Slideshow from "../components/courses/Slideshow";
 import styles from "./CoursesPage.module.css";
 import kidsImage from "../static/elementary-school-resources.jpg";
-// import stars from "../static/whitestars.png";
+import stars from "../static/bluestars.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faStar,
@@ -40,9 +39,10 @@ function CoursesPage() {
         <img src={kidsImage} alt="kids" className={styles.kidsImage} />
       </div>
 
+      {/* <img src={stars} alt="stars" className={styles.stars} /> */}
+
       <div className={styles.descriptionContainer}>
         <FontAwesomeIcon icon={faStar} className={styles.icon} />
-        {/* <img src={stars} alt="stars" className={styles.icon} /> */}
         <p className={styles.description}>
           В нашата академия събираме екип от висококвалифицирани и опитни
           преподаватели по английски език. С техния опит и страст към
@@ -51,7 +51,9 @@ function CoursesPage() {
         </p>
       </div>
 
-      <h1 className={styles.coursesTitle}>НАШИТЕ КУРСОВЕ</h1>
+      <img src={stars} alt="stars" className={styles.stars} />
+
+      {/* <h1 className={styles.coursesTitle}>НАШИТЕ КУРСОВЕ</h1> */}
 
       <div className={styles.courses}>
         <div className={`${styles.courseContainer} ${styles.kids}`}>
@@ -107,8 +109,6 @@ function CoursesPage() {
           </p>
         </div>
       </div>
-
-      {/* <Slideshow slides={slides} /> */}
     </div>
   );
 }
