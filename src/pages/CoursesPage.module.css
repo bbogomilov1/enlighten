@@ -46,7 +46,6 @@
   width: 100%;
   text-align: center;
   justify-content: center;
-
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -78,10 +77,6 @@
   align-items: center;
   transition: 0.5s;
   margin: 20px 0px 0px 0px;
-}
-
-.description:hover {
-  color: white;
 }
 
 .stars {
