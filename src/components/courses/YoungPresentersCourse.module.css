@@ -1,6 +1,6 @@
 .container {
   padding: 90px 200px 100px 200px;
-  background: linear-gradient(90deg, #5f021f 70%, mediumseagreen 100%);
+  background: linear-gradient(135deg, #5f021f 70%, mediumseagreen 100%);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -36,6 +36,7 @@
   line-height: 1.2em;
   font-size: 1.7rem;
   color: #fffaf4;
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {

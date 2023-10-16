@@ -1,6 +1,6 @@
 .container {
   padding: 90px 200px 50px 200px;
-  background: linear-gradient(90deg, #0189ff 50%, #71f368 100%);
+  background: linear-gradient(135deg, #0189ff 50%, #71f368 100%);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -36,6 +36,7 @@
   line-height: 1.2em;
   font-size: 1.7rem;
   color: #fffaf4;
+  text-align: justify;
 }
 
 .phrase {
