@@ -79,13 +79,13 @@ const MainNavigation = () => {
               <Link
                 to="/about-us"
                 className={styles.navLink}
-                onMouseEnter={toggleAboutUsMenu}
-                onClick={toggleAboutUsMenu}
+                // onMouseEnter={toggleAboutUsMenu}
+                // onClick={toggleAboutUsMenu}
               >
                 {t("about us")}
               </Link>
 
-              {aboutUsMenuOpen && (
+              {/* {aboutUsMenuOpen && (
                 <ul
                   className={styles.courseDropdown}
                   onMouseLeave={toggleAboutUsMenu}
@@ -102,7 +102,7 @@ const MainNavigation = () => {
                     </a>
                   </li>
                 </ul>
-              )}
+              )} */}
             </li>
 
             <LogoProvider />
