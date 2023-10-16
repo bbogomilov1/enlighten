@@ -139,7 +139,7 @@
 }
 
 .concentrate:hover {
-  color: white;
+  color: #fffaf4;
   background-color: mediumseagreen;
 }
 
@@ -150,7 +150,7 @@
 }
 
 .worldready:hover {
-  color: white;
+  color: #fffaf4;
   background-color: #0189ff;
 }
 
@@ -183,7 +183,7 @@
 }
 
 .private:hover {
-  color: white;
+  color: #fffaf4;
   background-color: #005299;
 }
 
@@ -194,7 +194,7 @@
 }
 
 .presenters:hover {
-  color: white;
+  color: #fffaf4;
   background-color: #5f021f;
 }
 
@@ -205,20 +205,20 @@
 }
 
 .business:hover {
-  color: white;
+  color: #fffaf4;
   background-color: #452268;
 }
 
 .courseTitle {
   font-family: "Ropamix medium italic";
-  /* color: white; */
+  /* color: #fffaf4; */
   font-size: 1.5rem;
   text-align: center;
   margin: 5px;
 }
 
 .coursesIcons {
-  /* color: white; */
+  /* color: #fffaf4; */
   padding-top: 0px;
   border-radius: 50%;
   width: 40px;

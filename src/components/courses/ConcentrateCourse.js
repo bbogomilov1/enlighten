@@ -1,4 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./ConcentrateCourse.module.css";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 function ConcentrateCourse() {
   return (
@@ -39,6 +41,22 @@ function ConcentrateCourse() {
           <br /> а да знаеш и да можеш е истински вълнуващо
           <br />- наистина, не онлайн!
         </h2>
+      </div>
+
+      <div className={styles.courseScheduleContainer}>
+        <div className={styles.courseSchedule}>
+          <FontAwesomeIcon icon={faStar} className={styles.icon} />
+          <p className={styles.courseScheduleDescription}>3-4 г.</p>
+          <p className={styles.courseScheduleDescription}>СРЯДА и ПЕТЪК</p>
+          <p className={styles.courseScheduleDescription}>10:30 - 11:30</p>
+        </div>
+
+        <div className={styles.courseSchedule}>
+          <FontAwesomeIcon icon={faStar} className={styles.icon} />
+          <p className={styles.courseScheduleDescription}>5-7 г.</p>
+          <p className={styles.courseScheduleDescription}>ПЕТЪК</p>
+          <p className={styles.courseScheduleDescription}>16:20 - 17:45</p>
+        </div>
       </div>
     </div>
   );
