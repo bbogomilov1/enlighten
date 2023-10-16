@@ -36,6 +36,7 @@
   font-size: 1.7rem;
   color: #fffaf4;
   text-align: justify;
+  text-indent: 5rem;
 }
 
 @media screen and (max-width: 768px) {
