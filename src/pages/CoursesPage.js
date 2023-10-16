@@ -1,15 +1,8 @@
-import ConcentrateCourse from "../components/courses/ConcentrateCourse";
-import WorldReadyCourse from "../components/courses/WorldReadyCourse";
-import SmartArtCourse from "../components/courses/SmartArtCourse";
-import EnlightenKidsCourse from "../components/courses/EnlightenKidsCourse";
-import EnlightenPrivateCourse from "../components/courses/EnlightenPrivateCourse";
-import YoungPresentersCourse from "../components/courses/YoungPresentersCourse";
 import styles from "./CoursesPage.module.css";
 import kidsImage from "../static/elementary-school-resources.jpg";
 import stars from "../static/bluestars.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faStar,
   faEarthAmerica,
   faBrain,
   faPaintbrush,
@@ -21,41 +14,35 @@ import {
 import { Link } from "react-router-dom";
 
 function CoursesPage() {
-  const slides = [
-    <ConcentrateCourse />,
-    <WorldReadyCourse />,
-    <SmartArtCourse />,
-    <EnlightenKidsCourse />,
-    <EnlightenPrivateCourse />,
-    <YoungPresentersCourse />,
-  ];
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>
-        ENlightEN предлага курсове за деца и възрастни, в които английският език
-        се изучава посредством развитието на ключови компетенции
-      </h1>
+    <div>
+      <div className={styles.container}>
+        <h1 className={styles.title}>Нашите курсове</h1>
 
-      <div className={styles.teacherLarita}>
-        <img src={kidsImage} alt="kids" className={styles.kidsImage} />
+        <div className={styles.titleInfo}>
+          <div className={styles.descriptionContainer}>
+            <p className={styles.titleDescription}>
+              ENlightEN предлага курсове за деца и възрастни, в които
+              английският език се изучава посредством развитието на ключови
+              компетенции.
+            </p>
+            <p className={styles.titleDescription}>
+              В нашата академия събираме екип от висококвалифицирани и опитни
+              преподаватели по английски език. С техния опит и страст към
+              преподаването, вашето дете ще получи първокласни насоки за
+              овладяване на английски език.
+            </p>
+          </div>
+
+          <div className={styles.teacherLarita}>
+            <img src={kidsImage} alt="kids" className={styles.kidsImage} />
+          </div>
+        </div>
+
+        <div className={styles.iconContainer}>
+          <img src={stars} alt="stars" className={styles.icon} />
+        </div>
       </div>
-
-      {/* <img src={stars} alt="stars" className={styles.stars} /> */}
-
-      <div className={styles.descriptionContainer}>
-        <FontAwesomeIcon icon={faStar} className={styles.icon} />
-        <p className={styles.description}>
-          В нашата академия събираме екип от висококвалифицирани и опитни
-          преподаватели по английски език. С техния опит и страст към
-          преподаването, вашето дете ще получи първокласни насоки за овладяване
-          на английски език.
-        </p>
-      </div>
-
-      <img src={stars} alt="stars" className={styles.stars} />
-
-      {/* <h1 className={styles.coursesTitle}>НАШИТЕ КУРСОВЕ</h1> */}
-
       <div className={styles.courses}>
         <Link
           to="/courses/enlighten-kids"

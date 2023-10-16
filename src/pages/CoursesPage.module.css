@@ -1,60 +1,75 @@
 .container {
-  background-color: #fffaf4;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  padding-top: 130px;
-  padding-bottom: 40px;
-  width: 100%;
+  padding: 150px 220px 20px 220px;
+  color: mediumseagreen;
 }
 
 .title {
-  padding: 50px 200px;
-  color: mediumseagreen;
-  font-family: "Ropamix medium italic", sans-serif;
-  font-size: 2.5rem;
-  font-style: normal;
+  line-height: 1em;
   margin: 0;
-  text-align: center;
+  padding-left: 50px;
+  -webkit-text-stroke: 1.2px mediumseagreen;
+  color: transparent;
+  z-index: 1;
+  font-family: "Ropamix black", sans-serif;
+  text-transform: uppercase;
+  font-size: 4.6rem;
+}
+
+.titleInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 100px 0px;
+}
+
+.titleDescription {
+  font-family: "Ropamix light italic";
+  line-height: 1.2em;
+  font-size: 1.7rem;
+  width: 96%;
+  margin: 10px;
+  text-indent: 5rem;
+  text-align: justify;
 }
 
 .kidsImage {
-  margin: 50px;
-  margin-bottom: 100px;
-  width: 750px;
-  border-radius: 5%;
-  border: 1px solid mediumseagreen;
+  z-index: 1;
+  position: relative;
+  width: 650px;
+  border-radius: 35px 0px;
+  margin-left: 30px;
+}
+
+.iconContainer {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+  color: #0088ff;
 }
 
 .icon {
   padding: 10px;
-  background-color: #0088ff;
-  color: white;
-  border-radius: 50%;
-  width: 20px;
-  margin-top: -15%;
-  margin-bottom: 10%;
+  font-size: 2rem;
+  width: 150px;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
 }
 
 .descriptionContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 450px;
-  padding: 50px;
-  border-radius: 5%;
-  border: 2px solid #0088ff;
-  text-align: center;
-  transition: 0.5s;
-}
-
-.descriptionContainer:hover {
-  background-color: #0088ff;
 }
 
 .description {
-  padding: 50px;
+  padding: 0px;
   font-family: "Ropamix light italic", sans-serif;
   height: 30px;
   font-size: 1.5rem;
@@ -62,6 +77,7 @@
   flex-direction: row;
   align-items: center;
   transition: 0.5s;
+  margin: 20px 0px 0px 0px;
 }
 
 .description:hover {
