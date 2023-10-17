@@ -1,7 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./ConcentrateCourse.module.css";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
 import stars from "../../static/whitestars.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 function ConcentrateCourse() {

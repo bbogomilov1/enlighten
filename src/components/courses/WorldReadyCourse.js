@@ -1,4 +1,8 @@
 import styles from "./WorldReadyCourse.module.css";
+import stars from "../../static/whitestars.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function WorldReadyCourse() {
   return (
@@ -46,6 +50,34 @@ function WorldReadyCourse() {
           Not only "small talk" - real quality talk!
         </h2>
       </div>
+
+      <div className={styles.starsContainer}>
+        <img src={stars} alt="stars" className={styles.stars} />
+      </div>
+
+      <div className={styles.courseScheduleContainer}>
+        <div className={styles.courseSchedule}>
+          <FontAwesomeIcon icon={faStar} className={styles.icon} />
+          <p className={styles.courseScheduleDescription}>7-9 г.</p>
+          <p className={styles.courseScheduleDescription}>СРЯДА</p>
+          <p className={styles.courseScheduleDescription}>16:20 - 17:45</p>
+        </div>
+
+        <div className={styles.courseSchedule}>
+          <FontAwesomeIcon icon={faStar} className={styles.icon} />
+          <p className={styles.courseScheduleDescription}>10-12 г.</p>
+          <p className={styles.courseScheduleDescription}>ПЕТЪК</p>
+          <p className={styles.courseScheduleDescription}>16:20 - 17:45</p>
+        </div>
+      </div>
+
+      <p className={styles.courseScheduleNote}>
+        *Запишете Вашето дете чрез препочитаната от Вас форма на{" "}
+        <Link to="/contact-us" className={styles.courseScheduleLink}>
+          <b>контакт</b>
+        </Link>{" "}
+        или чрез бързия чат в долния десен ъгъл.
+      </p>
     </div>
   );
 }
