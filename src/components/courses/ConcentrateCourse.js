@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./ConcentrateCourse.module.css";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import stars from "../../static/whitestars.png";
+import { Link } from "react-router-dom";
 
 function ConcentrateCourse() {
   return (
@@ -43,6 +45,10 @@ function ConcentrateCourse() {
         </h2>
       </div>
 
+      <div className={styles.starsContainer}>
+        <img src={stars} alt="stars" className={styles.stars} />
+      </div>
+
       <div className={styles.courseScheduleContainer}>
         <div className={styles.courseSchedule}>
           <FontAwesomeIcon icon={faStar} className={styles.icon} />
@@ -58,6 +64,14 @@ function ConcentrateCourse() {
           <p className={styles.courseScheduleDescription}>16:20 - 17:45</p>
         </div>
       </div>
+
+      <p className={styles.courseScheduleNote}>
+        *Запишете Вашето дете чрез препочитаната от Вас форма на{" "}
+        <Link to="/contact-us" className={styles.courseScheduleLink}>
+          <b>контакт</b>
+        </Link>{" "}
+        или чрез бързия чат в долния десен ъгъл.
+      </p>
     </div>
   );
 }

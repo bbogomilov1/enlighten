@@ -46,24 +46,21 @@
   text-align: center;
 }
 
-.courseScheduleContainer {
-  display: flex;
+.starsContainer {
+  width: 100%;
+  text-align: center;
   justify-content: center;
-  padding-top: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+  color: #0088ff;
 }
 
-.courseSchedule {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #fffaf4;
-  width: 250px;
-  padding: 50px;
-  margin: 0px 50px;
-  border-radius: 5%;
-  border: 2px solid #fffaf4;
-  text-align: center;
-  transition: 0.5s;
+.stars {
+  padding: 10px;
+  font-size: 2rem;
+  width: 150px;
   transform: translatey(0px);
   animation: float 3s ease-in-out infinite;
 }
@@ -80,6 +77,26 @@
   }
 }
 
+.courseScheduleContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 85px;
+}
+
+.courseSchedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fffaf4;
+  width: 250px;
+  padding: 50px;
+  margin: 0px 50px;
+  border-radius: 5%;
+  border: 2px solid #fffaf4;
+  text-align: center;
+  transition: 0.5s;
+}
+
 .courseSchedule:hover {
   background-color: #fffaf4;
   color: mediumseagreen;
@@ -90,7 +107,6 @@
   background-color: #fffaf4;
   color: mediumseagreen;
   border-radius: 50%;
-  width: 20px;
   margin-top: -28%;
   margin-bottom: 10%;
 }
@@ -98,8 +114,21 @@
 .courseScheduleDescription {
   font-family: "Ropamix medium italic", sans-serif;
   line-height: 0.2em;
-  font-size: 1.7rem;
+  font-size: 2rem;
   text-align: center;
+}
+
+.courseScheduleNote {
+  color: #fffaf4;
+  text-align: center;
+  font-family: "Ropamix light italic", sans-serif;
+  font-size: 1.3rem;
+  padding-top: 20px;
+}
+
+.courseScheduleLink {
+  text-decoration: none;
+  color: #fffaf4;
 }
 
 /* Small screens */
