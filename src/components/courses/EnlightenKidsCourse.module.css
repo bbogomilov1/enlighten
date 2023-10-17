@@ -1,5 +1,5 @@
 .container {
-  padding: 90px 200px 150px 200px;
+  padding: 90px 200px 50px 200px;
   background: linear-gradient(135deg, #ffd700 50%, #0089ff 100%);
   display: flex;
   flex-direction: column;
@@ -45,6 +45,92 @@
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.starsContainer {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8rem;
+  color: #0088ff;
+}
+
+.stars {
+  padding: 10px;
+  font-size: 2rem;
+  width: 150px;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.courseScheduleContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 85px;
+}
+
+.courseSchedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  width: 250px;
+  padding: 50px;
+  margin: 0px 50px;
+  border-radius: 5%;
+  border: 2px solid #333;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.courseSchedule:hover {
+  background-color: #333;
+  color: #ffd700;
+}
+
+.icon {
+  padding: 10px;
+  background-color: #333;
+  color: #ffd700;
+  border-radius: 50%;
+  margin-top: -28%;
+  margin-bottom: 10%;
+}
+
+.courseScheduleDescription {
+  font-family: "Ropamix medium italic", sans-serif;
+  line-height: 1em;
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
+}
+
+.courseScheduleNote {
+  color: #333;
+  text-align: center;
+  font-family: "Ropamix light italic", sans-serif;
+  font-size: 1.3rem;
+  padding-top: 20px;
+}
+
+.courseScheduleLink {
+  text-decoration: none;
+  color: #333;
 }
 
 @media screen and (max-width: 768px) {

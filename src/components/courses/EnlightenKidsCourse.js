@@ -1,4 +1,8 @@
 import styles from "./EnlightenKidsCourse.module.css";
+import stars from "../../static/blackstars.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 function EnlightenKidsCourse() {
   return (
@@ -44,6 +48,36 @@ function EnlightenKidsCourse() {
           И така, вместо задължение, уроците са очаквано приключение!
         </h2>
       </div>
+
+      <div className={styles.starsContainer}>
+        <img src={stars} alt="stars" className={styles.stars} />
+      </div>
+
+      <div className={styles.courseScheduleContainer}>
+        <div className={styles.courseSchedule}>
+          <FontAwesomeIcon icon={faStar} className={styles.icon} />
+          <p className={styles.courseScheduleDescription}>5-7 г.</p>
+          <p className={styles.courseScheduleDescription}>
+            ВТОРНИК и ЧЕТВЪРТЪК
+          </p>
+          <p className={styles.courseScheduleDescription}>16:20 - 17:45</p>
+        </div>
+
+        <div className={styles.courseSchedule}>
+          <FontAwesomeIcon icon={faStar} className={styles.icon} />
+          <p className={styles.courseScheduleDescription}>5-7 г.</p>
+          <p className={styles.courseScheduleDescription}>СЪБОТА</p>
+          <p className={styles.courseScheduleDescription}>12:00 - 13:00</p>
+        </div>
+      </div>
+
+      <p className={styles.courseScheduleNote}>
+        *Запишете Вашето дете чрез препочитаната от Вас форма на{" "}
+        <Link to="/contact-us" className={styles.courseScheduleLink}>
+          <b>контакт</b>
+        </Link>{" "}
+        или чрез бързия чат в долния десен ъгъл.
+      </p>
     </div>
   );
 }

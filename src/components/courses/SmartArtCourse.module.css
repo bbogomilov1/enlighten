@@ -37,6 +37,7 @@
   color: #333;
   text-align: justify;
   text-indent: 5rem;
+  padding-bottom: 50px;
 }
 
 @media screen and (max-width: 768px) {
