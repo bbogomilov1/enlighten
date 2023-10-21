@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 150px 220px 20px 220px;
+  padding: 150px 180px 20px 180px;
   color: mediumseagreen;
 }
 
@@ -21,7 +21,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 100px 0px;
+  padding: 70px 0px;
 }
 
 .titleDescription {
