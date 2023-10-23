@@ -24,6 +24,7 @@
 .description {
   position: relative;
   color: #0074d9;
+  text-shadow: 1px 2px #0d064c;
   text-align: center;
   z-index: 1;
   line-height: 1em;
@@ -54,7 +55,7 @@
   text-decoration: none;
   display: block;
   text-align: center;
-  width: 22%;
+  width: 15%;
   margin: 5% 3%;
   padding: 1rem 2rem;
   background-color: transparent;

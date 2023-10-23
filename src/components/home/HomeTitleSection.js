@@ -23,7 +23,7 @@ function HomeTitleSection() {
         </div>
 
         <Link to="/courses" className={styles.enrollButton} type="button">
-          {t("Our Courses")}
+          ГРАФИК
         </Link>
 
         <div className={styles.iconContainer}>

@@ -2,16 +2,6 @@ import { Link } from "react-router-dom";
 import styles from "./HomeCourseReasons.module.css";
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef, useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEarthAmerica,
-  faBrain,
-  faPaintbrush,
-  faChildReaching,
-  faLockOpen,
-  faMicrophone,
-  faUserTie,
-} from "@fortawesome/free-solid-svg-icons";
 
 function HomeCourseReasons() {
   const { t } = useTranslation();
@@ -72,7 +62,7 @@ function HomeCourseReasons() {
             : `${styles.reasons}`
         }
       >
-        {/* <div className={styles.column}>
+        <div className={styles.column}>
           <p>
             {" "}
             <span>→</span>
@@ -122,85 +112,6 @@ function HomeCourseReasons() {
               Business
             </Link>
           </p>
-        </div> */}
-
-        <div className={styles.courses}>
-          <Link
-            to="/courses/enlighten-kids"
-            className={`${styles.courseContainer} ${styles.kids}`}
-          >
-            <FontAwesomeIcon
-              icon={faChildReaching}
-              className={styles.coursesIcons}
-            />
-            <p className={styles.courseTitle}>
-              ENlightEN <br /> Kids
-            </p>
-          </Link>
-
-          <Link
-            to="/courses/smartart"
-            className={`${styles.courseContainer} ${styles.smartart}`}
-          >
-            <FontAwesomeIcon
-              icon={faPaintbrush}
-              className={styles.coursesIcons}
-            />
-            <p className={styles.courseTitle}>SmartArt</p>
-          </Link>
-
-          <Link
-            to="/courses/concentrate"
-            className={`${styles.courseContainer} ${styles.concentrate}`}
-          >
-            <FontAwesomeIcon icon={faBrain} className={styles.coursesIcons} />
-            <p className={styles.courseTitle}>ConcENtrate</p>
-          </Link>
-
-          <Link
-            to="/courses/worldready"
-            className={`${styles.courseContainer} ${styles.worldready}`}
-          >
-            <FontAwesomeIcon
-              icon={faEarthAmerica}
-              className={styles.coursesIcons}
-            />
-            <p className={styles.courseTitle}>WorldReady</p>
-          </Link>
-
-          <Link
-            to="/courses/enlighten-private"
-            className={`${styles.courseContainer} ${styles.private}`}
-          >
-            <FontAwesomeIcon
-              icon={faLockOpen}
-              className={styles.coursesIcons}
-            />
-            <p className={styles.courseTitle}>
-              ENlightEN <br /> Private
-            </p>
-          </Link>
-
-          <Link
-            to="/courses/enlighten-private"
-            className={`${styles.courseContainer} ${styles.business}`}
-          >
-            <FontAwesomeIcon icon={faUserTie} className={styles.coursesIcons} />
-            <p className={styles.courseTitle}>Business</p>
-          </Link>
-
-          <Link
-            to="/courses/young-presenters"
-            className={`${styles.courseContainer} ${styles.presenters}`}
-          >
-            <FontAwesomeIcon
-              icon={faMicrophone}
-              className={styles.coursesIcons}
-            />
-            <p className={styles.courseTitle}>
-              Young <br /> PresENters
-            </p>
-          </Link>
         </div>
       </div>
     </div>
