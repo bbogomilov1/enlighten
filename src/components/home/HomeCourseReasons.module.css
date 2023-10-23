@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   padding: 70px 90px;
-  background-image: url(../../static/kinder-small.jpg);
-  background-color: mediumseagreen;
+  /* background-image: url(../../static/kinder-small.jpg); */
+  background-color: #0d0550;
   margin: 105px 0px;
   color: #fffaf4;
 }
@@ -82,6 +82,132 @@
   text-decoration: none;
   color: #fffaf4;
   font-size: 2.5rem;
+}
+
+.courses {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.courseLink {
+  text-decoration: none;
+}
+
+.coursesTitle {
+  padding: 100px 200px 0px 200px;
+  color: mediumseagreen;
+  font-family: "Ropamix medium italic", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  margin: 0;
+  text-align: center;
+}
+
+.courseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  text-decoration: none;
+}
+
+.concentrate {
+  color: mediumseagreen;
+  border: 3px solid mediumseagreen;
+  transition: 0.3s;
+}
+
+.concentrate:hover {
+  color: #fffaf4;
+  background-color: mediumseagreen;
+}
+
+.worldready {
+  color: #0189ff;
+  border: 3px solid #0189ff;
+  transition: 0.3s;
+}
+
+.worldready:hover {
+  color: #fffaf4;
+  background-color: #0189ff;
+}
+
+.smartart {
+  color: #71f368;
+  border: 3px solid #71f368;
+  transition: 0.3s;
+}
+
+.smartart:hover {
+  color: #333;
+  background-color: #71f368;
+}
+
+.kids {
+  color: #ffd700;
+  border: 3px solid #ffd700;
+  transition: 0.3s;
+}
+
+.kids:hover {
+  color: #333;
+  background-color: #ffd700;
+}
+
+.private {
+  color: #005299;
+  border: 3px solid #005299;
+  transition: 0.3s;
+}
+
+.private:hover {
+  color: #fffaf4;
+  background-color: #005299;
+}
+
+.presenters {
+  color: #5f021f;
+  border: 3px solid #5f021f;
+  transition: 0.3s;
+}
+
+.presenters:hover {
+  color: #fffaf4;
+  background-color: #5f021f;
+}
+
+.business {
+  color: #452268;
+  border: 3px solid #452268;
+  transition: 0.3s;
+}
+
+.business:hover {
+  color: #fffaf4;
+  background-color: #452268;
+}
+
+.courseTitle {
+  font-family: "Ropamix medium italic";
+  /* color: #fffaf4; */
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 5px;
+}
+
+.coursesIcons {
+  /* color: #fffaf4; */
+  padding-top: 0px;
+  border-radius: 50%;
+  width: 40px;
+  height: auto;
 }
 
 @keyframes fadeInFromBottom {
