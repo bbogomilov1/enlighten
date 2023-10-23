@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import styles from "./HomeTitleSection.module.css";
 import titleImage from "../../static/logo enlighten transp.png";
-import kidsImage from "../../static/elementary-school-resources.jpg";
-import { useTranslation } from "react-i18next";
 import stars from "../../static/bluestars.png";
+import { useTranslation } from "react-i18next";
 
 function HomeTitleSection() {
   const { t } = useTranslation();
@@ -19,21 +18,18 @@ function HomeTitleSection() {
       </p>
 
       <div className={styles.buttonContainer}>
-        {/* <Link to="/about-us" className={styles.enrollButton} type="button">
-          Разбери повече за нас
-        </Link> */}
         <div className={styles.iconContainer}>
           <img src={stars} alt="stars" className={styles.icon} />
         </div>
+
         <Link to="/courses" className={styles.enrollButton} type="button">
           {t("Our Courses")}
         </Link>
+
         <div className={styles.iconContainer}>
           <img src={stars} alt="stars" className={styles.icon} />
         </div>
       </div>
-
-      {/* <img src={kidsImage} alt="book" className={styles.titleImage} /> */}
     </div>
   );
 }

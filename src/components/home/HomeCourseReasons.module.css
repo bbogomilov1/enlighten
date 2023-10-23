@@ -3,7 +3,7 @@
   flex-direction: column;
   padding: 70px 90px;
   /* background-image: url(../../static/kinder-small.jpg); */
-  background-color: #0d0550;
+  background-color: #0059c0;
   margin: 105px 0px;
   color: #fffaf4;
 }
@@ -87,7 +87,7 @@
 .courses {
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .courseLink {
@@ -110,7 +110,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 50%;
   width: 130px;
   height: 130px;
