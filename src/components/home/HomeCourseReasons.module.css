@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   padding: 70px 90px;
-  /* background-image: url(../../static/kinder-small.jpg); */
   background-color: #0059c0;
-  margin: 105px 0px;
+  margin: 70px 0px;
   color: #fbf7e1;
 }
 

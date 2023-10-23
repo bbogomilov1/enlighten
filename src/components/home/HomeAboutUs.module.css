@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   padding: 0px 220px 70px 220px;
-  color: mediumseagreen;
+  color: #00a74a;
 }
 
 .title {
   line-height: 1em;
   margin: 0;
-  -webkit-text-stroke: 1.2px mediumseagreen;
-  color: transparent;
+  color: #0d064c;
+  text-align: center;
   z-index: 1;
   font-family: "Ropamix black", sans-serif;
   text-transform: uppercase;
@@ -33,10 +33,11 @@
   z-index: 1;
   line-height: 1em;
   font-family: "Ropamix medium italic", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-style: normal;
   width: 85%;
   margin-bottom: 0px;
+  text-shadow: 2px 2px #0d064c;
 }
 
 .reasonTwo {
@@ -50,10 +51,11 @@
   z-index: 1;
   line-height: 1em;
   font-family: "Ropamix medium italic", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-style: normal;
-  width: 60%;
+  width: 80%;
   margin-bottom: 0px;
+  text-shadow: 2px 2px #0d064c;
 }
 
 .reasonTwo p {
@@ -116,10 +118,11 @@
   z-index: 1;
   line-height: 1em;
   font-family: "Ropamix medium italic", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-style: normal;
   width: 80%;
   margin-bottom: 0px;
+  text-shadow: 2px 2px #0d064c;
 }
 
 .reasonFour p {
