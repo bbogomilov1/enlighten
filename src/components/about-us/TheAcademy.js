@@ -7,7 +7,7 @@ function TheAcademy() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>{t("The Academy")}</h1>
+      <h1 className={styles.title}>· Езиковият център ·</h1>
       <div className={styles.description}>
         <div>
           <img src={kidsImage} alt="kids" className={styles.image} />
@@ -17,6 +17,7 @@ function TheAcademy() {
           <p>{t("The many lessons in the classroom showed me that...")}</p>
         </div>
       </div>
+
       <svg
         viewBox="0 0 200 200"
         xmlns="http://www.w3.org/2000/svg"
