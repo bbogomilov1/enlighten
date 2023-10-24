@@ -3,17 +3,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 60px 270px;
+  padding: 60px 220px;
 }
 
 .title {
   opacity: 0;
-  -webkit-text-stroke: 1.2px mediumseagreen;
-  color: transparent;
+  color: #00a74a;
   font-family: "Ropamix black", sans-serif;
   text-transform: uppercase;
-  font-size: 5rem;
-  margin: 40px 0px;
+  font-size: 5.5rem;
+  text-shadow: 3px 3px #0d064c;
+  text-align: center;
 }
 
 .titleAnimation {
@@ -24,7 +24,7 @@
 .container p {
   color: rgba(37, 96, 167, 255);
   font-size: 1.7rem;
-  color: #333;
+  color: #00a74a;
   line-height: 30px;
   font-family: "Ropamix light italic";
   text-align: justify;
@@ -55,7 +55,8 @@
 
 .teacherTitle {
   opacity: 0;
-  color: mediumseagreen;
+  color: #00a74a;
+  text-shadow: 2px 2px #0d064c;
   font-family: "Ropamix medium italic", sans-serif;
   font-size: 3.3rem;
   font-style: normal;

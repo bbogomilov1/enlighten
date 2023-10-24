@@ -20,9 +20,8 @@
 }
 
 .container p {
-  color: rgba(37, 96, 167, 255);
   font-size: 1.7rem;
-  color: mediumseagreen;
+  color: #0d064c;
   text-indent: 8rem;
   font-family: "Ropamix light italic", sans-serif;
   line-height: 1.2em;
