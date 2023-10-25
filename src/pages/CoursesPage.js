@@ -1,5 +1,5 @@
 import styles from "./CoursesPage.module.css";
-import kidsImage from "../static/elementary-school-resources.jpg";
+import kidsImage from "../static/100 Would You Rather Questions for Teachers-600x400.jpg";
 import stars from "../static/bluestars.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -17,7 +17,7 @@ function CoursesPage() {
   return (
     <div>
       <div className={styles.container}>
-        <h1 className={styles.title}>Нашите курсове</h1>
+        <h1 className={styles.title}>· Нашите курсове ·</h1>
 
         <div className={styles.titleInfo}>
           <div className={styles.descriptionContainer}>
@@ -42,7 +42,141 @@ function CoursesPage() {
         <div className={styles.iconContainer}>
           <img src={stars} alt="stars" className={styles.icon} />
         </div>
+
+        <div>
+          <table>
+            <tr>
+              <th>Ден</th>
+              <th>Час</th>
+              <th>Курс</th>
+              <th>Години</th>
+              <th></th>
+            </tr>
+
+            {/* вторник */}
+            <tr>
+              <td>Вторник</td>
+              <td>16:20ч. - 17:45ч.</td>
+              <td>Enlighten Kids</td>
+              <td>5-7г.</td>
+              <td>
+                <Link
+                  to="/courses"
+                  className={styles.enrollButton}
+                  type="button"
+                >
+                  Запиши се
+                </Link>
+              </td>
+            </tr>
+
+            {/* сряда */}
+            <tr>
+              <td>Сряда</td>
+              <td>10:30ч. - 11:30ч.</td>
+              <td>ConcENtrate</td>
+              <td>3-4г.</td>
+              <td>
+                <Link
+                  to="/courses"
+                  className={styles.enrollButton}
+                  type="button"
+                >
+                  Запиши се
+                </Link>
+              </td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td>16:20ч. - 17:45ч.</td>
+              <td>WorldReady</td>
+              <td>7-9г.</td>
+              <td>
+                <Link
+                  to="/courses"
+                  className={styles.enrollButton}
+                  type="button"
+                >
+                  Запиши се
+                </Link>
+              </td>
+            </tr>
+
+            {/* четвъртък */}
+            <tr>
+              <td>Четвъртък</td>
+              <td>16:20ч. - 17:45ч.</td>
+              <td>Enlighten Kids</td>
+              <td>5-7г.</td>
+              <td>
+                <Link
+                  to="/courses"
+                  className={styles.enrollButton}
+                  type="button"
+                >
+                  Запиши се
+                </Link>
+              </td>
+            </tr>
+
+            {/* петък */}
+            <tr>
+              <td>Петък</td>
+              <td>10:30ч. - 11:30ч.</td>
+              <td>ConcENtrate</td>
+              <td>3-4г.</td>
+              <td>
+                <Link
+                  to="/courses"
+                  className={styles.enrollButton}
+                  type="button"
+                >
+                  Запиши се
+                </Link>
+              </td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td>16:20ч. - 17:45ч.</td>
+              <td>WorldReady</td>
+              <td>10-12г.</td>
+              <td>
+                <Link
+                  to="/courses"
+                  className={styles.enrollButton}
+                  type="button"
+                >
+                  Запиши се
+                </Link>
+              </td>
+            </tr>
+
+            {/* събота */}
+            <tr>
+              <td>Събота</td>
+              <td>12:00ч. - 13:00ч.</td>
+              <td>Enlighten Kids</td>
+              <td>5-7г.</td>
+              <td>
+                <Link
+                  to="/courses"
+                  className={styles.enrollButton}
+                  type="button"
+                >
+                  Запиши се
+                </Link>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
+
+      <div className={styles.iconContainer}>
+        <img src={stars} alt="stars" className={styles.icon} />
+      </div>
+
       <div className={styles.courses}>
         <Link
           to="/courses/enlighten-kids"
