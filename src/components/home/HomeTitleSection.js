@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./HomeTitleSection.module.css";
-import titleImage from "../../static/logo enlighten transp.png";
-import stars from "../../static/bluestars.png";
+import titleImage from "../../static/logo enlighten transp circ.png";
+import stars from "../../static/whitestars.png";
 import { useTranslation } from "react-i18next";
 
 function HomeTitleSection() {
