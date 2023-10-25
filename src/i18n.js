@@ -91,7 +91,7 @@ i18n.use(initReactI18next).init({
           "Разработихме няколко курса, които ще задоволят всяка нужда.",
 
         "Learn English in an innovative and interactive way":
-          "Научи английски език по иновативен и интерактивен начин",
+          "Научи английски език по · иновативен и интерактивен начин ·",
         "Engage with the Best English Teachers":
           "Работете с най-добрите учители по английски език",
         "at our academy":

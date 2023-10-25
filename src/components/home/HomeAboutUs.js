@@ -7,7 +7,7 @@ function HomeAboutUs() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        {t("Learn English in an innovative and interactive way")}!
+        Научи английски език по <br /> · иновативен и интерактивен начин ·
       </h1>
 
       <div className={styles.info}>
