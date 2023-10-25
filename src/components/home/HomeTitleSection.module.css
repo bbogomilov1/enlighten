@@ -24,17 +24,15 @@
 
 .description {
   position: relative;
-  /* color: #1090ff;
-  text-shadow: 1px 2px #0d064c; */
-  color: #fbf7e1;
+  color: white;
   text-shadow: 0px 0px 15px #0d064c;
   text-align: center;
   z-index: 1;
   line-height: 1em;
   font-family: "Ropamix black", sans-serif;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-style: normal;
-  width: 90%;
+  width: 80%;
   margin-top: 90px;
   margin-bottom: 30px;
   animation: fadeInFromBottom 1s ease-in-out;
@@ -65,7 +63,7 @@
   width: 15%;
   margin: 5% 3%;
   padding: 1rem 2rem;
-  background-color: #fbf7e1;
+  background-color: white;
   color: #0074d9;
   font-size: 2rem;
   font-weight: bold;
