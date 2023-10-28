@@ -8,9 +8,9 @@ function ConcentrateCourse() {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h2>the</h2>
+        <h2>· the</h2>
         <h1>concENtrate</h1>
-        <h2>course</h2>
+        <h2>course ·</h2>
       </div>
       <div className={styles.description}>
         <p>
@@ -66,9 +66,9 @@ function ConcentrateCourse() {
       </div>
 
       <p className={styles.courseScheduleNote}>
-        *Запишете Вашето дете чрез препочитаната от Вас форма на{" "}
+        *Запишете Вашето дете от{" "}
         <Link to="/contact-us" className={styles.courseScheduleLink}>
-          <b>контакт</b>
+          <b>контакти</b>
         </Link>{" "}
         или чрез бързия чат в долния десен ъгъл.
       </p>

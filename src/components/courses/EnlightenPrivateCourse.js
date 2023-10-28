@@ -4,9 +4,9 @@ function EnlightenPrivateCourse() {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h2>the</h2>
+        <h2>· the</h2>
         <h1>ENlightEN Private</h1>
-        <h2>course</h2>
+        <h2>course ·</h2>
       </div>
       <div className={styles.description}>
         <p>
