@@ -37,7 +37,7 @@ function Inquiry() {
               <input
                 type="text"
                 name="from_name"
-                placeholder="Full Name *"
+                placeholder={t("Full Name") + " *"}
                 required
               />
             </div>
@@ -51,13 +51,13 @@ function Inquiry() {
               <input
                 type="tel"
                 name="from_phone"
-                placeholder="Phone Number *"
+                placeholder={t("Phone Number") + " *"}
                 required
               />
             </div>
             <textarea
               name="from_message"
-              placeholder="Your Message"
+              placeholder={t("Your Message") + " *"}
               required
             ></textarea>
             <button type="submit" className={styles.formButton}>
