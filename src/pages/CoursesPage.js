@@ -61,7 +61,7 @@ function CoursesPage() {
               <td>5-7г.</td>
               <td>
                 <Link
-                  to="/courses"
+                  to="/enroll"
                   className={styles.enrollButton}
                   type="button"
                 >
@@ -78,7 +78,7 @@ function CoursesPage() {
               <td>3-4г.</td>
               <td>
                 <Link
-                  to="/courses"
+                  to="/enroll"
                   className={styles.enrollButton}
                   type="button"
                 >
@@ -94,7 +94,7 @@ function CoursesPage() {
               <td>7-9г.</td>
               <td>
                 <Link
-                  to="/courses"
+                  to="/enroll"
                   className={styles.enrollButton}
                   type="button"
                 >
@@ -111,7 +111,7 @@ function CoursesPage() {
               <td>5-7г.</td>
               <td>
                 <Link
-                  to="/courses"
+                  to="/enroll"
                   className={styles.enrollButton}
                   type="button"
                 >
@@ -128,7 +128,7 @@ function CoursesPage() {
               <td>3-4г.</td>
               <td>
                 <Link
-                  to="/courses"
+                  to="/enroll"
                   className={styles.enrollButton}
                   type="button"
                 >
@@ -144,7 +144,7 @@ function CoursesPage() {
               <td>10-12г.</td>
               <td>
                 <Link
-                  to="/courses"
+                  to="/enroll"
                   className={styles.enrollButton}
                   type="button"
                 >
@@ -161,7 +161,7 @@ function CoursesPage() {
               <td>5-7г.</td>
               <td>
                 <Link
-                  to="/courses"
+                  to="/enroll"
                   className={styles.enrollButton}
                   type="button"
                 >

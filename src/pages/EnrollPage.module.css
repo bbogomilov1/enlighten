@@ -1,0 +1,150 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.enrollContainer {
+  background-color: #e5cd15;
+  padding: 120px 20px;
+  width: 100%;
+}
+
+.title {
+  color: #0d0746;
+  text-shadow: 3px 3px #0074d9;
+  z-index: 1;
+  font-family: "Ropamix black", sans-serif;
+  font-size: 6rem;
+  margin: 45px;
+  animation: fadeInFromBottom 1s ease-in-out;
+}
+
+.listContainer {
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.enrollContainer h2 {
+  padding: 0px 20px;
+  font-family: "Ropamix medium italic", sans-serif;
+}
+
+.inputTitle {
+  margin: 0;
+  font-family: "Ropamix medium italic", sans-serif;
+  color: #0074d9;
+  font-size: 3.5rem;
+  transition: 0.3s;
+  text-shadow: 2px 2px #0d064c;
+}
+
+.inquiryForm {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px #0d064c;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  border-radius: 15px;
+  flex: 1;
+}
+
+.radioGroupInput {
+  padding: 10px;
+}
+
+.formButtonContainer {
+  margin: 50px;
+}
+
+.formButton {
+  font-family: "Ropamix medium italic", sans-serif;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px 20px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 3rem;
+  width: 100%;
+}
+
+.formButton:hover {
+  background-color: #0056b3;
+}
+
+/* Small screens */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px 0px;
+  }
+
+  .container h2 {
+    font-family: "Ropamix medium italic", sans-serif;
+    font-size: 1.5rem;
+    padding: 0px;
+    line-height: 1.5rem;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .listContainer {
+    padding: 0px 30px;
+    font-size: 0.8rem;
+  }
+
+  .inquiryForm {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .inputGroup {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  input {
+    width: 92%;
+  }
+
+  input,
+  textarea {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+
+  textarea {
+    height: 3rem;
+  }
+
+  .formButton {
+    padding: 5px 5px;
+    width: 5rem;
+    font-size: 0.8rem;
+  }
+}
