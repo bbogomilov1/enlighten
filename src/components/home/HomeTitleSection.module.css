@@ -25,7 +25,7 @@
 .description {
   position: relative;
   color: white;
-  text-shadow: 0px 0px 15px #0d064c;
+  text-shadow: 0px 0px 15px var(--dark-blue);
   text-align: center;
   z-index: 1;
   line-height: 1em;
@@ -41,7 +41,7 @@
 .titleImage {
   z-index: 1;
   height: 350px;
-  /* box-shadow: 0px 0px 20px 9px #0074d9; */
+  /* box-shadow: 0px 0px 20px 9px var(--blue); */
   border-radius: 13px;
   /* padding: 10px; */
 }
@@ -64,12 +64,12 @@
   margin: 5% 3%;
   padding: 1rem 2rem;
   background-color: white;
-  color: #0074d9;
+  color: var(--blue);
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 20px;
-  border: 2px solid #0074d9;
+  border: 2px solid var(--blue);
   cursor: pointer;
   animation: fadeInFromBottom 1s ease-in-out;
   transition: all 0.3s;
@@ -77,7 +77,7 @@
 
 .enrollButton:hover {
   color: #fbf7e1;
-  background-color: #0074d9;
+  background-color: var(--blue);
   top: -10px;
 }
 

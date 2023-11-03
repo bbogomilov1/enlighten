@@ -1,6 +1,6 @@
 .container {
   width: 50%;
-  background-color: #0074d9;
+  background-color: var(--blue);
   color: #e4ecf1;
   padding-bottom: 20px;
 }

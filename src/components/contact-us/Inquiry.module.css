@@ -1,6 +1,6 @@
 .container {
   width: 50%;
-  background-color: #e5cd15;
+  background-color: var(--yellow);
   padding: 50px 20px;
 }
 
@@ -52,7 +52,7 @@ textarea {
 }
 
 .formButton {
-  background-color: #0074d9;
+  background-color: var(--blue);
   color: #fff;
   border: none;
   padding: 10px 20px;

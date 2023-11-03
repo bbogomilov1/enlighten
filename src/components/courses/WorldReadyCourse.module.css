@@ -12,7 +12,7 @@
   align-items: baseline;
   padding: 50px;
   justify-content: flex-end;
-  text-shadow: 3px 3px #0d064c;
+  text-shadow: 3px 3px var(--dark-blue);
 }
 
 .title h1 {

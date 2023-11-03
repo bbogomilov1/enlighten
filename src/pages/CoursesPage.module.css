@@ -10,7 +10,7 @@
   line-height: 1em;
   margin: 0;
   color: #00a74a;
-  text-shadow: 2px 2px #0d064c;
+  text-shadow: 2px 2px var(--dark-blue);
   z-index: 1;
   font-family: "Ropamix black", sans-serif;
   text-transform: uppercase;

@@ -5,3 +5,9 @@ body {
   background-color: #fbf7e1;
   overflow-x: hidden;
 }
+
+:root {
+  --blue: #0074d9;
+  --dark-blue: #0d064c;
+  --yellow: #e5cd15;
+}

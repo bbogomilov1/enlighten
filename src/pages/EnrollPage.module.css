@@ -5,14 +5,14 @@
 }
 
 .enrollContainer {
-  background-color: #e5cd15;
+  background-color: var(--yellow);
   padding: 120px 20px;
   width: 100%;
 }
 
 .title {
   color: #0d0746;
-  text-shadow: 3px 3px #0074d9;
+  text-shadow: 3px 3px var(--blue);
   z-index: 1;
   font-family: "Ropamix black", sans-serif;
   font-size: 6rem;
@@ -36,10 +36,10 @@
 .inputTitle {
   margin: 0;
   font-family: "Ropamix medium italic", sans-serif;
-  color: #0074d9;
+  color: var(--blue);
   font-size: 3.5rem;
   transition: 0.3s;
-  text-shadow: 2px 2px #0d064c;
+  text-shadow: 2px 2px var(--dark-blue);
 }
 
 .inquiryForm {
@@ -63,7 +63,6 @@
 input {
   padding: 10px;
   border: 1px solid #ccc;
-  box-shadow: 2px 2px #0d064c;
   border-radius: 15px;
   margin-bottom: 15px;
 }
@@ -71,12 +70,25 @@ input {
 input[type="text"],
 input[type="tel"],
 input[type="email"] {
+  box-shadow: 2px 2px var(--dark-blue);
   border-radius: 15px;
   flex: 1;
 }
 
-.radioGroupInput {
-  padding: 10px;
+.radioGroupContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.radioGroup {
+  width: 50%;
+}
+
+.radioGroupInputs {
+  padding: 20px 0px;
+  font-size: 2.7rem;
+  font-family: "Ropamix medium italic", sans-serif;
+  color: var(--dark-blue);
 }
 
 .formButtonContainer {
@@ -85,7 +97,7 @@ input[type="email"] {
 
 .formButton {
   font-family: "Ropamix medium italic", sans-serif;
-  background-color: #0074d9;
+  background-color: var(--blue);
   color: #fff;
   border: none;
   padding: 10px 20px 20px 20px;

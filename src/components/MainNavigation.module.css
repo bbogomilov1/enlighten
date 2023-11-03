@@ -8,7 +8,7 @@ html {
   position: fixed;
   top: 0;
   width: 100%;
-  background: linear-gradient(160deg, #0074d9 69%, #ffd700 100%);
+  background: linear-gradient(160deg, var(--blue) 69%, #ffd700 100%);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -76,7 +76,7 @@ ul li a:hover::before {
   display: flex;
   flex-direction: column;
   position: absolute;
-  background-color: #0074d9;
+  background-color: var(--blue);
   padding-bottom: 10px;
   margin-left: -20px;
 }
@@ -126,7 +126,7 @@ ul li a:hover::before {
     position: absolute;
     height: 700%;
     top: 0px;
-    background: linear-gradient(45deg, #0074d9 60%, #ffd700 100%);
+    background: linear-gradient(45deg, var(--blue) 60%, #ffd700 100%);
     padding-top: 130px;
   }
 

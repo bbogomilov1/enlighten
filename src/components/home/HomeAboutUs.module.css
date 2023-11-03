@@ -37,7 +37,7 @@
   font-size: 4rem;
   font-style: normal;
   margin-bottom: 0px;
-  text-shadow: 2px 2px #0d064c;
+  text-shadow: 2px 2px var(--dark-blue);
 }
 
 .reasonTwo {
@@ -54,7 +54,7 @@
   font-size: 4rem;
   font-style: normal;
   margin-bottom: 0px;
-  text-shadow: 2px 2px #0d064c;
+  text-shadow: 2px 2px var(--dark-blue);
 }
 
 .reasonTwo p {
@@ -120,7 +120,7 @@
   font-size: 4rem;
   font-style: normal;
   margin-bottom: 0px;
-  text-shadow: 2px 2px #0d064c;
+  text-shadow: 2px 2px var(--dark-blue);
 }
 
 .reasonFour p {
