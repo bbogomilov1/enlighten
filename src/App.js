@@ -62,8 +62,6 @@ const routeChildren = [
   <Route key="enroll" path="enroll" element={<EnrollPage />} />,
 ];
 
-const coursesChildren = [];
-
 const routeDefinitions = createRoutesFromElements(
   <Route errorElement={<ErrorPage />}>
     <Route path="/" element={<RootLayout />} children={routeChildren} />

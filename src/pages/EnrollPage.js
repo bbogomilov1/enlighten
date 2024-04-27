@@ -1,11 +1,41 @@
 import styles from "./EnrollPage.module.css";
+import Form from "react-bootstrap/Form";
+
 import { useTranslation } from "react-i18next";
 import emailjs from "emailjs-com";
 import { useState } from "react";
 
 function EnrollPage() {
   const { t } = useTranslation();
-  const [selectedOption, setSelectedOption] = useState(null);
+  const [selectedOption, setSelectedOption] = useState("");
+  const [selectedOptionHour, setSelectedOptionHour] = useState("");
+  const courseOptions = [
+    "concENtrate",
+    "WorldReady",
+    "SmartArt",
+    "ENlightEN Kids",
+    "ENlightEN Private",
+    "Young PresENters",
+  ];
+
+  const courseOptionsHours = {
+    concENtrate: [
+      "Сряда - 10:30ч. - 11:30ч. (3-4г.)",
+      "Петък - 10:30ч. - 11:30ч. (3-4г.)",
+    ],
+    WorldReady: [
+      "Сряда - 16:20ч. - 17:45ч. (7-9г.)",
+      "Петък - 16:20ч. - 17:45ч. (10-12г.)",
+    ],
+    SmartArt: ["Hour A", "Hour B", "Hour C"],
+    "ENlightEN Kids": [
+      "Вторник - 16:20ч. - 17:45ч. (5-7г.)",
+      "Четвъртък - 16:20ч. - 17:45ч. (5-7г.)",
+      "Събота - 12:00ч. - 13:00ч. (5-7г.)",
+    ],
+    "ENlightEN Private": ["Hour A", "Hour B", "Hour C"],
+    "Young PresENters": ["Hour A", "Hour B", "Hour C"],
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -25,7 +55,14 @@ function EnrollPage() {
   };
 
   const handleOptionChange = (event) => {
-    setSelectedOption(event.target.value);
+    const selectedCourse = event.target.value;
+    setSelectedOption(selectedCourse);
+    setSelectedOptionHour(null);
+  };
+
+  const handleOptionHourChange = (event) => {
+    const selectedHour = event.target.value;
+    setSelectedOptionHour(selectedHour);
   };
 
   return (
@@ -76,129 +113,54 @@ function EnrollPage() {
                   <div className={styles.radioGroup}>
                     <p className={styles.inputTitle}>Избери курс:</p>
                     <div className={styles.radioGroupInputs}>
-                      <input
-                        type="radio"
-                        id="concentrate"
-                        name="course"
-                        value="concENtrate"
-                        checked={selectedOption === "concENtrate"}
-                        onChange={handleOptionChange}
-                      />
-                        <label htmlFor="concentrate">concENtrate</label>
-                      {/* {selectedOption === "concENtrate" && (
-                        <div>
-                          <input
-                            type="radio"
-                            name="sub-option1"
-                            value="sub-option1-1"
-                          />
-                          <label htmlFor="sub-option1-1">Sub-option 1.1</label>
-                          <br />
-                          <input
-                            type="radio"
-                            name="sub-option1"
-                            value="sub-option1-2"
-                          />
-                          <label htmlFor="sub-option1-2">Sub-option 1.2</label>
-                        </div>
-                      )} */}
-                      <br />
-                      <input
-                        type="radio"
-                        id="worldready"
-                        name="course"
-                        value="WorldReady"
-                      />
-                        <label htmlFor="worldready">WorldReady</label>
-                      <br />
-                      <input
-                        type="radio"
-                        id="smartart"
-                        name="course"
-                        value="SmartArt"
-                      />
-                        <label htmlFor="smartart">SmartArt</label>
-                      <br />
-                      <input
-                        type="radio"
-                        id="kids"
-                        name="course"
-                        value="ENlightEN Kids"
-                      />
-                        <label htmlFor="kids">ENlightEN Kids</label>
-                      <br />
-                      <input
-                        type="radio"
-                        id="private"
-                        name="course"
-                        value="ENlightEN Private"
-                      />
-                        <label htmlFor="private">ENlightEN Private</label>
-                      <br />
-                      <input
-                        type="radio"
-                        id="presenters"
-                        name="course"
-                        value="Young PresENters"
-                      />
-                        <label htmlFor="presenters">Young PresENters</label>
+                      {courseOptions.map((course) => {
+                        return (
+                          <div
+                            key={course}
+                            onClick={() =>
+                              handleOptionChange({ target: { value: course } })
+                            }
+                          >
+                            <input
+                              type="radio"
+                              id={course}
+                              name={course}
+                              value={course}
+                              checked={selectedOption === course}
+                              onChange={handleOptionChange}
+                            />
+                             {" "}
+                            <label
+                              htmlFor="course"
+                              style={{ cursor: "pointer" }}
+                            >
+                              {course}
+                            </label>
+                            {selectedOption === course && (
+                              <div className={styles.radioGroupInputsOptions}>
+                                <Form.Select
+                                  aria-label="Default select example"
+                                  onChange={handleOptionHourChange}
+                                  value={selectedOptionHour}
+                                  className={styles.radioGroupInputsOptions}
+                                >
+                                  <option value="">Избери ден и час</option>
+                                  {courseOptionsHours[selectedOption].map(
+                                    (hour) => (
+                                      <option key={hour} value={hour}>
+                                        {hour}
+                                      </option>
+                                    )
+                                  )}
+                                </Form.Select>
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })}
                       <br />
                     </div>
                   </div>
-
-                  {/* <div className={styles.radioGroup}>
-                    <p className={styles.inputTitle}>Избери ден и час:</p>
-                    <div className={styles.radioGroupInputs}>
-                      <input
-                        type="radio"
-                        id="concentrate"
-                        name="course"
-                        value="concENtrate"
-                      />
-                        <label htmlFor="concentrate">concENtrate</label>
-                      <br />
-                      <input
-                        type="radio"
-                        id="worldready"
-                        name="course"
-                        value="WorldReady"
-                      />
-                        <label htmlFor="worldready">WorldReady</label>
-                      <br />
-                      <input
-                        type="radio"
-                        id="smartart"
-                        name="course"
-                        value="SmartArt"
-                      />
-                        <label htmlFor="smartart">SmartArt</label>
-                      <br />
-                      <input
-                        type="radio"
-                        id="kids"
-                        name="course"
-                        value="ENlightEN Kids"
-                      />
-                        <label htmlFor="kids">ENlightEN Kids</label>
-                      <br />
-                      <input
-                        type="radio"
-                        id="private"
-                        name="course"
-                        value="ENlightEN Private"
-                      />
-                        <label htmlFor="private">ENlightEN Private</label>
-                      <br />
-                      <input
-                        type="radio"
-                        id="presenters"
-                        name="course"
-                        value="Young PresENters"
-                      />
-                        <label htmlFor="presenters">Young PresENters</label>
-                      <br />
-                    </div>
-                  </div> */}
                 </div>
 
                 <div className={styles.formButtonContainer}>
