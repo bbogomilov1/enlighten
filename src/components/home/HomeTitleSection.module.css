@@ -170,15 +170,16 @@
   .container p {
     padding-left: 0%;
     font-size: 2rem;
+    text-indent: 0rem;
   }
 
   .enrollButton {
-    width: 50%; /* Adjust button width for smaller screens */
+    width: 50%;
   }
 
   .titleImage {
     height: auto;
-    width: 100%; /* Ensure the image fits within the container */
-    max-height: 280px; /* Limit the max height */
+    width: 100%;
+    max-height: 280px;
   }
 }
