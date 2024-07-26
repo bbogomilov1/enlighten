@@ -41,9 +41,7 @@
 .titleImage {
   z-index: 1;
   height: 350px;
-  /* box-shadow: 0px 0px 20px 9px var(--blue); */
   border-radius: 13px;
-  /* padding: 10px; */
 }
 
 .buttonContainer {
@@ -144,7 +142,7 @@
   }
 
   .container p {
-    padding-left: 10%;
+    padding-left: 0%;
     font-size: 1.3rem;
     text-indent: 2.3rem;
   }
@@ -168,15 +166,19 @@
   }
 }
 
-/* Additional media queries for other screen sizes */
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .container p {
-    padding-left: 5%;
-    font-size: 1.5rem;
-    text-indent: 2rem;
+    padding-left: 0%;
+    font-size: 2rem;
   }
 
-  .bookImage {
-    margin-top: -30px;
+  .enrollButton {
+    width: 50%; /* Adjust button width for smaller screens */
   }
-} */
+
+  .titleImage {
+    height: auto;
+    width: 100%; /* Ensure the image fits within the container */
+    max-height: 280px; /* Limit the max height */
+  }
+}
