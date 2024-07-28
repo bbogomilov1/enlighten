@@ -283,3 +283,120 @@ tr:nth-child(8) {
   width: 40px;
   height: auto;
 }
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 50px 20px;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .titleInfo {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .titleDescription {
+    font-size: 1.3rem;
+    text-indent: 2rem;
+    margin: 5px 0;
+  }
+
+  .kidsImage {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .icon {
+    width: 100px;
+  }
+
+  table,
+  td,
+  th {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .enrollButton {
+    width: 100px;
+    font-size: 1rem;
+  }
+
+  .courses {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .courseContainer {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+  }
+
+  .courseTitle {
+    font-size: 1.2rem;
+  }
+
+  .coursesIcons {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 30px 10px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .descriptionContainer {
+    padding-bottom: 30px;
+  }
+
+  .titleDescription {
+    font-size: 1rem;
+    text-indent: 1rem;
+  }
+
+  .icon {
+    width: 80px;
+  }
+
+  table,
+  td,
+  th {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .enrollButton {
+    width: 80px;
+    font-size: 0.9rem;
+  }
+
+  .courseContainer {
+    width: 80px;
+    height: 80px;
+  }
+
+  .courseTitle {
+    font-size: 1rem;
+  }
+
+  .courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .coursesIcons {
+    width: 20px;
+  }
+}
