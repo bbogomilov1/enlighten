@@ -118,6 +118,10 @@ ul li a:hover::before {
     display: none;
   }
 
+  .courseDropdown {
+    display: none;
+  }
+
   .open {
     display: flex;
     flex-direction: column;
