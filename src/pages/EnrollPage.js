@@ -116,6 +116,7 @@ function EnrollPage() {
                       {courseOptions.map((course) => {
                         return (
                           <div
+                            className={styles.courseOption}
                             key={course}
                             onClick={() =>
                               handleOptionChange({ target: { value: course } })
