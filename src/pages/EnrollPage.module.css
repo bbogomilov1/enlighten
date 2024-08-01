@@ -216,6 +216,11 @@ input[type="email"] {
     width: 100%;
     font-size: 1rem;
     margin-left: 0;
+    padding: 0px;
+  }
+
+  .radioGroupInputsOptions select {
+    height: 100%;
   }
 
   .courseOption {
@@ -241,7 +246,8 @@ input[type="email"] {
   }
 
   .radioInput {
-    flex: 2;
+    width: 25px;
+    height: 25px;
     padding: 0px;
   }
 
