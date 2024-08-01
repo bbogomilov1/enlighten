@@ -205,11 +205,14 @@ input[type="email"] {
   }
 
   .radioGroupInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     font-size: 1.5rem;
   }
 
   .radioGroupInputsOptions {
-    width: 70%;
+    width: 100%;
     font-size: 1rem;
     margin-left: 0;
   }
@@ -224,6 +227,7 @@ input[type="email"] {
   }
 
   .formButton {
+    width: 100%;
     padding: 10px;
     font-size: 1.5rem;
   }
