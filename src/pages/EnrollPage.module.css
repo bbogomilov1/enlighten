@@ -225,6 +225,7 @@ input[type="email"] {
 
   .courseOption {
     display: flex;
+    align-items: stretch;
   }
 
   .formButtonContainer {
