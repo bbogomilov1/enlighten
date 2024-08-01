@@ -212,6 +212,7 @@ input[type="email"] {
   }
 
   .radioGroupInputsOptions {
+    flex: 30%;
     width: 100%;
     font-size: 1rem;
     margin-left: 0;
@@ -234,9 +235,18 @@ input[type="email"] {
 
   input,
   textarea {
+    flex: 1;
     width: 80%;
     padding: 10px;
     font-size: 1rem;
+  }
+
+  .radioInput {
+    padding: 0px;
+  }
+
+  label {
+    flex: auto;
   }
 
   textarea {

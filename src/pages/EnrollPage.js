@@ -123,6 +123,7 @@ function EnrollPage() {
                             }
                           >
                             <input
+                              className={styles.radioInput}
                               type="radio"
                               id={course}
                               name={course}
