@@ -352,6 +352,7 @@ tr:nth-child(8) {
   }
 
   .title {
+    padding: 40px 0px;
     font-size: 2rem;
     align-items: center;
   }

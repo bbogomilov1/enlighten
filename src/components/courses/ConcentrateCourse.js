@@ -67,7 +67,7 @@ function ConcentrateCourse() {
 
       <p className={styles.courseScheduleNote}>
         *Запишете Вашето дете от{" "}
-        <Link to="/contact-us" className={styles.courseScheduleLink}>
+        <Link to="/enroll" className={styles.courseScheduleLink}>
           <b>контакти</b>
         </Link>{" "}
         или чрез бързия чат в долния десен ъгъл.

@@ -80,10 +80,6 @@ input[type="email"] {
   justify-content: flex-start;
 }
 
-.radioGroup {
-  /* width: 50%; */
-}
-
 .radioGroupInputs {
   padding: 20px 0px;
   font-size: 2.7rem;

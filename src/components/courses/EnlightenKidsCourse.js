@@ -73,7 +73,7 @@ function EnlightenKidsCourse() {
 
       <p className={styles.courseScheduleNote}>
         *Запишете Вашето дете чрез препочитаната от Вас форма на{" "}
-        <Link to="/contact-us" className={styles.courseScheduleLink}>
+        <Link to="/enroll" className={styles.courseScheduleLink}>
           <b>контакт</b>
         </Link>{" "}
         или чрез бързия чат в долния десен ъгъл.
