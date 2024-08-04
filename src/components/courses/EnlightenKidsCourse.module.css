@@ -16,7 +16,7 @@
 }
 
 .title h1 {
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", Arial, sans-serif;
   font-size: 7rem;
   font-style: normal;
   margin: 0;
@@ -24,7 +24,7 @@
 }
 
 .title h2 {
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", Arial, sans-serif;
   font-size: 3.5rem;
   font-style: normal;
   margin: 0;
@@ -34,7 +34,7 @@
 
 .description {
   /* width: 90%; */
-  font-family: "Ropamix light italic";
+  font-family: "Ropamix light italic", Arial, sans-serif;
   line-height: 1.2em;
   font-size: 1.8rem;
   color: #333;
@@ -142,12 +142,11 @@
   }
 
   .title {
-    font-family: "Ropamix medium italic", sans-serif;
     padding: 40px 0px;
   }
 
   .title h1 {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
     text-align: center;
   }
 
