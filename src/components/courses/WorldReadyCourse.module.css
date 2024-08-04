@@ -142,30 +142,65 @@
   }
 
   .title {
-    padding: 50px 0px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    padding: 40px 0px;
+    text-shadow: 2px 2px var(--dark-blue);
   }
 
   .title h1 {
-    font-size: 2.8rem;
+    font-size: 1.7rem;
     text-align: center;
   }
 
   .title h2 {
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     text-align: center;
-    padding: 0px;
+    padding: 0px 5px;
   }
 
   .description {
-    width: none;
     font-size: 1.3rem;
     padding: 0px 20px;
+    text-indent: 1rem;
   }
 
   .phrase {
     line-height: 1;
+  }
+
+  .starsContainer {
+    padding: 10px 0px;
+  }
+
+  .stars {
+    width: 100px;
+  }
+
+  .courseScheduleContainer {
+    padding-top: 50px;
+  }
+
+  .courseSchedule {
+    width: 90%;
+    padding: 20px;
+    margin: 10px 5px;
+  }
+
+  .courseScheduleDescription {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .icon {
+    margin-top: -20%;
+    margin-bottom: 10%;
+  }
+
+  .courseScheduleNote {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+
+  .courseScheduleLink {
+    font-size: 1rem;
   }
 }
