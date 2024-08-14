@@ -119,7 +119,7 @@ const MainNavigation = () => {
 
             <li className={styles.navItem}>
               <Link
-                to="/contact-us"
+                to="/schedule"
                 className={styles.navLink}
                 onClick={closeMenu}
               >

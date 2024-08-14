@@ -21,7 +21,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 70px 0px;
+  padding: 20px 0px 70px 0px;
 }
 
 .titleDescription {
@@ -97,65 +97,6 @@
   100% {
     transform: translatey(0px);
   }
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  color: #00a74a;
-  margin: 30px;
-}
-
-tr {
-  font-family: "Ropamix black italic", sans-serif;
-}
-
-td {
-  font-family: "Ropamix medium italic", sans-serif;
-}
-
-td,
-th {
-  border: 2px solid #c7dfcf;
-  text-align: left;
-  padding: 15px;
-  font-size: 1.7rem;
-}
-
-tr:nth-child(2),
-tr:nth-child(5),
-tr:nth-child(8) {
-  background-color: #d2e4d7;
-}
-
-.enrollButton {
-  width: 120px;
-  position: relative;
-  z-index: 1;
-  font-family: "Ropamix medium italic", sans-serif;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  padding: 0.5rem 1rem;
-  background-color: #fbf7e1;
-  color: #00a74a;
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 20px;
-  border: 2px solid #00a74a;
-  cursor: pointer;
-  animation: fadeInFromBottom 1s ease-in-out;
-  transition: all 0.3s;
-}
-
-.enrollButton:hover {
-  color: #fbf7e1;
-  background-color: #00a74a;
-}
-
-.enrollButton:focus {
-  outline: none;
 }
 
 .courses {
@@ -246,15 +187,26 @@ tr:nth-child(8) {
   background-color: #005299;
 }
 
-.presenters {
+/* .presenters {
   color: #5f021f;
   border: 3px solid #5f021f;
   transition: 0.3s;
+} */
+
+.presenters {
+  color: #005299;
+  border: 3px solid #005299;
+  transition: 0.3s;
 }
+
+/* .presenters:hover {
+  color: #fffaf4;
+  background-color: #5f021f;
+} */
 
 .presenters:hover {
   color: #fffaf4;
-  background-color: #5f021f;
+  background-color: #005299;
 }
 
 .business {

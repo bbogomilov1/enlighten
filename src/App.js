@@ -18,6 +18,7 @@ import EnlightenKidsCourse from "./components/courses/EnlightenKidsCourse";
 import EnlightenPrivateCourse from "./components/courses/EnlightenPrivateCourse";
 import YoungPresentersCourse from "./components/courses/YoungPresentersCourse";
 import EnrollPage from "./pages/EnrollPage";
+import SchedulePage from "./pages/SchedulePage";
 
 const routeChildren = [
   <Route key="home" index="true" element={<HomePage />} />,
@@ -58,6 +59,7 @@ const routeChildren = [
     element={<YoungPresentersCourse />}
   />,
 
+  <Route key="schedule" path="schedule" element={<SchedulePage />} />,
   <Route key="contact" path="contact-us" element={<ContactUsPage />} />,
   <Route key="enroll" path="enroll" element={<EnrollPage />} />,
 ];

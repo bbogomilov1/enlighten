@@ -1,0 +1,58 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #00a74a;
+  margin: 30px;
+}
+
+tr {
+  font-family: "Ropamix black italic", sans-serif;
+}
+
+td {
+  font-family: "Ropamix medium italic", sans-serif;
+}
+
+td,
+th {
+  border: 2px solid #c7dfcf;
+  text-align: left;
+  padding: 15px;
+  font-size: 1.7rem;
+}
+
+tr:nth-child(2),
+tr:nth-child(5),
+tr:nth-child(8) {
+  background-color: #d2e4d7;
+}
+
+.enrollButton {
+  width: 120px;
+  position: relative;
+  z-index: 1;
+  font-family: "Ropamix medium italic", sans-serif;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background-color: #fbf7e1;
+  color: #00a74a;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 2px solid #00a74a;
+  cursor: pointer;
+  animation: fadeInFromBottom 1s ease-in-out;
+  transition: all 0.3s;
+}
+
+.enrollButton:hover {
+  color: #fbf7e1;
+  background-color: #00a74a;
+}
+
+.enrollButton:focus {
+  outline: none;
+}
