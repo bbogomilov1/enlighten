@@ -4,14 +4,13 @@ import "../static/fonts.css";
 import LogoProvider from "./Logo";
 import hamIcon from "../static/hamburger icon.png";
 
-import LanguageSwitcher from "../LanguageSwitcher";
+// import LanguageSwitcher from "../LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 
 const MainNavigation = () => {
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [aboutUsMenuOpen, setAboutUsMenuOpen] = useState(false);
   const [coursesMenuOpen, setCoursesMenuOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -20,16 +19,11 @@ const MainNavigation = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const toggleAboutUsMenu = () => {
-    setAboutUsMenuOpen(!aboutUsMenuOpen);
-  };
-
   const toggleCoursesMenu = () => {
     setCoursesMenuOpen(!coursesMenuOpen);
   };
 
   const closeMenu = () => {
-    setAboutUsMenuOpen(false);
     setCoursesMenuOpen(false);
 
     if (screenWidth < 768) {
@@ -64,7 +58,7 @@ const MainNavigation = () => {
             <img src={hamIcon} className={styles.hamIcon} alt="menu" />
           </a>
           {screenWidth < 768 ? <LogoProvider /> : ""}
-          <LanguageSwitcher />
+          {/* <LanguageSwitcher /> */}
         </div>
 
         {menuOpen ? (
@@ -76,33 +70,15 @@ const MainNavigation = () => {
             </li>
 
             <li className={styles.navItem}>
-              <Link
-                to="/about-us"
-                className={styles.navLink}
-                // onMouseEnter={toggleAboutUsMenu}
-                // onClick={toggleAboutUsMenu}
-              >
+              <Link to="/about-us" className={styles.navLink}>
                 {t("about us")}
               </Link>
+            </li>
 
-              {/* {aboutUsMenuOpen && (
-                <ul
-                  className={styles.courseDropdown}
-                  onMouseLeave={toggleAboutUsMenu}
-                >
-                  <li>
-                    <a href="/about-us/the-academy">{t("The Academy")}</a>
-                  </li>
-                  <li>
-                    <a href="/about-us/our-mission">{t("Our Mission")}</a>
-                  </li>
-                  <li>
-                    <a href="/about-us/meet-the-teachers">
-                      {t("Meet The Teachers")}
-                    </a>
-                  </li>
-                </ul>
-              )} */}
+            <li className={styles.navItem}>
+              <Link to="/about-us" className={styles.navLink}>
+                Курсове за деца
+              </Link>
             </li>
 
             <LogoProvider />
@@ -114,7 +90,7 @@ const MainNavigation = () => {
                 onMouseEnter={toggleCoursesMenu}
                 onClick={toggleCoursesMenu}
               >
-                {t("courses")}
+                Курсове за възрастни
               </Link>
 
               {coursesMenuOpen && (
@@ -150,11 +126,21 @@ const MainNavigation = () => {
                 className={styles.navLink}
                 onClick={closeMenu}
               >
+                График
+              </Link>
+            </li>
+
+            <li className={styles.navItem}>
+              <Link
+                to="/contact-us"
+                className={styles.navLink}
+                onClick={closeMenu}
+              >
                 {t("contact us")}
               </Link>
             </li>
 
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
           </ul>
         ) : (
           ""
