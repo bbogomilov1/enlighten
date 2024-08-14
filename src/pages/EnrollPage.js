@@ -8,47 +8,26 @@ import { useState } from "react";
 function EnrollPage() {
   const { t } = useTranslation();
   const [selectedOption, setSelectedOption] = useState("");
-  const [selectedOptionHour, setSelectedOptionHour] = useState("");
   const courseOptions = [
     "concENtrate",
     "WorldReady",
     "SmartArt",
     "ENlightEN Kids",
-    "ENlightEN Private",
     "Young PresENters",
   ];
-
-  const courseOptionsHours = {
-    concENtrate: [
-      "Сряда - 10:30ч. - 11:30ч. (3-4г.)",
-      "Петък - 10:30ч. - 11:30ч. (3-4г.)",
-    ],
-    WorldReady: [
-      "Сряда - 16:20ч. - 17:45ч. (7-9г.)",
-      "Петък - 16:20ч. - 17:45ч. (10-12г.)",
-    ],
-    SmartArt: ["Hour A", "Hour B", "Hour C"],
-    "ENlightEN Kids": [
-      "Вторник - 16:20ч. - 17:45ч. (5-7г.)",
-      "Четвъртък - 16:20ч. - 17:45ч. (5-7г.)",
-      "Събота - 12:00ч. - 13:00ч. (5-7г.)",
-    ],
-    "ENlightEN Private": ["Hour A", "Hour B", "Hour C"],
-    "Young PresENters": ["Hour A", "Hour B", "Hour C"],
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
       await emailjs.sendForm(
-        "service_hu5cf6p", // Replace with your EmailJS service ID
+        "service_8fo9rae", // Replace with your EmailJS service ID
         "template_bh8pz5t", // Replace with your EmailJS template ID
         e.target,
         "jCu2uK0BBUSwS8fQi" // Replace with your EmailJS user ID
       );
 
-      alert("Email sent successfully!");
+      alert("Изпратихте запитването успешно.");
     } catch (error) {
       console.error("Error sending email:", error);
     }
@@ -57,12 +36,6 @@ function EnrollPage() {
   const handleOptionChange = (event) => {
     const selectedCourse = event.target.value;
     setSelectedOption(selectedCourse);
-    setSelectedOptionHour(null);
-  };
-
-  const handleOptionHourChange = (event) => {
-    const selectedHour = event.target.value;
-    setSelectedOptionHour(selectedHour);
   };
 
   return (
@@ -100,6 +73,16 @@ function EnrollPage() {
                 </div>
 
                 <div className={styles.inputGroup}>
+                  <p className={styles.inputTitle}>Години на дете:</p>
+                  <input
+                    type="text"
+                    name="child_age"
+                    placeholder={"Години на дете" + " *"}
+                    required
+                  />
+                </div>
+
+                <div className={styles.inputGroup}>
                   <p className={styles.inputTitle}>Телефон за връзка:</p>
                   <input
                     type="tel"
@@ -126,7 +109,7 @@ function EnrollPage() {
                               className={styles.radioInput}
                               type="radio"
                               id={course}
-                              name={course}
+                              name="course"
                               value={course}
                               checked={selectedOption === course}
                               onChange={handleOptionChange}
@@ -138,25 +121,6 @@ function EnrollPage() {
                             >
                               {course}
                             </label>
-                            {selectedOption === course && (
-                              <div className={styles.radioGroupInputsOptions}>
-                                <Form.Select
-                                  aria-label="Default select example"
-                                  onChange={handleOptionHourChange}
-                                  value={selectedOptionHour}
-                                  className={styles.radioGroupInputsOptions}
-                                >
-                                  <option value="">Избери ден и час</option>
-                                  {courseOptionsHours[selectedOption].map(
-                                    (hour) => (
-                                      <option key={hour} value={hour}>
-                                        {hour}
-                                      </option>
-                                    )
-                                  )}
-                                </Form.Select>
-                              </div>
-                            )}
                           </div>
                         );
                       })}
@@ -167,7 +131,7 @@ function EnrollPage() {
 
                 <div className={styles.formButtonContainer}>
                   <button type="submit" className={styles.formButton}>
-                    {t("Send")}
+                    Изпрати запитване
                   </button>
                 </div>
               </form>

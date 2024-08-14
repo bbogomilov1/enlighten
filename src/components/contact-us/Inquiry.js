@@ -16,7 +16,7 @@ function Inquiry() {
         "jCu2uK0BBUSwS8fQi" // Replace with your EmailJS user ID
       );
 
-      alert("Запитването беше изпратено успешно!");
+      alert("Изпратихте запитването успешно.");
     } catch (error) {
       console.error("Error sending email:", error);
     }
