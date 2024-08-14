@@ -10,13 +10,13 @@ function Inquiry() {
 
     try {
       await emailjs.sendForm(
-        "service_hu5cf6p", // Replace with your EmailJS service ID
+        "service_8fo9rae", // Replace with your EmailJS service ID
         "template_pkbwzk6", // Replace with your EmailJS template ID
         e.target,
         "jCu2uK0BBUSwS8fQi" // Replace with your EmailJS user ID
       );
 
-      alert("Email sent successfully!");
+      alert("Запитването беше изпратено успешно!");
     } catch (error) {
       console.error("Error sending email:", error);
     }

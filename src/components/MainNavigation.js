@@ -76,21 +76,13 @@ const MainNavigation = () => {
             </li>
 
             <li className={styles.navItem}>
-              <Link to="/about-us" className={styles.navLink}>
-                Курсове за деца
-              </Link>
-            </li>
-
-            <LogoProvider />
-
-            <li className={styles.navItem}>
               <Link
                 to="/courses"
                 className={styles.navLink}
                 onMouseEnter={toggleCoursesMenu}
                 onClick={toggleCoursesMenu}
               >
-                Курсове за възрастни
+                Курсове за деца
               </Link>
 
               {coursesMenuOpen && (
@@ -111,13 +103,18 @@ const MainNavigation = () => {
                     <a href="/courses/enlighten-kids">ENlightEN Kids</a>
                   </li>
                   <li>
-                    <a href="/courses/enlighten-private">ENlightEN Private</a>
-                  </li>
-                  <li>
                     <a href="/courses/young-presenters">Young PresENters</a>
                   </li>
                 </ul>
               )}
+            </li>
+
+            <LogoProvider />
+
+            <li className={styles.navItem}>
+              <Link to="/courses" className={styles.navLink}>
+                Курсове за възрастни
+              </Link>
             </li>
 
             <li className={styles.navItem}>
