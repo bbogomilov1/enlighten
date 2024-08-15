@@ -105,14 +105,6 @@ function HomeCourseReasons() {
             </Link>
           </p>
         </div>
-        <div className={styles.column}>
-          <p>
-            <span>→</span>
-            <Link to="/courses/enlighten-private" className={styles.linkItem}>
-              Business
-            </Link>
-          </p>
-        </div>
       </div>
     </div>
   );

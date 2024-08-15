@@ -79,9 +79,8 @@ ul li a:hover::before {
   display: flex;
   flex-direction: column;
   position: absolute;
-  background-color: var(--blue);
   padding-bottom: 10px;
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
 /* Small screens */
