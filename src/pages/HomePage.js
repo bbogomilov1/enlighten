@@ -2,6 +2,7 @@ import "../static/fonts.css";
 import HomeTitleSection from "../components/home/HomeTitleSection";
 import HomeAboutUs from "../components/home/HomeAboutUs";
 import HomeCourseReasons from "../components/home/HomeCourseReasons";
+import ReviewsCarousel from "../components/home/ReviewsCarousel";
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
       <HomeTitleSection />
       <HomeCourseReasons />
       <HomeAboutUs />
+      <ReviewsCarousel />
     </div>
   );
 }
