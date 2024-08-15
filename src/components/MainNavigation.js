@@ -112,7 +112,7 @@ const MainNavigation = () => {
             <LogoProvider />
 
             <li className={styles.navItem}>
-              <Link to="/courses" className={styles.navLink}>
+              <Link to="/courses/enlighten-private" className={styles.navLink}>
                 Курсове за възрастни
               </Link>
             </li>

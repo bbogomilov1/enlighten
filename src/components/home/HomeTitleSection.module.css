@@ -1,11 +1,16 @@
 .container {
   background-color: #fbf7e1;
-  background-image: url("../../static/elementary-school-resources.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 150px;
+  margin-top: -150px;
   padding-bottom: 40px;
+  width: 100%;
+}
+
+#video {
+  position: fixed;
+  z-index: -1;
   width: 100%;
 }
 
@@ -33,7 +38,7 @@
   font-size: 4rem;
   font-style: normal;
   width: 80%;
-  margin-top: 90px;
+  margin-top: -35%;
   margin-bottom: 30px;
   animation: fadeInFromBottom 1s ease-in-out;
 }
@@ -62,12 +67,12 @@
   margin: 5% 3%;
   padding: 1rem 2rem;
   background-color: white;
-  color: var(--blue);
+  color: var(--yellow);
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
   border-radius: 20px;
-  border: 2px solid var(--blue);
+  border: 2px solid var(--yellow);
   cursor: pointer;
   animation: fadeInFromBottom 1s ease-in-out;
   transition: all 0.3s;
@@ -75,7 +80,8 @@
 
 .enrollButton:hover {
   color: #fbf7e1;
-  background-color: var(--blue);
+  background-color: var(--yellow);
+  border: 2px solid var(--yellow);
   top: -10px;
 }
 

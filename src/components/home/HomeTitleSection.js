@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./HomeTitleSection.module.css";
+import backgroundVideo from "../../static/Running.mp4";
 import titleImage from "../../static/logo enlighten transp circ.png";
 import stars from "../../static/whitestars.png";
 import { useTranslation } from "react-i18next";
@@ -8,9 +9,13 @@ function HomeTitleSection() {
   const { t } = useTranslation();
   return (
     <div className={styles.container}>
-      <div className={styles.titleContainer}>
+      <video autoPlay loop muted id="video">
+        <source src={backgroundVideo} type="video/mp4" />
+      </video>
+
+      {/* <div className={styles.titleContainer}>
         <img src={titleImage} alt="book" className={styles.titleImage} />
-      </div>
+      </div> */}
 
       <p className={styles.description}>
         Курсове за деца и възрастни, в които английският език се изучава

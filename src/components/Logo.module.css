@@ -1,11 +1,12 @@
 .logoContainer {
   height: 0px;
   opacity: 1;
+  z-index: 1;
 }
 
 .logo {
   margin-left: 10px;
-  z-index: 2;
+  z-index: 1;
   width: 85px;
   max-width: none;
   flex: none;
