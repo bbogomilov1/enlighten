@@ -25,6 +25,14 @@ function SmartArtCourse() {
           разкрива нови светове на познания и практическото им приложение.
         </p>
       </div>
+
+      <p className={styles.courseScheduleNote}>
+        *Запишете Вашето дете от{" "}
+        <Link to="/enroll" className={styles.courseScheduleLink}>
+          <b>контакти</b>
+        </Link>{" "}
+        или чрез бързия чат в долния десен ъгъл.
+      </p>
     </div>
   );
 }

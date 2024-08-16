@@ -72,9 +72,9 @@ function EnlightenKidsCourse() {
       </div>
 
       <p className={styles.courseScheduleNote}>
-        *Запишете Вашето дете чрез препочитаната от Вас форма на{" "}
+        *Запишете Вашето дете от{" "}
         <Link to="/enroll" className={styles.courseScheduleLink}>
-          <b>контакт</b>
+          <b>контакти</b>
         </Link>{" "}
         или чрез бързия чат в долния десен ъгъл.
       </p>

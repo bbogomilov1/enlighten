@@ -41,6 +41,19 @@
   text-indent: 5rem;
 }
 
+.courseScheduleNote {
+  color: #fffaf4;
+  text-align: center;
+  font-family: "Ropamix light italic", sans-serif;
+  font-size: 1.7rem;
+  padding-top: 20px;
+}
+
+.courseScheduleLink {
+  text-decoration: none;
+  color: #fffaf4;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     padding: 0px 20px 70px 20px;

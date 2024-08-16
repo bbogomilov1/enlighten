@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./EnlightenPrivateCourse.module.css";
 
 function EnlightenPrivateCourse() {
@@ -30,6 +31,14 @@ function EnlightenPrivateCourse() {
           ентусиазъм!
         </p>
       </div>
+
+      <p className={styles.courseScheduleNote}>
+        *Запишете се от{" "}
+        <Link to="/enroll" className={styles.courseScheduleLink}>
+          <b>контакти</b>
+        </Link>{" "}
+        или чрез бързия чат в долния десен ъгъл.
+      </p>
     </div>
   );
 }

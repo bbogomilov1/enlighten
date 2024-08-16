@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./YoungPresentersCourse.module.css";
 
 function YoungPresentersCourse() {
@@ -29,6 +30,14 @@ function YoungPresentersCourse() {
           колко много знаят и могат!
         </p>
       </div>
+
+      <p className={styles.courseScheduleNote}>
+        *Запишете Вашето дете от{" "}
+        <Link to="/enroll" className={styles.courseScheduleLink}>
+          <b>контакти</b>
+        </Link>{" "}
+        или чрез бързия чат в долния десен ъгъл.
+      </p>
     </div>
   );
 }
