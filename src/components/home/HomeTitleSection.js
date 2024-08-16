@@ -22,7 +22,7 @@ function HomeTitleSection() {
           <img src={stars} alt="stars" className={styles.icon} />
         </div>
 
-        <Link to="/courses" className={styles.enrollButton} type="button">
+        <Link to="/schedule" className={styles.enrollButton} type="button">
           ГРАФИК
         </Link>
 
