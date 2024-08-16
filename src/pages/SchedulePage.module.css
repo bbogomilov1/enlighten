@@ -1,58 +1,34 @@
-table {
-  border-collapse: collapse;
-  width: 100%;
-  color: #00a74a;
-  margin: 30px;
-}
-
-tr {
-  font-family: "Ropamix black italic", sans-serif;
-}
-
-td {
-  font-family: "Ropamix medium italic", sans-serif;
-}
-
-td,
-th {
-  border: 2px solid #c7dfcf;
-  text-align: left;
-  padding: 15px;
-  font-size: 1.7rem;
-}
-
-tr:nth-child(2),
-tr:nth-child(5),
-tr:nth-child(8) {
-  background-color: #d2e4d7;
-}
-
-.enrollButton {
-  width: 120px;
-  position: relative;
-  z-index: 1;
-  font-family: "Ropamix medium italic", sans-serif;
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  padding: 0.5rem 1rem;
+.container {
   background-color: #fbf7e1;
-  color: #00a74a;
-  font-size: 1.3rem;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 110px 200px 110px;
+  z-index: 1;
+}
+
+.title {
+  color: var(--blue);
+  text-shadow: 3px 3px #0d0746;
+  z-index: 1;
+  font-family: "Ropamix black", sans-serif;
   text-transform: uppercase;
-  border-radius: 20px;
-  border: 2px solid #00a74a;
-  cursor: pointer;
+  font-size: 6rem;
+  margin: 45px;
   animation: fadeInFromBottom 1s ease-in-out;
-  transition: all 0.3s;
 }
 
-.enrollButton:hover {
-  color: #fbf7e1;
-  background-color: #00a74a;
+.blobOne {
+  width: 70%;
+  position: absolute;
+  left: 42%;
+  top: 30%;
 }
 
-.enrollButton:focus {
-  outline: none;
+.blobTwo {
+  width: 70%;
+  position: absolute;
+  right: 42%;
+  top: -10%;
 }

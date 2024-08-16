@@ -1,107 +1,36 @@
 import styles from "./SchedulePage.module.css";
-import { Link } from "react-router-dom";
+import Schedule from "../components/schedule/Schedule";
 
 function SchedulePage() {
   return (
-    <div>
-      <table>
-        <tr>
-          <th>Ден</th>
-          <th>Час</th>
-          <th>Курс</th>
-          <th>Години</th>
-          <th></th>
-        </tr>
+    <div className={styles.container}>
+      <h1 className={styles.title}>· График ·</h1>
 
-        {/* вторник */}
-        <tr>
-          <td>Вторник</td>
-          <td>16:20ч. - 17:45ч.</td>
-          <td>Enlighten Kids</td>
-          <td>5-7г.</td>
-          <td>
-            <Link to="/enroll" className={styles.enrollButton} type="button">
-              Запиши се
-            </Link>
-          </td>
-        </tr>
+      <Schedule />
 
-        {/* сряда */}
-        <tr>
-          <td>Сряда</td>
-          <td>10:30ч. - 11:30ч.</td>
-          <td>ConcENtrate</td>
-          <td>3-4г.</td>
-          <td>
-            <Link to="/enroll" className={styles.enrollButton} type="button">
-              Запиши се
-            </Link>
-          </td>
-        </tr>
+      <svg
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+        className={styles.blobTwo}
+      >
+        <path
+          fill="#f9e888"
+          d="M37.7,-27.1C46.9,-18.6,51,-3,48.4,12.1C45.8,27.2,36.5,41.9,21.6,51.6C6.7,61.4,-13.7,66.2,-25.8,58.5C-37.9,50.8,-41.7,30.6,-46.6,10.2C-51.6,-10.1,-57.8,-30.6,-50.2,-38.7C-42.7,-46.9,-21.3,-42.7,-3.5,-39.9C14.3,-37.1,28.6,-35.6,37.7,-27.1Z"
+          transform="translate(100 100)"
+        />
+      </svg>
 
-        <tr>
-          <td></td>
-          <td>16:20ч. - 17:45ч.</td>
-          <td>WorldReady</td>
-          <td>7-9г.</td>
-          <td>
-            <Link to="/enroll" className={styles.enrollButton} type="button">
-              Запиши се
-            </Link>
-          </td>
-        </tr>
-
-        {/* четвъртък */}
-        <tr>
-          <td>Четвъртък</td>
-          <td>16:20ч. - 17:45ч.</td>
-          <td>Enlighten Kids</td>
-          <td>5-7г.</td>
-          <td>
-            <Link to="/enroll" className={styles.enrollButton} type="button">
-              Запиши се
-            </Link>
-          </td>
-        </tr>
-
-        {/* петък */}
-        <tr>
-          <td>Петък</td>
-          <td>10:30ч. - 11:30ч.</td>
-          <td>ConcENtrate</td>
-          <td>3-4г.</td>
-          <td>
-            <Link to="/enroll" className={styles.enrollButton} type="button">
-              Запиши се
-            </Link>
-          </td>
-        </tr>
-
-        <tr>
-          <td></td>
-          <td>16:20ч. - 17:45ч.</td>
-          <td>WorldReady</td>
-          <td>10-12г.</td>
-          <td>
-            <Link to="/enroll" className={styles.enrollButton} type="button">
-              Запиши се
-            </Link>
-          </td>
-        </tr>
-
-        {/* събота */}
-        <tr>
-          <td>Събота</td>
-          <td>12:00ч. - 13:00ч.</td>
-          <td>Enlighten Kids</td>
-          <td>5-7г.</td>
-          <td>
-            <Link to="/enroll" className={styles.enrollButton} type="button">
-              Запиши се
-            </Link>
-          </td>
-        </tr>
-      </table>
+      <svg
+        viewBox="0 0 200 200"
+        xmlns="http://www.w3.org/2000/svg"
+        class={styles.blobOne}
+      >
+        <path
+          fill="rgb(186 218 246)"
+          d="M65.4,-20.5C67.9,-13.5,41.5,3.6,16.5,21.5C-8.5,39.4,-32.1,58,-45.7,51C-59.3,43.9,-62.8,11.2,-53.6,-5.1C-44.3,-21.4,-22.1,-21.2,4.7,-22.7C31.5,-24.2,62.9,-27.4,65.4,-20.5Z"
+          transform="translate(100 100)"
+        ></path>
+      </svg>
     </div>
   );
 }
