@@ -29,8 +29,9 @@
 }
 
 .text {
+  font-family: "Ropamix medium italic";
   width: 80%;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   color: var(--blue);
   margin-bottom: 15px;
@@ -42,7 +43,7 @@
   font-size: 80px;
   color: var(--blue);
   position: absolute;
-  left: -45px;
+  left: -30px;
   bottom: -30px;
 }
 
@@ -51,7 +52,7 @@
   font-size: 80px;
   color: var(--blue);
   position: absolute;
-  right: -30px;
+  right: -20px;
   bottom: -30px;
 }
 
@@ -61,11 +62,13 @@
 }
 
 .parentName {
+  font-family: "Ropamix extra light";
   font-weight: bold;
   margin-bottom: 5px;
 }
 
 .childInfo {
+  font-family: "Ropamix light italic";
   font-style: italic;
   margin-top: 5px;
 }
