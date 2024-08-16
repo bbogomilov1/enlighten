@@ -53,7 +53,7 @@ function EnlightenKidsCourse() {
         <img src={stars} alt="stars" className={styles.stars} />
       </div>
 
-      <div className={styles.courseScheduleContainer}>
+      <Link to="/enroll" className={styles.courseScheduleContainer}>
         <div className={styles.courseSchedule}>
           <FontAwesomeIcon icon={faStar} className={styles.icon} />
           <p className={styles.courseScheduleDescription}>5-7 г.</p>
@@ -69,7 +69,7 @@ function EnlightenKidsCourse() {
           <p className={styles.courseScheduleDescription}>СЪБОТА</p>
           <p className={styles.courseScheduleDescription}>12:00 - 13:00</p>
         </div>
-      </div>
+      </Link>
 
       <p className={styles.courseScheduleNote}>
         *Запишете Вашето дете от{" "}

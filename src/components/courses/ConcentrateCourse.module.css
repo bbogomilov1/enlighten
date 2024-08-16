@@ -83,6 +83,7 @@
   display: flex;
   justify-content: center;
   padding-top: 85px;
+  text-decoration: none;
 }
 
 .courseSchedule {

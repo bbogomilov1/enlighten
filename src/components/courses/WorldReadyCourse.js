@@ -55,7 +55,7 @@ function WorldReadyCourse() {
         <img src={stars} alt="stars" className={styles.stars} />
       </div>
 
-      <div className={styles.courseScheduleContainer}>
+      <Link to="/enroll" className={styles.courseScheduleContainer}>
         <div className={styles.courseSchedule}>
           <FontAwesomeIcon icon={faStar} className={styles.icon} />
           <p className={styles.courseScheduleDescription}>7-9 г.</p>
@@ -69,7 +69,7 @@ function WorldReadyCourse() {
           <p className={styles.courseScheduleDescription}>ПЕТЪК</p>
           <p className={styles.courseScheduleDescription}>16:20 - 17:45</p>
         </div>
-      </div>
+      </Link>
 
       <p className={styles.courseScheduleNote}>
         *Запишете Вашето дете от{" "}
