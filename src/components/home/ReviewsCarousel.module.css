@@ -12,6 +12,7 @@
 }
 
 .slide {
+  background: linear-gradient(135deg, #ffd700 50%, #0089ff 100%);
   display: none;
   padding: 20px;
   text-align: center;
