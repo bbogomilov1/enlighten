@@ -38,6 +38,8 @@
   opacity: 0;
   width: 350px;
   border-radius: 50%;
+  border: 1px solid #00a74a;
+  box-shadow: 1px 1px 20px 15px rgb(47 167 0 / 19%);
 }
 
 .teacherImageAnimation {
