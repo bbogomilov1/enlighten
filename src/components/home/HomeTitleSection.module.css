@@ -185,7 +185,7 @@
     padding-left: 0%;
     font-size: 2rem;
     text-indent: 0rem;
-    margin-top: -300px;
+    margin-top: -200px;
   }
 
   #video {
@@ -197,7 +197,7 @@
   }
 
   .buttonContainer {
-    top: 70%;
+    top: 80%;
   }
 
   .enrollButton {
