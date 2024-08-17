@@ -9,9 +9,15 @@
 }
 
 #video {
-  position: fixed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: auto;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
   z-index: -1;
-  width: 100%;
 }
 
 .titleContainer {

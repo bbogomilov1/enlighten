@@ -8,7 +8,7 @@ function HomeTitleSection() {
   const { t } = useTranslation();
   return (
     <div className={styles.container}>
-      <video autoPlay loop muted id="video">
+      <video autoPlay loop muted playsInline preload="auto" id="video">
         <source src={backgroundVideo} type="video/mp4" />
       </video>
 
