@@ -95,3 +95,30 @@
 .nextSlide:hover {
   color: #319efe;
 }
+
+@media screen and (max-width: 480px) {
+  .sliderContainer {
+    padding: 15px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .text {
+    font-size: 14px;
+    width: 80%;
+  }
+
+  .text::before,
+  .text::after {
+    font-size: 40px;
+    top: -15px;
+  }
+
+  .prevSlide,
+  .nextSlide {
+    font-size: 1.2em;
+    padding: 5px;
+  }
+}

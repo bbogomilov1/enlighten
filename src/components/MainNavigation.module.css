@@ -130,7 +130,7 @@ ul li a:hover::before {
     align-items: center;
     width: 100%;
     position: absolute;
-    height: 700%;
+    height: auto;
     top: 0px;
     background: linear-gradient(45deg, var(--blue) 60%, #ffd700 100%);
     padding-top: 130px;
