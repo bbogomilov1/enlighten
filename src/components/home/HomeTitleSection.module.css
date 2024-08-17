@@ -4,7 +4,6 @@
   flex-direction: column;
   align-items: center;
   margin-top: -150px;
-  padding-bottom: 40px;
   width: 100%;
 }
 
@@ -34,7 +33,8 @@
 }
 
 .description {
-  position: relative;
+  position: absolute;
+  top: 70%;
   color: white;
   text-shadow: 0px 0px 15px var(--dark-blue);
   text-align: center;
@@ -44,7 +44,6 @@
   font-size: 4rem;
   font-style: normal;
   width: 80%;
-  margin-top: -35%;
   margin-bottom: 30px;
   animation: fadeInFromBottom 1s ease-in-out;
 }
@@ -56,6 +55,8 @@
 }
 
 .buttonContainer {
+  position: absolute;
+  top: 110%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -183,7 +184,11 @@
     padding-left: 0%;
     font-size: 2rem;
     text-indent: 0rem;
-    margin-top: -400px;
+    margin-top: -200px;
+  }
+
+  .buttonContainer {
+    top: 70%;
   }
 
   .enrollButton {
