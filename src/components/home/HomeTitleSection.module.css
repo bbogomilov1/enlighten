@@ -5,6 +5,7 @@
   align-items: center;
   margin-top: -150px;
   width: 100%;
+  overflow: hidden;
 }
 
 #video {
@@ -185,6 +186,14 @@
     font-size: 2rem;
     text-indent: 0rem;
     margin-top: -300px;
+  }
+
+  #video {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    max-height: 100vh;
+    object-fit: cover;
   }
 
   .buttonContainer {
