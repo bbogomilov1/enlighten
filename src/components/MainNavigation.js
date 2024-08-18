@@ -70,7 +70,11 @@ const MainNavigation = () => {
             </li>
 
             <li className={styles.navItem}>
-              <Link to="/about-us" className={styles.navLink}>
+              <Link
+                to="/about-us"
+                className={styles.navLink}
+                onClick={closeMenu}
+              >
                 {t("about us")}
               </Link>
             </li>
@@ -80,7 +84,7 @@ const MainNavigation = () => {
                 to="/courses"
                 className={styles.navLink}
                 onMouseEnter={toggleCoursesMenu}
-                onClick={toggleCoursesMenu}
+                onClick={closeMenu}
               >
                 Курсове за деца
               </Link>
@@ -112,7 +116,11 @@ const MainNavigation = () => {
             <LogoProvider />
 
             <li className={styles.navItem}>
-              <Link to="/courses/enlighten-private" className={styles.navLink}>
+              <Link
+                to="/courses/enlighten-private"
+                className={styles.navLink}
+                onClick={closeMenu}
+              >
                 Курсове за възрастни
               </Link>
             </li>

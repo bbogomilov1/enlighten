@@ -1,7 +1,8 @@
 @font-face {
   font-family: "Futura PT bold";
   font-weight: bold;
-  src: url("./fonts/Futura XBlk BT.ttf") format("truetype");
+  src: url("./fonts/Futura XBlk BT.ttf") format("truetype"),
+    url("./fonts/futura extra black font.woff") format("woff");
 }
 
 @font-face {
@@ -13,35 +14,47 @@
 @font-face {
   font-family: "Ropamix regular", sans-serif;
   font-style: italic;
-  src: url("./fonts/RopaMixPTT-Regular.ttf") format("truetype");
+  src: url("./fonts/RopaMixPTT-Regular.ttf") format("truetype"),
+    url("./fonts/RopaMixPro-Regular.woff") format("woff"),
+    url("./fonts/RopaMixPro-Regular.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Ropamix extra light";
   font-style: italic;
-  src: url("./fonts/RopaMixSCPTT-ExtraLight.ttf") format("truetype");
+  src: url("./fonts/RopaMixSCPTT-ExtraLight.ttf") format("truetype"),
+    url("./fonts/RopaMixPro-ExtraLight.woff") format("woff"),
+    url("./fonts/RopaMixPro-ExtraLight.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Ropamix light italic";
   font-style: italic;
-  src: url("./fonts/RopaMixPTT-LightItalic.ttf") format("truetype");
+  src: url("./fonts/RopaMixPTT-LightItalic.ttf") format("truetype"),
+    url("./fonts/RopaMixPro-LightItalic.woff") format("woff"),
+    url("./fonts/RopaMixPro-LightItalic.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Ropamix medium italic";
   font-style: italic;
-  src: url("./fonts/RopaMixPTT-MediumItalic.ttf") format("truetype");
+  src: url("./fonts/RopaMixPTT-MediumItalic.ttf") format("truetype"),
+    url("./fonts/RopaMixPro-MediumItalic.woff") format("woff"),
+    url("./fonts/RopaMixPro-MediumItalic.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Ropamix black italic";
   font-style: italic;
-  src: url("./fonts/RopaMixPTT-BlackItalic.ttf") format("truetype");
+  src: url("./fonts/RopaMixPTT-BlackItalic.ttf") format("truetype"),
+    url("./fonts/RopaMixPro-BlackItalic.woff") format("woff"),
+    url("./fonts/RopaMixPro-BlackItalic.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Ropamix black";
   font-style: italic;
-  src: url("./fonts/RopaMixPTT-Black.ttf") format("truetype");
+  src: url("./fonts/RopaMixPTT-Black.ttf") format("truetype"),
+    url("./fonts/RopaMixPro-Black.woff") format("woff"),
+    url("./fonts/RopaMixPro-Black.woff2") format("woff2");
 }

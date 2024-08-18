@@ -78,3 +78,17 @@ tr:nth-child(8) {
 .enrollButton:focus {
   outline: none;
 }
+
+@media screen and (max-width: 768px) {
+  table,
+  td,
+  th {
+    font-size: 1rem;
+    padding: 5px;
+  }
+
+  .enrollButton {
+    width: 100px;
+    font-size: 1rem;
+  }
+}
