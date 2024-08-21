@@ -1,4 +1,8 @@
-table {
+.tableContainer {
+  overflow-x: auto;
+}
+
+.scheduleTable {
   box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.2);
   border: 2px solid #00a74a;
   border-collapse: collapse;
@@ -9,32 +13,32 @@ table {
   position: relative;
 }
 
-tr {
+.scheduleTable tr {
   font-family: "Ropamix black italic", sans-serif;
   background-color: #fbf7e1;
 }
 
-td {
+.scheduleTable td {
   font-family: "Ropamix medium italic", sans-serif;
 }
 
-td,
-th {
+.scheduleTable td,
+.scheduleTable th {
   border: 2px solid #c7dfcf;
   text-align: left;
   padding: 15px;
   font-size: 1.7rem;
 }
 
-tr:nth-child(1) {
+.scheduleTable tr:nth-child(1) {
   background-color: #008000cf;
   color: white;
 }
 
-tr:nth-child(2),
-tr:nth-child(4),
-tr:nth-child(6),
-tr:nth-child(8) {
+.scheduleTable tr:nth-child(2),
+.scheduleTable tr:nth-child(4),
+.scheduleTable tr:nth-child(6),
+.scheduleTable tr:nth-child(8) {
   background-color: #d2e4d7;
 }
 
@@ -80,11 +84,11 @@ tr:nth-child(8) {
 }
 
 @media screen and (max-width: 768px) {
-  table,
-  td,
-  th {
-    font-size: 1rem;
-    padding: 5px;
+  .scheduleTable,
+  .scheduleTable th,
+  .scheduleTable td {
+    font-size: 1.2rem;
+    padding: 10px;
   }
 
   .enrollButton {

@@ -32,3 +32,12 @@
   right: 42%;
   top: -10%;
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    margin: 40px 0px;
+    padding-left: 0px;
+    text-shadow: 2px 2px #0d0746;
+  }
+}

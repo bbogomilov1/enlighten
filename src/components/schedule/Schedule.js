@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Schedule() {
   return (
-    <div>
-      <table>
+    <div className={styles.tableContainer}>
+      <table className={styles.scheduleTable}>
         <tr>
           <th>Курс</th>
           <th>Години</th>
