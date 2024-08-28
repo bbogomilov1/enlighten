@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  font-family: "Ropamix regular", "Playfair Display", sans-serif;
+  font-family: "Ropamix regular", "Playfair Display";
   font-style: italic;
   src: url("./fonts/RopaMixPro-Regular.woff2") format("woff2"),
     url("./fonts/RopaMixPro-Regular.woff") format("woff"),

@@ -12,7 +12,7 @@
   color: #0d0746;
   text-shadow: 3px 3px var(--blue);
   z-index: 1;
-  font-family: "Ropamix black", "Playfair Display", sans-serif;
+  font-family: "Ropamix black", "Playfair Display";
   text-transform: uppercase;
   font-size: 6rem;
   margin: 45px;
@@ -23,7 +23,7 @@
   font-size: 1.7rem;
   color: var(--dark-blue);
   text-indent: 8rem;
-  font-family: "Ropamix light italic", "Playfair Display", sans-serif;
+  font-family: "Ropamix light italic", "Playfair Display";
   line-height: 1.2em;
   margin: 0px 0px 20px 50px;
   animation: fadeInFromBottom 1s ease-in-out;
@@ -72,7 +72,7 @@
   }
 
   .container h1 {
-    font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
+    font-family: "Ropamix medium italic", "Playfair Display";
     font-size: 2rem;
     margin: 40px 0px;
     padding-left: 0px;
@@ -81,7 +81,7 @@
   .container p {
     font-size: 1.3rem;
     text-indent: 3rem;
-    font-family: "Ropamix light italic", "Playfair Display", sans-serif;
+    font-family: "Ropamix light italic", "Playfair Display";
     margin: 0px 0px 20px 20px;
   }
 

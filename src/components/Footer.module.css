@@ -7,7 +7,7 @@
   justify-content: space-evenly;
   flex-direction: row;
   font-style: normal;
-  font-family: "Ropamix light italic", "Playfair Display", sans-serif;
+  font-family: "Ropamix light italic", "Playfair Display";
   font-size: 1.2rem;
 }
 
@@ -59,7 +59,7 @@
 
 .creator p {
   opacity: 0.7;
-  font-family: "Ropamix light italic", "Playfair Display", sans-serif;
+  font-family: "Ropamix light italic", "Playfair Display";
   font-style: normal;
 }
 

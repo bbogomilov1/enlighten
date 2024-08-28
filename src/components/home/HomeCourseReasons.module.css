@@ -9,7 +9,7 @@
 
 .title {
   opacity: 0;
-  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display";
   font-size: 4.5rem;
   font-style: normal;
   margin: 0;
@@ -24,7 +24,7 @@
 .containerSubTitle {
   opacity: 0;
   margin: 0;
-  font-family: "Ropamix light italic", "Playfair Display", sans-serif;
+  font-family: "Ropamix light italic", "Playfair Display";
   font-size: 2rem;
   padding-bottom: 30px;
 }
@@ -55,7 +55,7 @@
 }
 
 .reasons p {
-  font-family: "Ropamix light italic", "Playfair Display", sans-serif;
+  font-family: "Ropamix light italic", "Playfair Display";
   height: 30px;
   display: flex;
   flex-direction: row;
@@ -102,7 +102,7 @@
   }
 
   .container h2 {
-    font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
+    font-family: "Ropamix medium italic", "Playfair Display";
     font-size: 2.5rem;
     line-height: 1em;
   }

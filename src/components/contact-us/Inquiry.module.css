@@ -14,7 +14,7 @@
 
 .container h2 {
   padding: 0px 20px;
-  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display";
 }
 
 .inquiryForm {
@@ -73,7 +73,7 @@ textarea {
   }
 
   .container h2 {
-    font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
+    font-family: "Ropamix medium italic", "Playfair Display";
     font-size: 1.5rem;
     padding: 0px;
     line-height: 1.5rem;
