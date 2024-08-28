@@ -112,6 +112,10 @@
     text-align: center;
   }
 
+  .arrow {
+    display: inline-block;
+  }
+
   .container p {
     font-size: 1.2rem;
     padding-top: 20px;

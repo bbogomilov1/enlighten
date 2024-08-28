@@ -78,6 +78,14 @@
     padding-left: 0px;
   }
 
+  .title {
+    text-shadow: 1px 1px var(--blue);
+  }
+
+  span {
+    display: none;
+  }
+
   .container p {
     font-size: 1.3rem;
     text-indent: 3rem;

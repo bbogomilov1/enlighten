@@ -65,21 +65,21 @@ function HomeCourseReasons() {
         <div className={styles.column}>
           <p>
             {" "}
-            <span>→</span>
+            <span className={styles.arrow}>→</span>
             <Link to="/courses/concentrate" className={styles.linkItem}>
               concENtrate
             </Link>
           </p>
 
           <p>
-            <span>→</span>
+            <span className={styles.arrow}>→</span>
             <Link to="/courses/worldready" className={styles.linkItem}>
               WorldReady
             </Link>
           </p>
 
           <p>
-            <span>→</span>
+            <span className={styles.arrow}>→</span>
             <Link to="/courses/smartart" className={styles.linkItem}>
               SmartArt
             </Link>
@@ -87,19 +87,19 @@ function HomeCourseReasons() {
         </div>
         <div className={styles.column}>
           <p>
-            <span>→</span>
+            <span className={styles.arrow}>→</span>
             <Link to="/courses/enlighten-kids" className={styles.linkItem}>
               ENlightEN Kids
             </Link>
           </p>
           <p>
-            <span>→</span>
+            <span className={styles.arrow}>→</span>
             <Link to="/courses/enlighten-private" className={styles.linkItem}>
               ENlightEN Private
             </Link>
           </p>
           <p>
-            <span>→</span>
+            <span className={styles.arrow}>→</span>
             <Link to="/courses/young-presenters" className={styles.linkItem}>
               Young PresENters
             </Link>
