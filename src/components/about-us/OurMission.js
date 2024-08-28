@@ -42,7 +42,7 @@ function OurMission() {
             : `${styles.title}`
         }
       >
-        {t("Our Mission")}
+        <span>·</span> {t("Our Mission")} <span>·</span>
       </h1>
 
       <div className={styles.description}>

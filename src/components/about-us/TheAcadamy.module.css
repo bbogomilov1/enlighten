@@ -88,9 +88,9 @@
 
   .container p {
     font-size: 1.3rem;
-    text-indent: 3rem;
+    text-indent: 1rem;
     font-family: "Ropamix light italic", "Playfair Display";
-    margin: 0px 0px 20px 20px;
+    margin: 0px 20px 20px 20px;
   }
 
   .description {

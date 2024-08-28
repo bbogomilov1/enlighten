@@ -44,7 +44,7 @@ function MeetTheTeachers() {
               : `${styles.title}`
           }
         >
-          {t("Meet The Teachers")}
+          <span>·</span> {t("Meet The Teachers")} <span>·</span>
         </h1>
 
         <div className={styles.teacherContainer}>

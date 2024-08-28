@@ -114,16 +114,28 @@
     text-align: center;
   }
 
+  .title {
+    text-shadow: 1px 1px var(--dark-blue);
+  }
+
+  span {
+    display: none;
+  }
+
   .container p {
     font-size: 1.3rem;
     text-indent: 2rem;
     font-family: "Ropamix light italic", "Playfair Display";
-    margin: 0px 10px 20px 10px;
+    margin: 0px 20px 20px 20px;
   }
 
   .teacherContainer {
     flex-direction: column;
     align-items: center;
+  }
+
+  .teacherTitle {
+    text-shadow: 1px 1px var(--dark-blue);
   }
 
   .teacherImage {
