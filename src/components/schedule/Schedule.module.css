@@ -1,5 +1,6 @@
 .tableContainer {
-  overflow-x: auto;
+  z-index: 1;
+  /* overflow-x: auto; */
 }
 
 .scheduleTable {
@@ -84,6 +85,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .tableContainer {
+    overflow-x: auto;
+  }
+
   .scheduleTable,
   .scheduleTable th,
   .scheduleTable td {
