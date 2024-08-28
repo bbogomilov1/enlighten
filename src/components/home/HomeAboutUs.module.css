@@ -140,6 +140,14 @@
     text-align: center;
   }
 
+  .title {
+    text-shadow: 1px 1px #0d064b;
+  }
+
+  span {
+    display: none;
+  }
+
   .container p {
     font-size: 1.3rem;
   }
@@ -166,6 +174,7 @@
     font-family: "Ropamix medium italic", "Playfair Display";
     font-size: 2rem;
     width: 100%;
+    text-shadow: 1px 1px #0d064b;
   }
 
   .reasonTwo {

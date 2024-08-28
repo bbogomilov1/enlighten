@@ -5,9 +5,13 @@ function YoungPresentersCourse() {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h2>· the</h2>
+        <h2>
+          <span>·</span> the
+        </h2>
         <h1>Young PresENters</h1>
-        <h2>course ·</h2>
+        <h2>
+          course <span>·</span>
+        </h2>
       </div>
       <div className={styles.description}>
         <p>

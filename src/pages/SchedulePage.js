@@ -4,7 +4,9 @@ import Schedule from "../components/schedule/Schedule";
 function SchedulePage() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>· График ·</h1>
+      <h1 className={styles.title}>
+        <span>·</span> График <span>·</span>
+      </h1>
 
       <Schedule />
 

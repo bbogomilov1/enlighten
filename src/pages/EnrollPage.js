@@ -43,7 +43,9 @@ function EnrollPage() {
       <div className={styles.container}>
         <div className={styles.enrollContainer}>
           <div className={styles.listContainer}>
-            <h2 className={styles.title}>· ЗАПИШИ СЕ ЗА ЧАС ·</h2>
+            <h2 className={styles.title}>
+              <span>·</span> ЗАПИШИ СЕ ЗА ЧАС <span>·</span>
+            </h2>
             <div className={styles.formContainer}>
               <form
                 action="#"

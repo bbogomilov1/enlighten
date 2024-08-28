@@ -7,7 +7,11 @@ function HomeAboutUs() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        Научи английски език по <br /> · иновативен и интерактивен начин ·
+        Научи английски език по <br />{" "}
+        <span>
+          <span>·</span>
+        </span>{" "}
+        иновативен и интерактивен начин <span>·</span>
       </h1>
 
       <div className={styles.info}>

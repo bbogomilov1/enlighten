@@ -17,7 +17,9 @@ function CoursesPage() {
   return (
     <div>
       <div className={styles.container}>
-        <h1 className={styles.title}>· Нашите курсове ·</h1>
+        <h1 className={styles.title}>
+          <span>·</span> Нашите курсове <span>·</span>
+        </h1>
 
         <div className={styles.courses}>
           <Link
