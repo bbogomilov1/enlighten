@@ -16,7 +16,7 @@
 }
 
 .title h1 {
-  font-family: "Ropamix medium italic", Arial, sans-serif;
+  font-family: "Ropamix medium italic", Arial, "Playfair Display", sans-serif;
   font-size: 7rem;
   font-style: normal;
   margin: 0;
@@ -24,7 +24,7 @@
 }
 
 .title h2 {
-  font-family: "Ropamix medium italic", Arial, sans-serif;
+  font-family: "Ropamix medium italic", Arial, "Playfair Display", sans-serif;
   font-size: 3.5rem;
   font-style: normal;
   margin: 0;
@@ -34,7 +34,7 @@
 
 .description {
   /* width: 90%; */
-  font-family: "Ropamix light italic", Arial, sans-serif;
+  font-family: "Ropamix light italic", Arial, "Playfair Display", sans-serif;
   line-height: 1.2em;
   font-size: 1.8rem;
   color: #333;
@@ -116,7 +116,7 @@
 }
 
 .courseScheduleDescription {
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
   line-height: 1em;
   font-size: 2rem;
   text-align: center;
@@ -126,7 +126,7 @@
 .courseScheduleNote {
   color: #333;
   text-align: center;
-  font-family: "Ropamix light italic", sans-serif;
+  font-family: "Ropamix light italic", "Playfair Display", sans-serif;
   font-size: 1.7rem;
   padding-top: 20px;
 }

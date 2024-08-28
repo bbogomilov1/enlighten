@@ -14,7 +14,7 @@
   color: #0d0746;
   text-shadow: 3px 3px var(--blue);
   z-index: 1;
-  font-family: "Ropamix black", sans-serif;
+  font-family: "Ropamix black", "Playfair Display", sans-serif;
   font-size: 6rem;
   margin: 45px;
   animation: fadeInFromBottom 1s ease-in-out;
@@ -30,12 +30,12 @@
 
 .enrollContainer h2 {
   padding: 0px 20px;
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
 }
 
 .inputTitle {
   margin: 0;
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
   color: var(--blue);
   font-size: 3.5rem;
   transition: 0.3s;
@@ -85,7 +85,7 @@ input[type="email"] {
 .radioGroupInputs {
   padding: 20px 0px;
   font-size: 2.7rem;
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
   color: var(--dark-blue);
 }
 
@@ -97,7 +97,7 @@ input[type="email"] {
   padding: 5px;
   margin-left: 20px;
   margin-bottom: 5px;
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
 }
 
 .formButtonContainer {
@@ -105,7 +105,7 @@ input[type="email"] {
 }
 
 .formButton {
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
   background-color: var(--blue);
   color: #fff;
   border: none;
@@ -127,7 +127,7 @@ input[type="email"] {
   }
 
   .container h2 {
-    font-family: "Ropamix medium italic", sans-serif;
+    font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
     font-size: 1.5rem;
     padding: 0px;
     line-height: 1.5rem;

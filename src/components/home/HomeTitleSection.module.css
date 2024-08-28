@@ -41,7 +41,7 @@
   text-align: center;
   z-index: 1;
   line-height: 1em;
-  font-family: "Ropamix black", sans-serif;
+  font-family: "Ropamix black", "Playfair Display", sans-serif;
   font-size: 4rem;
   font-style: normal;
   width: 80%;
@@ -67,7 +67,7 @@
 .enrollButton {
   position: relative;
   z-index: 1;
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -151,7 +151,7 @@
   }
 
   .container h1 {
-    font-family: "Ropamix medium italic", sans-serif;
+    font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
     font-size: 4rem;
   }
 

@@ -12,7 +12,7 @@
   color: #00a74a;
   text-shadow: 2px 2px var(--dark-blue);
   z-index: 1;
-  font-family: "Ropamix black", sans-serif;
+  font-family: "Ropamix black", "Playfair Display", sans-serif;
   text-transform: uppercase;
   font-size: 5rem;
 }
@@ -69,7 +69,7 @@
 
 .description {
   padding: 0px;
-  font-family: "Ropamix light italic", sans-serif;
+  font-family: "Ropamix light italic", "Playfair Display", sans-serif;
   height: 30px;
   font-size: 1.5rem;
   display: flex;
@@ -112,7 +112,7 @@
 .coursesTitle {
   padding: 100px 200px 0px 200px;
   color: mediumseagreen;
-  font-family: "Ropamix medium italic", sans-serif;
+  font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
   font-size: 2.5rem;
   font-style: normal;
   margin: 0;

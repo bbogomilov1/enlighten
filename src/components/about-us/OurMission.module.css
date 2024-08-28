@@ -12,7 +12,7 @@
   z-index: 1;
   color: #fbf7e1;
   text-shadow: 3px 3px var(--dark-blue);
-  font-family: "Ropamix black", sans-serif;
+  font-family: "Ropamix black", "Playfair Display", sans-serif;
   text-transform: uppercase;
   font-size: 6rem;
 }
@@ -96,7 +96,7 @@
   }
 
   .container h1 {
-    font-family: "Ropamix medium italic", sans-serif;
+    font-family: "Ropamix medium italic", "Playfair Display", sans-serif;
     font-size: 2rem;
     margin: 40px 0px;
     padding-left: 0px;
@@ -105,7 +105,7 @@
   .container p {
     font-size: 1.3rem;
     text-indent: 3rem;
-    font-family: "Ropamix light italic", sans-serif;
+    font-family: "Ropamix light italic", "Playfair Display", sans-serif;
     margin: 0px 0px 20px 0px;
   }
 
