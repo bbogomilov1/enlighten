@@ -9,6 +9,7 @@
 .title {
   line-height: 1em;
   margin: 0;
+  padding-top: 40px;
   color: #00a74a;
   text-shadow: 2px 2px var(--dark-blue);
   z-index: 1;
@@ -290,11 +291,46 @@
   }
 
   .courseTitle {
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .coursesIcons {
     width: 30px;
+  }
+
+  .kids,
+  .smartart,
+  .concentrate,
+  .worldready,
+  .presenters {
+    border-bottom: none;
+    border-radius: 0%;
+    padding: 70px;
+  }
+
+  .kids {
+    background: linear-gradient(181deg, #ffd700 40%, #ffd70000 100%);
+    color: var(--dark-blue);
+  }
+
+  .smartart {
+    background: linear-gradient(181deg, #71f368 40%, #ffd70000 100%);
+    color: var(--dark-blue);
+  }
+
+  .concentrate {
+    background: linear-gradient(181deg, mediumseagreen 40%, #ffd70000 100%);
+    color: #fffaf4;
+  }
+
+  .worldready {
+    background: linear-gradient(181deg, #0189ff 40%, #ffd70000 100%);
+    color: #fffaf4;
+  }
+
+  .presenters {
+    background: linear-gradient(181deg, #005299 40%, #ffd70000 100%);
+    color: #fffaf4;
   }
 }
 
@@ -342,7 +378,7 @@
   }
 
   .courseTitle {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .courses {

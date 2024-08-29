@@ -11,6 +11,7 @@
   display: flex;
   align-items: baseline;
   padding: 50px;
+  padding-top: 90px;
   justify-content: flex-end;
   text-shadow: 3px 3px var(--dark-blue);
 }
