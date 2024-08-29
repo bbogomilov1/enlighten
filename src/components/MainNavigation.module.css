@@ -102,6 +102,7 @@ ul li a:hover::before {
     font-size: 2rem;
     padding: 25px;
     text-align: center;
+    font-weight: 100;
   }
 
   ul li a:hover::before {
