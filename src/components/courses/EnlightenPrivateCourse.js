@@ -38,7 +38,7 @@ function EnlightenPrivateCourse() {
 
       <p className={styles.courseScheduleNote}>
         *Запишете се от{" "}
-        <Link to="/enroll" className={styles.courseScheduleLink}>
+        <Link to="/enroll-adult" className={styles.courseScheduleLink}>
           <b>контакти</b>
         </Link>{" "}
         или чрез бързия чат в долния десен ъгъл.

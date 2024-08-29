@@ -18,6 +18,7 @@ import EnlightenKidsCourse from "./components/courses/EnlightenKidsCourse";
 import EnlightenPrivateCourse from "./components/courses/EnlightenPrivateCourse";
 import YoungPresentersCourse from "./components/courses/YoungPresentersCourse";
 import EnrollPage from "./pages/EnrollPage";
+import EnrollPageAdult from "./pages/EnrollPageAdult";
 import SchedulePage from "./pages/SchedulePage";
 
 const routeChildren = [
@@ -62,6 +63,11 @@ const routeChildren = [
   <Route key="schedule" path="schedule" element={<SchedulePage />} />,
   <Route key="contact" path="contact-us" element={<ContactUsPage />} />,
   <Route key="enroll" path="enroll" element={<EnrollPage />} />,
+  <Route
+    key="enroll-adult"
+    path="enroll-adult"
+    element={<EnrollPageAdult />}
+  />,
 ];
 
 const routeDefinitions = createRoutesFromElements(
