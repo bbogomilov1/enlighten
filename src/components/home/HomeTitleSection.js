@@ -12,22 +12,24 @@ function HomeTitleSection() {
         <source src={backgroundVideo} type="video/mp4" />
       </video>
 
-      <p className={styles.description}>
-        Курсове за деца и възрастни, в които английският език се изучава
-        посредством развитието на ключови компетенции
-      </p>
+      <div className={styles.descriptionContainer}>
+        <p className={styles.description}>
+          Курсове за деца и възрастни, в които английският език се изучава
+          посредством развитието на ключови компетенции
+        </p>
 
-      <div className={styles.buttonContainer}>
-        <div className={styles.iconContainer}>
-          <img src={stars} alt="stars" className={styles.icon} />
-        </div>
+        <div className={styles.buttonContainer}>
+          <div className={styles.iconContainer}>
+            <img src={stars} alt="stars" className={styles.icon} />
+          </div>
 
-        <Link to="/schedule" className={styles.enrollButton} type="button">
-          ГРАФИК
-        </Link>
+          <Link to="/schedule" className={styles.enrollButton} type="button">
+            ГРАФИК
+          </Link>
 
-        <div className={styles.iconContainer}>
-          <img src={stars} alt="stars" className={styles.icon} />
+          <div className={styles.iconContainer}>
+            <img src={stars} alt="stars" className={styles.icon} />
+          </div>
         </div>
       </div>
     </div>

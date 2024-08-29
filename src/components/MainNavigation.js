@@ -50,6 +50,14 @@ const MainNavigation = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (menuOpen && screenWidth < 768) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+  }, [menuOpen, screenWidth]);
+
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -113,7 +121,7 @@ const MainNavigation = () => {
               )}
             </li>
 
-            <LogoProvider />
+            {screenWidth > 768 ? <LogoProvider /> : ""}
 
             <li className={styles.navItem}>
               <Link

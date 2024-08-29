@@ -135,17 +135,9 @@ ul li a:hover::before {
     left: 0px;
     background: linear-gradient(45deg, var(--blue) 60%, #ffd700 100%);
     padding-top: 130px;
-    overflow-y: auto;
   }
 
   .closed {
     display: none;
-  }
-
-  .courseDropdown {
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    width: 105%;
   }
 }

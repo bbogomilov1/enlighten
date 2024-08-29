@@ -28,14 +28,16 @@
 }
 
 .descriptionContainer {
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 20px 50px;
+  position: relative;
+  margin-top: -530px;
 }
 
 .description {
-  position: absolute;
-  top: 70%;
+  position: relative;
   color: white;
   text-shadow: 0px 0px 15px var(--dark-blue);
   text-align: center;
@@ -56,8 +58,8 @@
 }
 
 .buttonContainer {
-  position: absolute;
-  top: 110%;
+  position: relative;
+  /* top: 110%;  */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -148,6 +150,11 @@
 
   .containerWidth {
     width: 90%;
+  }
+
+  .descriptionContainer {
+    margin-top: -550px;
+    padding-bottom: 30px;
   }
 
   .container h1 {
