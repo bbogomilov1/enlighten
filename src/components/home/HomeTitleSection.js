@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./HomeTitleSection.module.css";
 import backgroundVideo from "../../static/Running.mp4";
-import stars from "../../static/whitestars.png";
+import stars from "../../static/bluestars.png";
 import { useTranslation } from "react-i18next";
 
 function HomeTitleSection() {

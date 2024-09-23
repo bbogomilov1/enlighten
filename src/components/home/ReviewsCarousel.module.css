@@ -1,125 +1,67 @@
 .sliderContainer {
-  padding: 50px;
-}
-
-.slider {
-  max-width: 800px;
-  margin: auto;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.2);
-}
-
-.slide {
-  background: linear-gradient(135deg, #ffd700 50%, #0089ff 100%);
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
-  text-align: center;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 80px auto;
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ffd700 0%, #0089ff 50%);
+  box-shadow: 0 4px 12px 0px rgba(0, 0, 0, 0.2);
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   background-color: #f9f9f9;
-  padding: 30px;
+  padding: 50px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .text {
-  font-family: "Ropamix medium italic";
-  width: 80%;
-  font-size: 20px;
+  font-family: "Ropamix medium italic", "Playfair Display";
+  font-size: 1.4rem;
   font-style: italic;
   color: var(--blue);
   margin-bottom: 15px;
   position: relative;
 }
 
-.text::before {
-  content: '"';
-  font-size: 80px;
-  color: var(--blue);
-  position: absolute;
-  left: -30px;
-  bottom: -30px;
-}
-
-.text::after {
-  content: '"';
-  font-size: 80px;
-  color: var(--blue);
-  position: absolute;
-  right: -20px;
-  bottom: -30px;
-}
-
-.parentInfo {
-  font-size: 16px;
-  color: #555;
-}
-
 .parentName {
-  font-family: "Ropamix extra light";
+  font-family: "Ropamix extra light", "Playfair Display";
   font-weight: bold;
+  font-size: 1.4rem;
   margin-bottom: 5px;
 }
 
-.childInfo {
-  font-family: "Ropamix light italic";
+.date {
+  font-family: "Ropamix light italic", "Playfair Display";
   font-style: italic;
-  margin-top: 5px;
+  font-size: 1.2rem;
+  color: gray;
+  margin-bottom: 20px;
 }
 
-.navigation {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-}
-
-.prevSlide,
-.nextSlide {
-  font-size: 1.5em;
+.readMoreButton {
+  background-color: transparent;
+  font-family: "Ropamix light italic", "Playfair Display";
+  font-size: 1.2rem;
+  border: none;
   cursor: pointer;
-  color: var(--blue);
-  padding: 20px;
-  transition: background-color 0.3s ease;
+  padding-left: 0px;
+  text-decoration: none;
 }
 
-.prevSlide:hover,
-.nextSlide:hover {
-  color: #319efe;
+.readMoreButton:hover {
+  color: rgb(54, 54, 54);
 }
 
 @media screen and (max-width: 480px) {
   .sliderContainer {
-    padding: 15px;
-    padding-bottom: 50px;
-  }
-
-  .content {
-    padding: 10px;
-  }
-
-  .text {
-    font-size: 14px;
-    width: 80%;
-  }
-
-  .text::before,
-  .text::after {
-    font-size: 40px;
-    top: -15px;
-  }
-
-  .prevSlide,
-  .nextSlide {
-    font-size: 1.2em;
-    padding: 5px;
+    padding: 30px 15px 50px 15px;
   }
 }

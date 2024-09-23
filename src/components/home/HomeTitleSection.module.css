@@ -33,13 +33,12 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin-top: -530px;
 }
 
 .description {
   position: relative;
-  color: white;
-  text-shadow: 0px 0px 15px var(--dark-blue);
+  color: #0089ff;
+  text-shadow: 1px 2px var(--dark-blue);
   text-align: center;
   z-index: 1;
   line-height: 1em;
@@ -47,7 +46,7 @@
   font-size: 4rem;
   font-style: normal;
   width: 80%;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   animation: fadeInFromBottom 1s ease-in-out;
 }
 
@@ -153,8 +152,12 @@
   }
 
   .descriptionContainer {
-    margin-top: -550px;
     padding-bottom: 30px;
+  }
+
+  .description {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px var(--dark-blue);
   }
 
   .container h1 {
@@ -164,7 +167,6 @@
 
   .container p {
     padding-left: 0%;
-    font-size: 1.3rem;
     text-indent: 2.3rem;
   }
 
@@ -181,16 +183,13 @@
 
   .blobSecond {
     display: none;
-    width: 100%;
-    top: 40%;
-    right: -45%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .container p {
     padding-left: 0%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-indent: 0rem;
     top: 80%;
   }
@@ -209,11 +208,15 @@
 
   .enrollButton {
     width: 50%;
+    font-size: 1.5rem;
   }
 
-  .titleImage {
-    height: auto;
-    width: 100%;
-    max-height: 280px;
+  .description {
+    font-size: 2.5rem;
+    text-shadow: 1px 1px var(--dark-blue);
+  }
+
+  .iconContainer {
+    display: none;
   }
 }

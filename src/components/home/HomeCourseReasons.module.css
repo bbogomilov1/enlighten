@@ -3,7 +3,6 @@
   flex-direction: column;
   padding: 70px 90px;
   background: linear-gradient(135deg, #ffd700 0%, #0089ff 50%);
-  margin: 0px 0px 90px 0px;
   color: #fbf7e1;
 }
 
@@ -140,6 +139,6 @@
   }
 
   .linkItem {
-    line-height: 2rem;
+    line-height: 3rem;
   }
 }

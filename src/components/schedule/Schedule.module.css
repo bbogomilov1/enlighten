@@ -1,6 +1,21 @@
 .tableContainer {
   z-index: 1;
-  /* overflow-x: auto; */
+  overflow-x: auto;
+  width: 100%;
+}
+
+.tableContainer::-webkit-scrollbar {
+  height: 20px; /* Increase the height for the horizontal scrollbar */
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+  background-color: #00a74a; /* Make the thumb match your theme color */
+  border-radius: 5px; /* Round the corners */
+}
+
+.tableContainer::-webkit-scrollbar-track {
+  background-color: #d2e4d7; /* Lighter color for the track */
+  border-radius: 5px; /* Round the corners */
 }
 
 .scheduleTable {
@@ -8,6 +23,7 @@
   border: 2px solid #00a74a;
   border-collapse: collapse;
   width: 100%;
+  min-width: 700px;
   color: #00a74a;
   margin: 30px;
   z-index: 1;
@@ -87,6 +103,10 @@
 @media screen and (max-width: 768px) {
   .tableContainer {
     overflow-x: auto;
+  }
+
+  .scheduleTable {
+    margin: 0px;
   }
 
   .scheduleTable,
