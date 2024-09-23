@@ -1,7 +1,23 @@
 .tableContainer {
   z-index: 1;
-  overflow-x: auto;
   width: 100%;
+}
+
+.tableContainer {
+  z-index: 1;
+  width: 100%;
+  position: relative;
+}
+
+.tableContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  background: linear-gradient(to left, white, transparent);
+  pointer-events: none;
 }
 
 .tableContainer::-webkit-scrollbar {
@@ -105,7 +121,7 @@
     overflow-x: auto;
   }
 
-  .tableContainer::-webkit-scrollbar {
+  /* .tableContainer::-webkit-scrollbar {
     height: 10px;
   }
 
@@ -117,7 +133,7 @@
   .tableContainer::-webkit-scrollbar-track {
     background-color: #d2e4d7;
     border-radius: 5px;
-  }
+  } */
 
   .scheduleTable {
     margin: 0px;
