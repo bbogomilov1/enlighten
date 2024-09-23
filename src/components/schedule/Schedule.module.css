@@ -5,17 +5,17 @@
 }
 
 .tableContainer::-webkit-scrollbar {
-  height: 20px; /* Increase the height for the horizontal scrollbar */
+  height: 20px;
 }
 
 .tableContainer::-webkit-scrollbar-thumb {
-  background-color: #00a74a; /* Make the thumb match your theme color */
-  border-radius: 5px; /* Round the corners */
+  background-color: #00a74a;
+  border-radius: 5px;
 }
 
 .tableContainer::-webkit-scrollbar-track {
-  background-color: #d2e4d7; /* Lighter color for the track */
-  border-radius: 5px; /* Round the corners */
+  background-color: #d2e4d7;
+  border-radius: 5px;
 }
 
 .scheduleTable {
@@ -103,6 +103,20 @@
 @media screen and (max-width: 768px) {
   .tableContainer {
     overflow-x: auto;
+  }
+
+  .tableContainer::-webkit-scrollbar {
+    height: 10px;
+  }
+
+  .tableContainer::-webkit-scrollbar-thumb {
+    background-color: #00a74a;
+    border-radius: 5px;
+  }
+
+  .tableContainer::-webkit-scrollbar-track {
+    background-color: #d2e4d7;
+    border-radius: 5px;
   }
 
   .scheduleTable {
