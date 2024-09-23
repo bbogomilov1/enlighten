@@ -130,6 +130,7 @@ function Schedule() {
           </td>
         </tr>
       </table>
+      <div className={styles.scrollHint}>← Плъзни за повече информация →</div>
     </div>
   );
 }
