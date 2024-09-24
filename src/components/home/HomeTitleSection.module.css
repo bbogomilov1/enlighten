@@ -145,6 +145,8 @@
     flex-direction: column;
     align-items: center;
     padding-top: 10%;
+    font-size: 2rem;
+    font-weight: bold;
   }
 
   .containerWidth {
@@ -189,9 +191,10 @@
 @media screen and (max-width: 480px) {
   .container p {
     padding-left: 0%;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
     text-indent: 0rem;
-    top: 80%;
+    padding-top: 10%;
   }
 
   #video {

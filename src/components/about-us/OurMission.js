@@ -1,5 +1,5 @@
 import styles from "./OurMission.module.css";
-import kidsImage from "../../static/preschool.jpg";
+import kidsImage from "../../static/IMG_2454.jpg";
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef, useState } from "react";
 

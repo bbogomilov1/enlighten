@@ -245,11 +245,16 @@
 
   .title {
     font-size: 3rem;
+    text-shadow: 1px 1px var(--dark-blue);
   }
 
   .titleInfo {
     flex-direction: column;
     padding: 20px 0;
+  }
+
+  .descriptionContainer {
+    margin: 20px;
   }
 
   .titleDescription {
@@ -259,7 +264,7 @@
   }
 
   .kidsImage {
-    width: 100%;
+    width: 350px;
     margin-left: 0;
   }
 
@@ -304,32 +309,32 @@
   .worldready,
   .presenters {
     border-bottom: none;
-    border-radius: 0%;
+    border-radius: 50%;
     padding: 70px;
   }
 
   .kids {
-    background: linear-gradient(181deg, #ffd700 40%, #ffd70000 100%);
+    background-color: #ffd700;
     color: var(--dark-blue);
   }
 
   .smartart {
-    background: linear-gradient(181deg, #71f368 40%, #ffd70000 100%);
+    background-color: #71f368;
     color: var(--dark-blue);
   }
 
   .concentrate {
-    background: linear-gradient(181deg, mediumseagreen 40%, #ffd70000 100%);
+    background-color: mediumseagreen;
     color: #fffaf4;
   }
 
   .worldready {
-    background: linear-gradient(181deg, #0189ff 40%, #ffd70000 100%);
+    background-color: #0189ff;
     color: #fffaf4;
   }
 
   .presenters {
-    background: linear-gradient(181deg, #005299 40%, #ffd70000 100%);
+    background-color: #005299;
     color: #fffaf4;
   }
 }

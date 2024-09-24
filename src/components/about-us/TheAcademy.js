@@ -1,5 +1,5 @@
 import styles from "./TheAcadamy.module.css";
-import kidsImage from "../../static/1669412766.jpg";
+import kidsImage from "../../static/IMG_9750.JPG";
 import { useTranslation } from "react-i18next";
 
 function TheAcademy() {

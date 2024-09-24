@@ -26,7 +26,7 @@
   font-size: 1.7rem;
   color: #00a74a;
   line-height: 30px;
-  font-family: "Ropamix light italic";
+  font-family: "Ropamix light italic", "Playfair Display";
   text-align: justify;
 }
 
@@ -38,8 +38,6 @@
   opacity: 0;
   width: 350px;
   border-radius: 50%;
-  border: 1px solid #00a74a;
-  box-shadow: 1px 1px 20px 15px rgb(47 167 0 / 19%);
 }
 
 .teacherImageAnimation {

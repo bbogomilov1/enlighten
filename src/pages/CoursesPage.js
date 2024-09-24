@@ -1,15 +1,12 @@
 import styles from "./CoursesPage.module.css";
-import kidsImage from "../static/100 Would You Rather Questions for Teachers-600x400.jpg";
-import stars from "../static/bluestars.png";
+import kidsImage from "../static/IMG_4239.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEarthAmerica,
   faBrain,
   faPaintbrush,
   faChildReaching,
-  faLockOpen,
   faMicrophone,
-  faUserTie,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
@@ -65,27 +62,6 @@ function CoursesPage() {
             <p className={styles.courseTitle}>WorldReady</p>
           </Link>
 
-          {/* <Link
-            to="/courses/enlighten-private"
-            className={`${styles.courseContainer} ${styles.private}`}
-          >
-            <FontAwesomeIcon
-              icon={faLockOpen}
-              className={styles.coursesIcons}
-            />
-            <p className={styles.courseTitle}>
-              ENlightEN <br /> Private
-            </p>
-          </Link> */}
-
-          {/* <Link
-            to="/courses/enlighten-private"
-            className={`${styles.courseContainer} ${styles.business}`}
-          >
-            <FontAwesomeIcon icon={faUserTie} className={styles.coursesIcons} />
-            <p className={styles.courseTitle}>Business</p>
-          </Link> */}
-
           <Link
             to="/courses/young-presenters"
             className={`${styles.courseContainer} ${styles.presenters}`}
@@ -120,10 +96,6 @@ function CoursesPage() {
           </div>
         </div>
       </div>
-
-      {/* <div className={styles.iconContainer}>
-        <img src={stars} alt="stars" className={styles.icon} />
-      </div> */}
     </div>
   );
 }
